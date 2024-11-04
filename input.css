@@ -1,0 +1,389 @@
+.input-a{
+  width: 400px;
+  height: 35px;
+  display: block;
+  margin: auto;
+  padding-left: 11px;
+  border: 2px solid aqua;
+  border-radius: 5px;
+  height: 40px;
+  outline: none;
+}
+.input-a:focus {
+  border: 2px solid aquamarine;
+}
+
+.input-b{
+  width: 400px;
+  height: 35px;
+  display: block;
+  margin: auto;
+  padding-left: 11px;
+  border: 2px solid blue;
+  border-radius: 5px;
+  height: 40px;
+  outline: none;
+}
+.input-b:focus {
+  border: 2px solid #0000ff29;
+}
+
+.input-c{
+  width: 400px;
+  height: 35px;
+  display: block;
+  margin: auto;
+  padding-left: 11px;
+  border: 2px solid cyan;
+  border-radius: 5px;
+  height: 40px;
+  outline: none;
+}
+.input-c:focus {
+  border: 2px solid #5edede7b;
+}
+
+.input-d{
+  width: 400px;
+  height: 35px;
+  display: block;
+  margin: auto;
+  padding-left: 11px;
+  border: 2px solid darkblue;
+  border-radius: 5px;
+  height: 40px;
+  outline: none;
+}
+.input-d:focus {
+  border: 2px solid #0e0e7b90;
+}
+
+.input-e{
+  width: 400px;
+  height: 35px;
+  display: block;
+  margin: auto;
+  padding-left: 11px;
+  border: 2px solid fuchsia;
+  border-radius: 5px;
+  height: 40px;
+  outline: none;
+}
+.input-e:focus {
+  border: 2px solid #952695a8;
+}
+
+.input-f{
+  width: 400px;
+  height: 35px;
+  display: block;
+  margin: auto;
+  padding-left: 11px;
+  border: 2px solid firebrick;
+  border-radius: 5px;
+  height: 40px;
+  outline: none;
+}
+.input-f:focus {
+  border: 2px solid #5b1f1f92;
+}
+
+.input-g{
+  width: 400px;
+  height: 35px;
+  display: block;
+  margin: auto;
+  padding-left: 11px;
+  border: 2px solid gold;
+  border-radius: 5px;
+  height: 40px;
+  outline: none;
+}
+.input-g:focus {
+  border: 2px solid #70652d;
+}
+
+.input-h{
+  width: 400px;
+  height: 35px;
+  display: block;
+  margin: auto;
+  padding-left: 11px;
+  border: 2px solid hotpink;
+  border-radius: 5px;
+  height: 40px;
+  outline: none;
+}
+.input-h:focus {
+  border: 2px solid #6b3a52;
+}
+
+.input-i{
+  width: 400px;
+  height: 35px;
+  display: block;
+  margin: auto;
+  padding-left: 11px;
+  border: 2px solid indigo;
+  border-radius: 5px;
+  height: 40px;
+  outline: none;
+}
+.input-i:focus {
+  border: 2px solid #371450;
+}
+
+.input-j{
+  width: 400px;
+  height: 35px;
+  display: block;
+  margin: auto;
+  padding-left: 11px;
+  border: 2px solid lightcoral;
+  border-radius: 5px;
+  height: 40px;
+  outline: none;
+}
+.input-j:focus {
+  border: 2px solid #b65a5a85;
+}
+
+.input-k{
+  width: 400px;
+  height: 35px;
+  display: block;
+  margin: auto;
+  padding-left: 11px;
+  border: 2px solid khaki;
+  border-radius: 5px;
+  height: 40px;
+  outline: none;
+}
+.input-k:focus {
+  border: 2px solid #f0e68c59;
+}
+
+.input-l{
+  width: 400px;
+  height: 35px;
+  display: block;
+  margin: auto;
+  padding-left: 11px;
+  border: 2px solid lavender;
+  border-radius: 5px;
+  height: 40px;
+  outline: none;
+}
+.input-l:focus {
+  border: 2px solid #e6e6fa4e;
+}
+
+.input-m{
+  width: 400px;
+  height: 35px;
+  display: block;
+  margin: auto;
+  padding-left: 11px;
+  border: 2px solid magenta;
+  border-radius: 5px;
+  height: 40px;
+  outline: none;
+}
+.input-m:focus {
+  border: 2px solid #ff00ff4a;
+}
+
+.input-n{
+  width: 400px;
+  height: 35px;
+  display: block;
+  margin: auto;
+  padding-left: 11px;
+  border: 2px solid navy;
+  border-radius: 5px;
+  height: 40px;
+  outline: none;
+}
+.input-n:focus {
+  border: 2px solid #32326f9c;
+}
+
+.input-o{
+  width: 400px;
+  height: 35px;
+  display: block;
+  margin: auto;
+  padding-left: 11px;
+  border: 2px solid oldlace;
+  border-radius: 5px;
+  height: 40px;
+  outline: none;
+}
+.input-o:focus {
+  border: 2px solid #fdf5e65e;
+}
+
+.input-p{
+  width: 400px;
+  height: 35px;
+  display: block;
+  margin: auto;
+  padding-left: 11px;
+  border: 2px solid palegreen;
+  border-radius: 5px;
+  height: 40px;
+  outline: none;
+}
+.input-p:focus {
+  border: 2px solid #98fb9862;
+}
+
+.input-q{
+  width: 400px;
+  height: 35px;
+  display: block;
+  margin: auto;
+  padding-left: 11px;
+  border: 2px solid purple;
+  border-radius: 5px;
+  height: 40px;
+  outline: none;
+}
+.input-q:focus {
+  border: 2px solid #580c588f;
+}
+
+.input-r{
+  width: 400px;
+  height: 35px;
+  display: block;
+  margin: auto;
+  padding-left: 11px;
+  border: 2px solid red;
+  border-radius: 5px;
+  height: 40px;
+  outline: none;
+}
+.input-r:focus {
+  border: 2px solid #c3202066;
+}
+
+.input-s{
+  width: 400px;
+  height: 35px;
+  display: block;
+  margin: auto;
+  padding-left: 11px;
+  border: 2px solid saddlebrown;
+  border-radius: 5px;
+  height: 40px;
+  outline: none;
+}
+.input-s:focus {
+  border: 2px solid #8b45135a;
+}
+
+.input-t{
+  width: 400px;
+  height: 35px;
+  display: block;
+  margin: auto;
+  padding-left: 11px;
+  border: 2px solid tan;
+  border-radius: 5px;
+  height: 40px;
+  outline: none;
+}
+.input-t:focus {
+  border: 2px solid #d2b48c58;
+}
+
+.input-u{
+  width: 400px;
+  height: 35px;
+  display: block;
+  margin: auto;
+  padding-left: 11px;
+  border: 2px solid tomato;
+  border-radius: 5px;
+  height: 40px;
+  outline: none;
+}
+.input-u:focus {
+  border: 2px solid #ff634747;
+}
+
+.input-v{
+  width: 400px;
+  height: 35px;
+  display: block;
+  margin: auto;
+  padding-left: 11px;
+  border: 2px solid violet;
+  border-radius: 5px;
+  height: 40px;
+  outline: none;
+}
+.input-v:focus {
+  border: 2px solid #cc42cc6b;
+}
+
+.input-w{
+  width: 400px;
+  height: 35px;
+  display: block;
+  margin: auto;
+  padding-left: 11px;
+  border: 2px solid wheat;
+  border-radius: 5px;
+  height: 40px;
+  outline: none;
+}
+.input-w:focus {
+  border: 2px solid #f5deb356;
+}
+
+.input-x{
+  width: 400px;
+  height: 35px;
+  display: block;
+  margin: auto;
+  padding-left: 11px;
+  border: 2px solid teal;
+  border-radius: 5px;
+  height: 40px;
+  outline: none;
+}
+.input-x:focus {
+  border: 2px solid #0a52525d;
+}
+
+.input-y{
+  width: 400px;
+  height: 35px;
+  display: block;
+  margin: auto;
+  padding-left: 11px;
+  border: 2px solid #c2ff00;
+  border-radius: 5px;
+  height: 40px;
+  outline: none;
+}
+.input-y:focus {
+  border: 2px solid #c2ff0047;
+}
+
+.input-z{
+  width: 400px;
+  height: 35px;
+  display: block;
+  margin: auto;
+  padding-left: 11px;
+  border: 2px solid #ff5300;
+  border-radius: 5px;
+  height: 40px;
+  outline: none;
+}
+.input-z:focus {
+  border: 2px solid #ff530047;
+}

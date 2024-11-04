@@ -1,0 +1,203 @@
+.b-r0 { border-radius: 0px; }
+.b-r1 { border-radius: 1px; }
+.b-r2 { border-radius: 2px; }
+.b-r3 { border-radius: 3px; }
+.b-r4 { border-radius: 4px; }
+.b-r5 { border-radius: 5px; }
+.b-r6 { border-radius: 6px; }
+.b-r7 { border-radius: 7px; }
+.b-r8 { border-radius: 8px; }
+.b-r9 { border-radius: 9px; }
+.b-r10 { border-radius: 10px; }
+.b-r11 { border-radius: 11px; }
+.b-r12 { border-radius: 12px; }
+.b-r13 { border-radius: 13px; }
+.b-r14 { border-radius: 14px; }
+.b-r15 { border-radius: 15px; }
+.b-r16 { border-radius: 16px; }
+.b-r17 { border-radius: 17px; }
+.b-r18 { border-radius: 18px; }
+.b-r19 { border-radius: 19px; }
+.b-r20 { border-radius: 20px; }
+.b-r21 { border-radius: 21px; }
+.b-r22 { border-radius: 22px; }
+.b-r23 { border-radius: 23px; }
+.b-r24 { border-radius: 24px; }
+.b-r25 { border-radius: 25px; }
+.b-r26 { border-radius: 26px; }
+.b-r27 { border-radius: 27px; }
+.b-r28 { border-radius: 28px; }
+.b-r29 { border-radius: 29px; }
+.b-r30 { border-radius: 30px; }
+.b-r31 { border-radius: 31px; }
+.b-r32 { border-radius: 32px; }
+.b-r33 { border-radius: 33px; }
+.b-r34 { border-radius: 34px; }
+.b-r35 { border-radius: 35px; }
+.b-r36 { border-radius: 36px; }
+.b-r37 { border-radius: 37px; }
+.b-r38 { border-radius: 38px; }
+.b-r39 { border-radius: 39px; }
+.b-r40 { border-radius: 40px; }
+.b-r41 { border-radius: 41px; }
+.b-r42 { border-radius: 42px; }
+.b-r43 { border-radius: 43px; }
+.b-r44 { border-radius: 44px; }
+.b-r45 { border-radius: 45px; }
+.b-r46 { border-radius: 46px; }
+.b-r47 { border-radius: 47px; }
+.b-r48 { border-radius: 48px; }
+.b-r49 { border-radius: 49px; }
+.b-r50 { border-radius: 50px; }
+.b-r51 { border-radius: 51px; }
+.b-r52 { border-radius: 52px; }
+.b-r53 { border-radius: 53px; }
+.b-r54 { border-radius: 54px; }
+.b-r55 { border-radius: 55px; }
+.b-r56 { border-radius: 56px; }
+.b-r57 { border-radius: 57px; }
+.b-r58 { border-radius: 58px; }
+.b-r59 { border-radius: 59px; }
+.b-r60 { border-radius: 60px; }
+.b-r61 { border-radius: 61px; }
+.b-r62 { border-radius: 62px; }
+.b-r63 { border-radius: 63px; }
+.b-r64 { border-radius: 64px; }
+.b-r65 { border-radius: 65px; }
+.b-r66 { border-radius: 66px; }
+.b-r67 { border-radius: 67px; }
+.b-r68 { border-radius: 68px; }
+.b-r69 { border-radius: 69px; }
+.b-r70 { border-radius: 70px; }
+.b-r71 { border-radius: 71px; }
+.b-r72 { border-radius: 72px; }
+.b-r73 { border-radius: 73px; }
+.b-r74 { border-radius: 74px; }
+.b-r75 { border-radius: 75px; }
+.b-r76 { border-radius: 76px; }
+.b-r77 { border-radius: 77px; }
+.b-r78 { border-radius: 78px; }
+.b-r79 { border-radius: 79px; }
+.b-r80 { border-radius: 80px; }
+.b-r81 { border-radius: 81px; }
+.b-r82 { border-radius: 82px; }
+.b-r83 { border-radius: 83px; }
+.b-r84 { border-radius: 84px; }
+.b-r85 { border-radius: 85px; }
+.b-r86 { border-radius: 86px; }
+.b-r87 { border-radius: 87px; }
+.b-r88 { border-radius: 88px; }
+.b-r89 { border-radius: 89px; }
+.b-r90 { border-radius: 90px; }
+.b-r91 { border-radius: 91px; }
+.b-r92 { border-radius: 92px; }
+.b-r93 { border-radius: 93px; }
+.b-r94 { border-radius: 94px; }
+.b-r95 { border-radius: 95px; }
+.b-r96 { border-radius: 96px; }
+.b-r97 { border-radius: 97px; }
+.b-r98 { border-radius: 98px; }
+.b-r99 { border-radius: 99px; }
+.b-r100 { border-radius: 100px; }
+.b-t-r-r0{ border-top-right-radius: 0px; } .b-t-l-r0{ border-top-left-radius: 0px; } .b-b-r-r0{ border-top-right-radius: 0px; } .b-b-l-r0{ border-bottom-left-radius: 0px; }
+.b-t-r-r1{ border-top-right-radius: 1px; } .b-t-l-r1{ border-top-left-radius: 1px; } .b-b-r-r1{ border-top-right-radius: 1px; } .b-b-l-r1{ border-bottom-left-radius: 1px; }
+.b-t-r-r2{ border-top-right-radius: 2px; } .b-t-l-r2{ border-top-left-radius: 2px; } .b-b-r-r2{ border-top-right-radius: 2px; } .b-b-l-r2{ border-bottom-left-radius: 2px; }
+.b-t-r-r3{ border-top-right-radius: 3px; } .b-t-l-r3{ border-top-left-radius: 3px; } .b-b-r-r3{ border-top-right-radius: 3px; } .b-b-l-r3{ border-bottom-left-radius: 3px; }
+.b-t-r-r4{ border-top-right-radius: 4px; } .b-t-l-r4{ border-top-left-radius: 4px; } .b-b-r-r4{ border-top-right-radius: 4px; } .b-b-l-r4{ border-bottom-left-radius: 4px; }
+.b-t-r-r5{ border-top-right-radius: 5px; } .b-t-l-r5{ border-top-left-radius: 5px; } .b-b-r-r5{ border-top-right-radius: 5px; } .b-b-l-r5{ border-bottom-left-radius: 5px; }
+.b-t-r-r6{ border-top-right-radius: 6px; } .b-t-l-r6{ border-top-left-radius: 6px; } .b-b-r-r6{ border-top-right-radius: 6px; } .b-b-l-r6{ border-bottom-left-radius: 6px; }
+.b-t-r-r7{ border-top-right-radius: 7px; } .b-t-l-r7{ border-top-left-radius: 7px; } .b-b-r-r7{ border-top-right-radius: 7px; } .b-b-l-r7{ border-bottom-left-radius: 7px; }
+.b-t-r-r8{ border-top-right-radius: 8px; } .b-t-l-r8{ border-top-left-radius: 8px; } .b-b-r-r8{ border-top-right-radius: 8px; } .b-b-l-r8{ border-bottom-left-radius: 8px; }
+.b-t-r-r9{ border-top-right-radius: 9px; } .b-t-l-r9{ border-top-left-radius: 9px; } .b-b-r-r9{ border-top-right-radius: 9px; } .b-b-l-r9{ border-bottom-left-radius: 9px; }
+.b-t-r-r10{ border-top-right-radius: 10px; } .b-t-l-r10{ border-top-left-radius: 10px; } .b-b-r-r10{ border-top-right-radius: 10px; } .b-b-l-r10{ border-bottom-left-radius: 10px; }
+.b-t-r-r11{ border-top-right-radius: 11px; } .b-t-l-r11{ border-top-left-radius: 11px; } .b-b-r-r11{ border-top-right-radius: 11px; } .b-b-l-r11{ border-bottom-left-radius: 11px; }
+.b-t-r-r12{ border-top-right-radius: 12px; } .b-t-l-r12{ border-top-left-radius: 12px; } .b-b-r-r12{ border-top-right-radius: 12px; } .b-b-l-r12{ border-bottom-left-radius: 12px; }
+.b-t-r-r13{ border-top-right-radius: 13px; } .b-t-l-r13{ border-top-left-radius: 13px; } .b-b-r-r13{ border-top-right-radius: 13px; } .b-b-l-r13{ border-bottom-left-radius: 13px; }
+.b-t-r-r14{ border-top-right-radius: 14px; } .b-t-l-r14{ border-top-left-radius: 14px; } .b-b-r-r14{ border-top-right-radius: 14px; } .b-b-l-r14{ border-bottom-left-radius: 14px; }
+.b-t-r-r15{ border-top-right-radius: 15px; } .b-t-l-r15{ border-top-left-radius: 15px; } .b-b-r-r15{ border-top-right-radius: 15px; } .b-b-l-r15{ border-bottom-left-radius: 15px; }
+.b-t-r-r16{ border-top-right-radius: 16px; } .b-t-l-r16{ border-top-left-radius: 16px; } .b-b-r-r16{ border-top-right-radius: 16px; } .b-b-l-r16{ border-bottom-left-radius: 16px; }
+.b-t-r-r17{ border-top-right-radius: 17px; } .b-t-l-r17{ border-top-left-radius: 17px; } .b-b-r-r17{ border-top-right-radius: 17px; } .b-b-l-r17{ border-bottom-left-radius: 17px; }
+.b-t-r-r18{ border-top-right-radius: 18px; } .b-t-l-r18{ border-top-left-radius: 18px; } .b-b-r-r18{ border-top-right-radius: 18px; } .b-b-l-r18{ border-bottom-left-radius: 18px; }
+.b-t-r-r19{ border-top-right-radius: 19px; } .b-t-l-r19{ border-top-left-radius: 19px; } .b-b-r-r19{ border-top-right-radius: 19px; } .b-b-l-r19{ border-bottom-left-radius: 19px; }
+.b-t-r-r20{ border-top-right-radius: 20px; } .b-t-l-r20{ border-top-left-radius: 20px; } .b-b-r-r20{ border-top-right-radius: 20px; } .b-b-l-r20{ border-bottom-left-radius: 20px; }
+.b-t-r-r21{ border-top-right-radius: 21px; } .b-t-l-r21{ border-top-left-radius: 21px; } .b-b-r-r21{ border-top-right-radius: 21px; } .b-b-l-r21{ border-bottom-left-radius: 21px; }
+.b-t-r-r22{ border-top-right-radius: 22px; } .b-t-l-r22{ border-top-left-radius: 22px; } .b-b-r-r22{ border-top-right-radius: 22px; } .b-b-l-r22{ border-bottom-left-radius: 22px; }
+.b-t-r-r23{ border-top-right-radius: 23px; } .b-t-l-r23{ border-top-left-radius: 23px; } .b-b-r-r23{ border-top-right-radius: 23px; } .b-b-l-r23{ border-bottom-left-radius: 23px; }
+.b-t-r-r24{ border-top-right-radius: 24px; } .b-t-l-r24{ border-top-left-radius: 24px; } .b-b-r-r24{ border-top-right-radius: 24px; } .b-b-l-r24{ border-bottom-left-radius: 24px; }
+.b-t-r-r25{ border-top-right-radius: 25px; } .b-t-l-r25{ border-top-left-radius: 25px; } .b-b-r-r25{ border-top-right-radius: 25px; } .b-b-l-r25{ border-bottom-left-radius: 25px; }
+.b-t-r-r26{ border-top-right-radius: 26px; } .b-t-l-r26{ border-top-left-radius: 26px; } .b-b-r-r26{ border-top-right-radius: 26px; } .b-b-l-r26{ border-bottom-left-radius: 26px; }
+.b-t-r-r27{ border-top-right-radius: 27px; } .b-t-l-r27{ border-top-left-radius: 27px; } .b-b-r-r27{ border-top-right-radius: 27px; } .b-b-l-r27{ border-bottom-left-radius: 27px; }
+.b-t-r-r28{ border-top-right-radius: 28px; } .b-t-l-r28{ border-top-left-radius: 28px; } .b-b-r-r28{ border-top-right-radius: 28px; } .b-b-l-r28{ border-bottom-left-radius: 28px; }
+.b-t-r-r29{ border-top-right-radius: 29px; } .b-t-l-r29{ border-top-left-radius: 29px; } .b-b-r-r29{ border-top-right-radius: 29px; } .b-b-l-r29{ border-bottom-left-radius: 29px; }
+.b-t-r-r30{ border-top-right-radius: 30px; } .b-t-l-r30{ border-top-left-radius: 30px; } .b-b-r-r30{ border-top-right-radius: 30px; } .b-b-l-r30{ border-bottom-left-radius: 30px; }
+.b-t-r-r31{ border-top-right-radius: 31px; } .b-t-l-r31{ border-top-left-radius: 31px; } .b-b-r-r31{ border-top-right-radius: 31px; } .b-b-l-r31{ border-bottom-left-radius: 31px; }
+.b-t-r-r32{ border-top-right-radius: 32px; } .b-t-l-r32{ border-top-left-radius: 32px; } .b-b-r-r32{ border-top-right-radius: 32px; } .b-b-l-r32{ border-bottom-left-radius: 32px; }
+.b-t-r-r33{ border-top-right-radius: 33px; } .b-t-l-r33{ border-top-left-radius: 33px; } .b-b-r-r33{ border-top-right-radius: 33px; } .b-b-l-r33{ border-bottom-left-radius: 33px; }
+.b-t-r-r34{ border-top-right-radius: 34px; } .b-t-l-r34{ border-top-left-radius: 34px; } .b-b-r-r34{ border-top-right-radius: 34px; } .b-b-l-r34{ border-bottom-left-radius: 34px; }
+.b-t-r-r35{ border-top-right-radius: 35px; } .b-t-l-r35{ border-top-left-radius: 35px; } .b-b-r-r35{ border-top-right-radius: 35px; } .b-b-l-r35{ border-bottom-left-radius: 35px; }
+.b-t-r-r36{ border-top-right-radius: 36px; } .b-t-l-r36{ border-top-left-radius: 36px; } .b-b-r-r36{ border-top-right-radius: 36px; } .b-b-l-r36{ border-bottom-left-radius: 36px; }
+.b-t-r-r37{ border-top-right-radius: 37px; } .b-t-l-r37{ border-top-left-radius: 37px; } .b-b-r-r37{ border-top-right-radius: 37px; } .b-b-l-r37{ border-bottom-left-radius: 37px; }
+.b-t-r-r38{ border-top-right-radius: 38px; } .b-t-l-r38{ border-top-left-radius: 38px; } .b-b-r-r38{ border-top-right-radius: 38px; } .b-b-l-r38{ border-bottom-left-radius: 38px; }
+.b-t-r-r39{ border-top-right-radius: 39px; } .b-t-l-r39{ border-top-left-radius: 39px; } .b-b-r-r39{ border-top-right-radius: 39px; } .b-b-l-r39{ border-bottom-left-radius: 39px; }
+.b-t-r-r40{ border-top-right-radius: 40px; } .b-t-l-r40{ border-top-left-radius: 40px; } .b-b-r-r40{ border-top-right-radius: 40px; } .b-b-l-r40{ border-bottom-left-radius: 40px; }
+.b-t-r-r41{ border-top-right-radius: 41px; } .b-t-l-r41{ border-top-left-radius: 41px; } .b-b-r-r41{ border-top-right-radius: 41px; } .b-b-l-r41{ border-bottom-left-radius: 41px; }
+.b-t-r-r42{ border-top-right-radius: 42px; } .b-t-l-r42{ border-top-left-radius: 42px; } .b-b-r-r42{ border-top-right-radius: 42px; } .b-b-l-r42{ border-bottom-left-radius: 42px; }
+.b-t-r-r43{ border-top-right-radius: 43px; } .b-t-l-r43{ border-top-left-radius: 43px; } .b-b-r-r43{ border-top-right-radius: 43px; } .b-b-l-r43{ border-bottom-left-radius: 43px; }
+.b-t-r-r44{ border-top-right-radius: 44px; } .b-t-l-r44{ border-top-left-radius: 44px; } .b-b-r-r44{ border-top-right-radius: 44px; } .b-b-l-r44{ border-bottom-left-radius: 44px; }
+.b-t-r-r45{ border-top-right-radius: 45px; } .b-t-l-r45{ border-top-left-radius: 45px; } .b-b-r-r45{ border-top-right-radius: 45px; } .b-b-l-r45{ border-bottom-left-radius: 45px; }
+.b-t-r-r46{ border-top-right-radius: 46px; } .b-t-l-r46{ border-top-left-radius: 46px; } .b-b-r-r46{ border-top-right-radius: 46px; } .b-b-l-r46{ border-bottom-left-radius: 46px; }
+.b-t-r-r47{ border-top-right-radius: 47px; } .b-t-l-r47{ border-top-left-radius: 47px; } .b-b-r-r47{ border-top-right-radius: 47px; } .b-b-l-r47{ border-bottom-left-radius: 47px; }
+.b-t-r-r48{ border-top-right-radius: 48px; } .b-t-l-r48{ border-top-left-radius: 48px; } .b-b-r-r48{ border-top-right-radius: 48px; } .b-b-l-r48{ border-bottom-left-radius: 48px; }
+.b-t-r-r49{ border-top-right-radius: 49px; } .b-t-l-r49{ border-top-left-radius: 49px; } .b-b-r-r49{ border-top-right-radius: 49px; } .b-b-l-r49{ border-bottom-left-radius: 49px; }
+.b-t-r-r50{ border-top-right-radius: 50px; } .b-t-l-r50{ border-top-left-radius: 50px; } .b-b-r-r50{ border-top-right-radius: 50px; } .b-b-l-r50{ border-bottom-left-radius: 50px; }
+.b-t-r-r51{ border-top-right-radius: 51px; } .b-t-l-r51{ border-top-left-radius: 51px; } .b-b-r-r51{ border-top-right-radius: 51px; } .b-b-l-r51{ border-bottom-left-radius: 51px; }
+.b-t-r-r52{ border-top-right-radius: 52px; } .b-t-l-r52{ border-top-left-radius: 52px; } .b-b-r-r52{ border-top-right-radius: 52px; } .b-b-l-r52{ border-bottom-left-radius: 52px; }
+.b-t-r-r53{ border-top-right-radius: 53px; } .b-t-l-r53{ border-top-left-radius: 53px; } .b-b-r-r53{ border-top-right-radius: 53px; } .b-b-l-r53{ border-bottom-left-radius: 53px; }
+.b-t-r-r54{ border-top-right-radius: 54px; } .b-t-l-r54{ border-top-left-radius: 54px; } .b-b-r-r54{ border-top-right-radius: 54px; } .b-b-l-r54{ border-bottom-left-radius: 54px; }
+.b-t-r-r55{ border-top-right-radius: 55px; } .b-t-l-r55{ border-top-left-radius: 55px; } .b-b-r-r55{ border-top-right-radius: 55px; } .b-b-l-r55{ border-bottom-left-radius: 55px; }
+.b-t-r-r56{ border-top-right-radius: 56px; } .b-t-l-r56{ border-top-left-radius: 56px; } .b-b-r-r56{ border-top-right-radius: 56px; } .b-b-l-r56{ border-bottom-left-radius: 56px; }
+.b-t-r-r57{ border-top-right-radius: 57px; } .b-t-l-r57{ border-top-left-radius: 57px; } .b-b-r-r57{ border-top-right-radius: 57px; } .b-b-l-r57{ border-bottom-left-radius: 57px; }
+.b-t-r-r58{ border-top-right-radius: 58px; } .b-t-l-r58{ border-top-left-radius: 58px; } .b-b-r-r58{ border-top-right-radius: 58px; } .b-b-l-r58{ border-bottom-left-radius: 58px; }
+.b-t-r-r59{ border-top-right-radius: 59px; } .b-t-l-r59{ border-top-left-radius: 59px; } .b-b-r-r59{ border-top-right-radius: 59px; } .b-b-l-r59{ border-bottom-left-radius: 59px; }
+.b-t-r-r60{ border-top-right-radius: 60px; } .b-t-l-r60{ border-top-left-radius: 60px; } .b-b-r-r60{ border-top-right-radius: 60px; } .b-b-l-r60{ border-bottom-left-radius: 60px; }
+.b-t-r-r61{ border-top-right-radius: 61px; } .b-t-l-r61{ border-top-left-radius: 61px; } .b-b-r-r61{ border-top-right-radius: 61px; } .b-b-l-r61{ border-bottom-left-radius: 61px; }
+.b-t-r-r62{ border-top-right-radius: 62px; } .b-t-l-r62{ border-top-left-radius: 62px; } .b-b-r-r62{ border-top-right-radius: 62px; } .b-b-l-r62{ border-bottom-left-radius: 62px; }
+.b-t-r-r63{ border-top-right-radius: 63px; } .b-t-l-r63{ border-top-left-radius: 63px; } .b-b-r-r63{ border-top-right-radius: 63px; } .b-b-l-r63{ border-bottom-left-radius: 63px; }
+.b-t-r-r64{ border-top-right-radius: 64px; } .b-t-l-r64{ border-top-left-radius: 64px; } .b-b-r-r64{ border-top-right-radius: 64px; } .b-b-l-r64{ border-bottom-left-radius: 64px; }
+.b-t-r-r65{ border-top-right-radius: 65px; } .b-t-l-r65{ border-top-left-radius: 65px; } .b-b-r-r65{ border-top-right-radius: 65px; } .b-b-l-r65{ border-bottom-left-radius: 65px; }
+.b-t-r-r66{ border-top-right-radius: 66px; } .b-t-l-r66{ border-top-left-radius: 66px; } .b-b-r-r66{ border-top-right-radius: 66px; } .b-b-l-r66{ border-bottom-left-radius: 66px; }
+.b-t-r-r67{ border-top-right-radius: 67px; } .b-t-l-r67{ border-top-left-radius: 67px; } .b-b-r-r67{ border-top-right-radius: 67px; } .b-b-l-r67{ border-bottom-left-radius: 67px; }
+.b-t-r-r68{ border-top-right-radius: 68px; } .b-t-l-r68{ border-top-left-radius: 68px; } .b-b-r-r68{ border-top-right-radius: 68px; } .b-b-l-r68{ border-bottom-left-radius: 68px; }
+.b-t-r-r69{ border-top-right-radius: 69px; } .b-t-l-r69{ border-top-left-radius: 69px; } .b-b-r-r69{ border-top-right-radius: 69px; } .b-b-l-r69{ border-bottom-left-radius: 69px; }
+.b-t-r-r70{ border-top-right-radius: 70px; } .b-t-l-r70{ border-top-left-radius: 70px; } .b-b-r-r70{ border-top-right-radius: 70px; } .b-b-l-r70{ border-bottom-left-radius: 70px; }
+.b-t-r-r71{ border-top-right-radius: 71px; } .b-t-l-r71{ border-top-left-radius: 71px; } .b-b-r-r71{ border-top-right-radius: 71px; } .b-b-l-r71{ border-bottom-left-radius: 71px; }
+.b-t-r-r72{ border-top-right-radius: 72px; } .b-t-l-r72{ border-top-left-radius: 72px; } .b-b-r-r72{ border-top-right-radius: 72px; } .b-b-l-r72{ border-bottom-left-radius: 72px; }
+.b-t-r-r73{ border-top-right-radius: 73px; } .b-t-l-r73{ border-top-left-radius: 73px; } .b-b-r-r73{ border-top-right-radius: 73px; } .b-b-l-r73{ border-bottom-left-radius: 73px; }
+.b-t-r-r74{ border-top-right-radius: 74px; } .b-t-l-r74{ border-top-left-radius: 74px; } .b-b-r-r74{ border-top-right-radius: 74px; } .b-b-l-r74{ border-bottom-left-radius: 74px; }
+.b-t-r-r75{ border-top-right-radius: 75px; } .b-t-l-r75{ border-top-left-radius: 75px; } .b-b-r-r75{ border-top-right-radius: 75px; } .b-b-l-r75{ border-bottom-left-radius: 75px; }
+.b-t-r-r76{ border-top-right-radius: 76px; } .b-t-l-r76{ border-top-left-radius: 76px; } .b-b-r-r76{ border-top-right-radius: 76px; } .b-b-l-r76{ border-bottom-left-radius: 76px; }
+.b-t-r-r77{ border-top-right-radius: 77px; } .b-t-l-r77{ border-top-left-radius: 77px; } .b-b-r-r77{ border-top-right-radius: 77px; } .b-b-l-r77{ border-bottom-left-radius: 77px; }
+.b-t-r-r78{ border-top-right-radius: 78px; } .b-t-l-r78{ border-top-left-radius: 78px; } .b-b-r-r78{ border-top-right-radius: 78px; } .b-b-l-r78{ border-bottom-left-radius: 78px; }
+.b-t-r-r79{ border-top-right-radius: 79px; } .b-t-l-r79{ border-top-left-radius: 79px; } .b-b-r-r79{ border-top-right-radius: 79px; } .b-b-l-r79{ border-bottom-left-radius: 79px; }
+.b-t-r-r80{ border-top-right-radius: 80px; } .b-t-l-r80{ border-top-left-radius: 80px; } .b-b-r-r80{ border-top-right-radius: 80px; } .b-b-l-r80{ border-bottom-left-radius: 80px; }
+.b-t-r-r81{ border-top-right-radius: 81px; } .b-t-l-r81{ border-top-left-radius: 81px; } .b-b-r-r81{ border-top-right-radius: 81px; } .b-b-l-r81{ border-bottom-left-radius: 81px; }
+.b-t-r-r82{ border-top-right-radius: 82px; } .b-t-l-r82{ border-top-left-radius: 82px; } .b-b-r-r82{ border-top-right-radius: 82px; } .b-b-l-r82{ border-bottom-left-radius: 82px; }
+.b-t-r-r83{ border-top-right-radius: 83px; } .b-t-l-r83{ border-top-left-radius: 83px; } .b-b-r-r83{ border-top-right-radius: 83px; } .b-b-l-r83{ border-bottom-left-radius: 83px; }
+.b-t-r-r84{ border-top-right-radius: 84px; } .b-t-l-r84{ border-top-left-radius: 84px; } .b-b-r-r84{ border-top-right-radius: 84px; } .b-b-l-r84{ border-bottom-left-radius: 84px; }
+.b-t-r-r85{ border-top-right-radius: 85px; } .b-t-l-r85{ border-top-left-radius: 85px; } .b-b-r-r85{ border-top-right-radius: 85px; } .b-b-l-r85{ border-bottom-left-radius: 85px; }
+.b-t-r-r86{ border-top-right-radius: 86px; } .b-t-l-r86{ border-top-left-radius: 86px; } .b-b-r-r86{ border-top-right-radius: 86px; } .b-b-l-r86{ border-bottom-left-radius: 86px; }
+.b-t-r-r87{ border-top-right-radius: 87px; } .b-t-l-r87{ border-top-left-radius: 87px; } .b-b-r-r87{ border-top-right-radius: 87px; } .b-b-l-r87{ border-bottom-left-radius: 87px; }
+.b-t-r-r88{ border-top-right-radius: 88px; } .b-t-l-r88{ border-top-left-radius: 88px; } .b-b-r-r88{ border-top-right-radius: 88px; } .b-b-l-r88{ border-bottom-left-radius: 88px; }
+.b-t-r-r89{ border-top-right-radius: 89px; } .b-t-l-r89{ border-top-left-radius: 89px; } .b-b-r-r89{ border-top-right-radius: 89px; } .b-b-l-r89{ border-bottom-left-radius: 89px; }
+.b-t-r-r90{ border-top-right-radius: 90px; } .b-t-l-r90{ border-top-left-radius: 90px; } .b-b-r-r90{ border-top-right-radius: 90px; } .b-b-l-r90{ border-bottom-left-radius: 90px; }
+.b-t-r-r91{ border-top-right-radius: 91px; } .b-t-l-r91{ border-top-left-radius: 91px; } .b-b-r-r91{ border-top-right-radius: 91px; } .b-b-l-r91{ border-bottom-left-radius: 91px; }
+.b-t-r-r92{ border-top-right-radius: 92px; } .b-t-l-r92{ border-top-left-radius: 92px; } .b-b-r-r92{ border-top-right-radius: 92px; } .b-b-l-r92{ border-bottom-left-radius: 92px; }
+.b-t-r-r93{ border-top-right-radius: 93px; } .b-t-l-r93{ border-top-left-radius: 93px; } .b-b-r-r93{ border-top-right-radius: 93px; } .b-b-l-r93{ border-bottom-left-radius: 93px; }
+.b-t-r-r94{ border-top-right-radius: 94px; } .b-t-l-r94{ border-top-left-radius: 94px; } .b-b-r-r94{ border-top-right-radius: 94px; } .b-b-l-r94{ border-bottom-left-radius: 94px; }
+.b-t-r-r95{ border-top-right-radius: 95px; } .b-t-l-r95{ border-top-left-radius: 95px; } .b-b-r-r95{ border-top-right-radius: 95px; } .b-b-l-r95{ border-bottom-left-radius: 95px; }
+.b-t-r-r96{ border-top-right-radius: 96px; } .b-t-l-r96{ border-top-left-radius: 96px; } .b-b-r-r96{ border-top-right-radius: 96px; } .b-b-l-r96{ border-bottom-left-radius: 96px; }
+.b-t-r-r97{ border-top-right-radius: 97px; } .b-t-l-r97{ border-top-left-radius: 97px; } .b-b-r-r97{ border-top-right-radius: 97px; } .b-b-l-r97{ border-bottom-left-radius: 97px; }
+.b-t-r-r98{ border-top-right-radius: 98px; } .b-t-l-r98{ border-top-left-radius: 98px; } .b-b-r-r98{ border-top-right-radius: 98px; } .b-b-l-r98{ border-bottom-left-radius: 98px; }
+.b-t-r-r99{ border-top-right-radius: 99px; } .b-t-l-r99{ border-top-left-radius: 99px; } .b-b-r-r99{ border-top-right-radius: 99px; } .b-b-l-r99{ border-bottom-left-radius: 99px; }
+.b-t-r-r100{ border-top-right-radius: 100px; } .b-t-l-r100{ border-top-left-radius: 100px; } .b-b-r-r100{ border-top-right-radius: 100px; } .b-b-l-r100{ border-bottom-left-radius: 100px; }
+.b-r-n{ border-radius: none; }

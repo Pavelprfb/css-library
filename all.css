@@ -1,0 +1,378 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: Sans-Serif;
+  box-sizing: border-box;
+}
+.p-sc, .p-static{ position: static; }
+.p-r{ position: relative; }
+.p-f{ position: fixed; }
+.p-a{ position: absolute; }
+.p-sy, .p-sticky{ position: sticky; }
+
+.d-i{ display: inline; }
+.d-b{ display: block; }
+.d-contents, .d-cs{ display: contents; }
+.d-f{ display: flex; }
+.d-g{ display: grid; }
+.d-i-b{ display: inline-block; }
+.d-i-f{ display: inline-flex; }
+.d-i-g{ display: inline-grid; }
+.d-i-t{ display: inline-table; }
+.d-r-i{ display: run-in; }
+.d-l-i{ display: list-item; }
+.d-t{ display: table; }
+.d-t-c{ display: table-caption; }
+.d-t-f-g{ display: table-footer-group; }
+.d-t-h-g{ display: table-header-group; }
+.d-t-c-g{ display: table-column-group; }
+.d-t-r-g{ display: table-row-group; }
+.d-t-r{ display: table-row; }
+.d-t-column, .d-t-cm{ display: table-column; }
+.d-t-cell, .d-t-cl{ display: table-cell; }
+.d-inherit, .d-it{ display: inherit; }
+.d-initial, .d-il{ display: initial; }
+.d-n{ display: none; }
+
+.o-a{ overflow: auto; }
+.o-s{ overflow: scroll; }
+.o-h{ overflow: hidden; }
+.o-v{ overflow: visible; }
+.o-x-a{ overflow-x: auto; }
+.o-x-s{ overflow-x: scroll; }
+.o-x-h{ overflow-x: hidden; }
+.o-x-v{ overflow-x: visible; }
+.o-y-a{ overflow-y: auto; }
+.o-y-s{ overflow-y: scroll; }
+.o-y-h{ overflow-y: hidden; }
+.o-y-v{ overflow-y: visible; }
+
+.t-a-j{ text-align: justify; }
+.t-a-r{ text-align: right; }
+.t-a-l{ text-align: left; }
+.t-a-c{ text-align: center; }
+.t-a-n{ text-align: none; }
+.t-a-l-j{ text-align-last: justify; }
+.t-a-l-r{ text-align-last: right; }
+.t-a-l-l{ text-align-last: left; }
+.t-a-l-c{ text-align-last: center; }
+.t-a-l-n{ text-align-last: none; }
+
+.j-c-f-s{ justify-content: flex-start; }
+.j-c-f-e{ justify-content: flex-end; }
+.j-c-c{ justify-content: center; }
+.j-c-s-e{ justify-content: space-evenly; }
+.j-c-s-a{ justify-content: space-around; }
+.j-c-s-b{ justify-content: space-between; }
+.j-c-n{ justify-content: none; }
+
+.t-d-u{ text-decoration: underline; }
+.t-d-o{ text-decoration: overline; }
+.t-d-l-t{ text-decoration: line-through; }
+.t-d-n{ text-decoration: none; }
+
+.a-c-s{ align-content: stretch; }
+.a-c-c{ align-content: center; }
+.a-c-f-s{ align-content: flex-start; }
+.a-c-f-e{ align-content: flex-end; }
+.a-c-s-b{ align-content: space-between; }
+.a-c-s-a{ align-content: space-around; }
+.a-c-s-e{ align-content: space-evenly; }
+.a-c-n{ align-content: none; }
+
+.a-i-f-e{ align-items: flex-end; }
+.a-i-f-s{ align-items: flex-start; }
+.a-i-c{ align-items: center; }
+.a-i-s{ align-items: stretch; }
+.a-i-nl, .a-i-normal{ align-items: normal; }
+.a-i-b{ align-items: baseline; }
+.a-i-e{ align-items: end; }
+.a-i-s{ align-items: start; }
+.a-i-n{ align-items: none; }
+
+.a-s-a{ align-self: auto; }
+.a-s-s{ align-self: stretch; }
+.a-s-c{ align-self: center; }
+.a-s-f-s{ align-self: flex-start; }
+.a-s-f-e{ align-self: flex-end; }
+.a-s-b{ align-self: baseline; }
+.a-s-b{ align-self: none; }
+
+.b-s-c-b{ box-sizing: content-box }
+.b-s-b-b{ box-sizing: border-box }
+
+.f-f-s{ font-family: serif; }
+.f-f-s-s{ font-family: sans-serif; }
+.f-f-c{ font-family: cursive; }
+.f-f-f{ font-family: fantasy; }
+.f-f-m{ font-family: monospace; }
+
+.f-d-r{ flex-direction: row; }
+.f-d-r-r{ flex-direction: row-reverse; }
+.f-d-c{ flex-direction: column; }
+.f-d-c-r{ flex-direction: column-reverse; }
+
+.c-as, .c-alias {cursor: alias;}
+.c-a-s {cursor: all-scroll;}
+.c-ao, .c-auto {cursor: auto;}
+.c-c {cursor: cell;}
+.c-c-r {cursor: col-resize;}
+.c-c-m {cursor: context-menu;}
+.c-cy, .c-copy {cursor: copy;}
+.c-cr, .c-crosshair {cursor: crosshair;}
+.c-d {cursor: default;}
+.c-e-s {cursor: e-resize;}
+.c-ew-r {cursor: ew-resize;}
+.c-gb, .c-grab {cursor: grab;}
+.c-gg, .c-grabbing {cursor: grabbing;}
+.c-h {cursor: help;}
+.c-m {cursor: move;}
+.c-n-re, .c-n-resize {cursor: n-resize;}
+.c-ne-r {cursor: ne-resize;}
+.c-nesw-r {cursor: nesw-resize;}
+.c-ns-r {cursor: ns-resize;}
+.c-nw-r {cursor: nw-resize;}
+.c-nw-s-e-re, .c-nw-s-e-resize {cursor: nw-s-e-resize;}
+.c-no-d {cursor: no-drop;}
+.c-n {cursor: none;}
+.c-not-a {cursor: not-allowed;}
+.c-pr, .c-pointer {cursor: pointer;}
+.c-ps, .c-progress {cursor: progress;}
+.c-r-r {cursor: row-resize;}
+.c-s-r {cursor: s-resize;}
+.c-se-r {cursor: se-resize;}
+.c-sw-r {cursor: sw-resize;}
+.c-t {cursor: text;}
+.c-w-r {cursor: w-resize;}
+.c-w {cursor: wait;}
+.c-z-i {cursor: zoom-in;}
+.c-z-o {cursor: zoom-out;}
+
+.f-w-n{ font-weight: normal; }
+.f-w-bd, .f-w-bold{ font-weight: bold; }
+.f-w-br, .f-w-bolder{ font-weight: bolder; }
+.f-w-l{ font-weight: lighter; }
+.f-w-n{ font-weight: number; }
+.f-w-100{ font-weight: 100; }
+.f-w-200{ font-weight: 200; }
+.f-w-300{ font-weight: 300; }
+.f-w-400{ font-weight: 400; }
+.f-w-500{ font-weight: 500; }
+.f-w-600{ font-weight: 600; }
+.f-w-700{ font-weight: 700; }
+.f-w-800{ font-weight: 800; }
+.f-w-900{ font-weight: 900; }
+
+.b-c-c{ border-collapse: collapse; }
+.b-c-s{ border-collapse: separate; }
+
+.e-c-s{empty-cells: show !important;}
+.e-c-h{empty-cells: hide !important;}
+
+.f-f-r{flex-flow: row !important;}
+.f-f-r-r{flex-flow: row-reverse !important;}
+
+.f-w-w{flex-wrap: wrap !important;}
+.f-w-w-r{flex-wrap: wrap-reverse !important;}
+.f-w-n{flex-wrap: nowrap !important;}
+
+.f-l{float: left !important;}
+.f-r{float: right !important;}
+
+.f-s-n{font-style: normal !important;}
+.f-s-i{font-style: italic !important;}
+.f-s-o{font-style: oblique !important;}
+
+.l-s-n{list-style: none !important;}
+.l-s-t-n{list-style-type: none !important;}
+.l-s-t-d{list-style-type: disc !important;}
+.l-s-t-c{list-style-type: circle !important;}
+.l-s-t-s{list-style-type: square !important;}
+.l-s-t-d{list-style-type: decimal !important;}
+.l-s-t-d-l-z{list-style-type: decimal-leading-zero !important;}
+.l-s-t-u-a{list-style-type: upper-alpha !important;}
+.l-s-t-u-r{list-style-type: upper-roman !important;}
+.l-s-t-u-l{list-style-type: upper-latin !important;}
+.l-s-t-l-a{list-style-type: lower-alpha !important;}
+.l-s-t-l-g{list-style-type: lower-greek !important;}
+.l-s-t-l-l{list-style-type: lower-latin !important;}
+.l-s-t-l-r{list-style-type: lower-roman !important;}
+
+.l-s-p-i{list-style-position: inside !important;}
+.l-s-p-o{list-style-position: outside !important;}
+
+.o-f-f{object-fit: fill !important;}
+.o-f-cn, .l-s-contain{object-fit: contain !important;}
+.o-f-c{object-fit: cover !important;}
+.o-f-s-d{object-fit: scale-down !important;}
+.o-f-n{object-fit: none !important;}
+
+.o01{opacity: 0.1 !important;}
+.o02{opacity: 0.2 !important;}
+.o03{opacity: 0.3 !important;}
+.o04{opacity: 0.4 !important;}
+.o05{opacity: 0.5 !important;}
+.o06{opacity: 0.6 !important;}
+.o07{opacity: 0.7 !important;}
+.o08{opacity: 0.8 !important;}
+.o09{opacity: 0.9 !important;}
+.o1{opacity: 1 !important;}
+
+.r-b{ resize: both; }
+.r-h{ resize: horizontal; }
+.r-v{ resize: vertical; }
+.r-n{ resize: none; }
+
+.t-l-a{table-layout: auto !important;}
+.t-l-f{table-layout: fixed !important;}
+
+.t-t-u{text-transform: uppercase !important;}
+.t-t-l{text-transform: lowercase !important;}
+.t-t-c{text-transform: capitalize !important;}
+
+.v-a-b{vertical-align: baseline !important;}
+.v-a-sb, .v-a-sub{vertical-align: sub !important;}
+.v-a-sr, .v-a-super{vertical-align: super !important;}
+.v-a-t{vertical-align: top !important;}
+.v-a-t-t{vertical-align: text-top !important;}
+.v-a-m{vertical-align: middle !important;}
+.v-a-b{vertical-align: bottom !important;}
+.v-a-t-b{vertical-align: text-bottom !important;}
+
+.w-s-p{white-space: pre !important;}
+.w-s-n{white-space: nowrap !important;}
+
+.w-w-b-w{word-wrap: break-word !important;}
+
+.w-m-v-l{writing-mode: vertical-lr !important;}
+.w-m-v-r{writing-mode: vertical-rl !important;}
+
+.w-s-h-t{writing-space: horizontal-tb !important;}
+.w-s-v-r{writing-space: vertical-rl !important;}
+.w-s-v-l{writing-space: vertical-lr !important;}
+
+.f-v-s-c{font-variant: small-caps !important;}
+.f-v-n{font-variant: normal !important;}
+.f-v-il, .f-v-initial{font-variant: initial !important;}
+.f-v-it, .f-v-inherit{font-variant: inherit !important;}
+
+.center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.center2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.b-n{ border: none; }
+
+.default button{
+  background-color: blue;
+  color: white;
+  outline: none;
+  background-color: ;
+  padding: 10px 20px;
+  border-radius: 3px;
+  border: 1px solid blue;
+}
+.default button:active{
+  color: blue;
+  background-color: transparent;
+}
+.default input, .default textarea{
+  outline: none;
+  border: 1px solid blue;
+  display: block;
+  padding: 10px 10px;
+  border-radius: 3px;
+}
+.default input:focus, .default textarea:focus{
+  border: 1px solid #0000ff63;
+  box-shadow: 0 0 5px rgba(30, 144, 255, 0.5);
+}
+
+/* Main select box styling */
+.default select {
+  width: 200px;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid blue; /* Blue color border */
+  border-radius: 5px;
+  background-color: white;
+  color: #333;
+  outline: none;
+  cursor: pointer;
+  -webkit-appearance: none; /* Remove default arrow */
+  -moz-appearance: none;
+  appearance: none;
+  background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"%3E%3Cpath fill="blue" d="M7 10l5 5 5-5z"/%3E%3C/svg%3E');
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+}
+
+/* Hover effect for select box */
+.default select:hover {
+  border-color: #0000ff63;
+}
+
+/* Focus effect for select box */
+.default select:focus {
+  border-color: #0000ff63;
+  box-shadow: 0 0 5px rgba(30, 144, 255, 0.5);
+}
+
+/* Custom styling for options */
+.default option {
+  padding: 10px;
+  background-color: #f0f8ff; /* Light blue background for options */
+  color: #333;
+}
+
+/* Hover effect on option */
+.default option:hover {
+  background-color: blue; /* Blue background on hover */
+  color: white; /* White text on blue background */
+}
+.default p{
+  text-align: justify;
+}
+.default img{
+  width: 100%;
+}
+.default hr{
+  background-color: blue;
+  color: blue;
+  border: none;
+  height: 1px;
+}
+.default table{
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+.default table th{
+  border: 1px solid black;
+  padding: 10px;
+  background-color: blue;
+  color: white;
+  text-align: center;
+}
+.default table td{
+  text-align: center;
+  padding: 5px 10px;
+  border: 1px solid black;
+}
+h1, h2, h3, h4, h5, h6, p{
+  font-size: 16px;
+}
+.default iframe{
+  border: 1px solid blue;
+  width: 100%;
+  height: 100vh;
+}
+.default iframe:hover{
+  box-shadow: 0 0 5px rgba(30, 144, 255, 0.5);
+  
+}
