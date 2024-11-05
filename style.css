@@ -1,10 +1,12 @@
+@import url("background-color.css");
+@import url("color.css");
+@import url("border-radius.css");
 @import url("font-size.css");
 @import url("h-w.css");
 @import url("margin.css");
 @import url("padding.css");
 @import url("z-index.css");
 @import url("all.css");
-@import url("color.css");
 @import url("btn.css");
 @import url("flex-basis.css");
 @import url("form.css");
@@ -13,11 +15,15 @@
 @import url("line-height.css");
 @import url("text-indent.css");
 @import url("word-spacing.css");
-@import url("background-color.css");
-@import url("border-radius.css");
 @import url("border.css");
 /*
 @import url("");
 */
 
 /* main.css */
+/*
+background-color
+color
+border-radius
+font-size
+*/

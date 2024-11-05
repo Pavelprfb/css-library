@@ -1,100 +1,108 @@
-.f-s-1 { font-size: 1px; }
-.f-s-2 { font-size: 2px; }
-.f-s-3 { font-size: 3px; }
-.f-s-4 { font-size: 4px; }
-.f-s-5 { font-size: 5px; }
-.f-s-6 { font-size: 6px; }
-.f-s-7 { font-size: 7px; }
-.f-s-8 { font-size: 8px; }
-.f-s-9 { font-size: 9px; }
-.f-s-10 { font-size: 10px; }
-.f-s-11 { font-size: 11px; }
-.f-s-12 { font-size: 12px; }
-.f-s-13 { font-size: 13px; }
-.f-s-14 { font-size: 14px; }
-.f-s-15 { font-size: 15px; }
-.f-s-16 { font-size: 16px; }
-.f-s-17 { font-size: 17px; }
-.f-s-18 { font-size: 18px; }
-.f-s-19 { font-size: 19px; }
-.f-s-20 { font-size: 20px; }
-.f-s-21 { font-size: 21px; }
-.f-s-22 { font-size: 22px; }
-.f-s-23 { font-size: 23px; }
-.f-s-24 { font-size: 24px; }
-.f-s-25 { font-size: 25px; }
-.f-s-26 { font-size: 26px; }
-.f-s-27 { font-size: 27px; }
-.f-s-28 { font-size: 28px; }
-.f-s-29 { font-size: 29px; }
-.f-s-30 { font-size: 30px; }
-.f-s-31 { font-size: 31px; }
-.f-s-32 { font-size: 32px; }
-.f-s-33 { font-size: 33px; }
-.f-s-34 { font-size: 34px; }
-.f-s-35 { font-size: 35px; }
-.f-s-36 { font-size: 36px; }
-.f-s-37 { font-size: 37px; }
-.f-s-38 { font-size: 38px; }
-.f-s-39 { font-size: 39px; }
-.f-s-40 { font-size: 40px; }
-.f-s-41 { font-size: 41px; }
-.f-s-42 { font-size: 42px; }
-.f-s-43 { font-size: 43px; }
-.f-s-44 { font-size: 44px; }
-.f-s-45 { font-size: 45px; }
-.f-s-46 { font-size: 46px; }
-.f-s-47 { font-size: 47px; }
-.f-s-48 { font-size: 48px; }
-.f-s-49 { font-size: 49px; }
-.f-s-50 { font-size: 50px; }
-.f-s-51 { font-size: 51px; }
-.f-s-52 { font-size: 52px; }
-.f-s-53 { font-size: 53px; }
-.f-s-54 { font-size: 54px; }
-.f-s-55 { font-size: 55px; }
-.f-s-56 { font-size: 56px; }
-.f-s-57 { font-size: 57px; }
-.f-s-58 { font-size: 58px; }
-.f-s-59 { font-size: 59px; }
-.f-s-60 { font-size: 60px; }
-.f-s-61 { font-size: 61px; }
-.f-s-62 { font-size: 62px; }
-.f-s-63 { font-size: 63px; }
-.f-s-64 { font-size: 64px; }
-.f-s-65 { font-size: 65px; }
-.f-s-66 { font-size: 66px; }
-.f-s-67 { font-size: 67px; }
-.f-s-68 { font-size: 68px; }
-.f-s-69 { font-size: 69px; }
-.f-s-70 { font-size: 70px; }
-.f-s-71 { font-size: 71px; }
-.f-s-72 { font-size: 72px; }
-.f-s-73 { font-size: 73px; }
-.f-s-74 { font-size: 74px; }
-.f-s-75 { font-size: 75px; }
-.f-s-76 { font-size: 76px; }
-.f-s-77 { font-size: 77px; }
-.f-s-78 { font-size: 78px; }
-.f-s-79 { font-size: 79px; }
-.f-s-80 { font-size: 80px; }
-.f-s-81 { font-size: 81px; }
-.f-s-82 { font-size: 82px; }
-.f-s-83 { font-size: 83px; }
-.f-s-84 { font-size: 84px; }
-.f-s-85 { font-size: 85px; }
-.f-s-86 { font-size: 86px; }
-.f-s-87 { font-size: 87px; }
-.f-s-88 { font-size: 88px; }
-.f-s-89 { font-size: 89px; }
-.f-s-90 { font-size: 90px; }
-.f-s-91 { font-size: 91px; }
-.f-s-92 { font-size: 92px; }
-.f-s-93 { font-size: 93px; }
-.f-s-94 { font-size: 94px; }
-.f-s-95 { font-size: 95px; }
-.f-s-96 { font-size: 96px; }
-.f-s-97 { font-size: 97px; }
-.f-s-98 { font-size: 98px; }
-.f-s-99 { font-size: 99px; }
-.f-s-100 { font-size: 100px; }
+.f-s0, .fs0{ font-size: 0px !important; } .a_f-s0:active, .a_fs0:active{ font-size: 0px !important; } .h_f-s0:hover, .h_fs0:hover{ font-size: 0px !important; } .f_f-s0:focus, .f_fs0:focus{ font-size: 0px !important; } .v_f-s0:visited, .v_fs0:visited{ font-size: 0px !important; } .l_f-s0:link, .l_fs0:link{ font-size: 0px !important; }
+.f-s1, .fs1{ font-size: 1px !important; } .a_f-s1:active, .a_fs1:active{ font-size: 1px !important; } .h_f-s1:hover, .h_fs1:hover{ font-size: 1px !important; } .f_f-s1:focus, .f_fs1:focus{ font-size: 1px !important; } .v_f-s1:visited, .v_fs1:visited{ font-size: 1px !important; } .l_f-s1:link, .l_fs1:link{ font-size: 1px !important; }
+.f-s2, .fs2{ font-size: 2px !important; } .a_f-s2:active, .a_fs2:active{ font-size: 2px !important; } .h_f-s2:hover, .h_fs2:hover{ font-size: 2px !important; } .f_f-s2:focus, .f_fs2:focus{ font-size: 2px !important; } .v_f-s2:visited, .v_fs2:visited{ font-size: 2px !important; } .l_f-s2:link, .l_fs2:link{ font-size: 2px !important; }
+.f-s3, .fs3{ font-size: 3px !important; } .a_f-s3:active, .a_fs3:active{ font-size: 3px !important; } .h_f-s3:hover, .h_fs3:hover{ font-size: 3px !important; } .f_f-s3:focus, .f_fs3:focus{ font-size: 3px !important; } .v_f-s3:visited, .v_fs3:visited{ font-size: 3px !important; } .l_f-s3:link, .l_fs3:link{ font-size: 3px !important; }
+.f-s4, .fs4{ font-size: 4px !important; } .a_f-s4:active, .a_fs4:active{ font-size: 4px !important; } .h_f-s4:hover, .h_fs4:hover{ font-size: 4px !important; } .f_f-s4:focus, .f_fs4:focus{ font-size: 4px !important; } .v_f-s4:visited, .v_fs4:visited{ font-size: 4px !important; } .l_f-s4:link, .l_fs4:link{ font-size: 4px !important; }
+.f-s5, .fs5{ font-size: 5px !important; } .a_f-s5:active, .a_fs5:active{ font-size: 5px !important; } .h_f-s5:hover, .h_fs5:hover{ font-size: 5px !important; } .f_f-s5:focus, .f_fs5:focus{ font-size: 5px !important; } .v_f-s5:visited, .v_fs5:visited{ font-size: 5px !important; } .l_f-s5:link, .l_fs5:link{ font-size: 5px !important; }
+.f-s6, .fs6{ font-size: 6px !important; } .a_f-s6:active, .a_fs6:active{ font-size: 6px !important; } .h_f-s6:hover, .h_fs6:hover{ font-size: 6px !important; } .f_f-s6:focus, .f_fs6:focus{ font-size: 6px !important; } .v_f-s6:visited, .v_fs6:visited{ font-size: 6px !important; } .l_f-s6:link, .l_fs6:link{ font-size: 6px !important; }
+.f-s7, .fs7{ font-size: 7px !important; } .a_f-s7:active, .a_fs7:active{ font-size: 7px !important; } .h_f-s7:hover, .h_fs7:hover{ font-size: 7px !important; } .f_f-s7:focus, .f_fs7:focus{ font-size: 7px !important; } .v_f-s7:visited, .v_fs7:visited{ font-size: 7px !important; } .l_f-s7:link, .l_fs7:link{ font-size: 7px !important; }
+.f-s8, .fs8{ font-size: 8px !important; } .a_f-s8:active, .a_fs8:active{ font-size: 8px !important; } .h_f-s8:hover, .h_fs8:hover{ font-size: 8px !important; } .f_f-s8:focus, .f_fs8:focus{ font-size: 8px !important; } .v_f-s8:visited, .v_fs8:visited{ font-size: 8px !important; } .l_f-s8:link, .l_fs8:link{ font-size: 8px !important; }
+.f-s9, .fs9{ font-size: 9px !important; } .a_f-s9:active, .a_fs9:active{ font-size: 9px !important; } .h_f-s9:hover, .h_fs9:hover{ font-size: 9px !important; } .f_f-s9:focus, .f_fs9:focus{ font-size: 9px !important; } .v_f-s9:visited, .v_fs9:visited{ font-size: 9px !important; } .l_f-s9:link, .l_fs9:link{ font-size: 9px !important; }
+.f-s10, .fs10{ font-size: 10px !important; } .a_f-s10:active, .a_fs10:active{ font-size: 10px !important; } .h_f-s10:hover, .h_fs10:hover{ font-size: 10px !important; } .f_f-s10:focus, .f_fs10:focus{ font-size: 10px !important; } .v_f-s10:visited, .v_fs10:visited{ font-size: 10px !important; } .l_f-s10:link, .l_fs10:link{ font-size: 10px !important; }
+.f-s11, .fs11{ font-size: 11px !important; } .a_f-s11:active, .a_fs11:active{ font-size: 11px !important; } .h_f-s11:hover, .h_fs11:hover{ font-size: 11px !important; } .f_f-s11:focus, .f_fs11:focus{ font-size: 11px !important; } .v_f-s11:visited, .v_fs11:visited{ font-size: 11px !important; } .l_f-s11:link, .l_fs11:link{ font-size: 11px !important; }
+.f-s12, .fs12{ font-size: 12px !important; } .a_f-s12:active, .a_fs12:active{ font-size: 12px !important; } .h_f-s12:hover, .h_fs12:hover{ font-size: 12px !important; } .f_f-s12:focus, .f_fs12:focus{ font-size: 12px !important; } .v_f-s12:visited, .v_fs12:visited{ font-size: 12px !important; } .l_f-s12:link, .l_fs12:link{ font-size: 12px !important; }
+.f-s13, .fs13{ font-size: 13px !important; } .a_f-s13:active, .a_fs13:active{ font-size: 13px !important; } .h_f-s13:hover, .h_fs13:hover{ font-size: 13px !important; } .f_f-s13:focus, .f_fs13:focus{ font-size: 13px !important; } .v_f-s13:visited, .v_fs13:visited{ font-size: 13px !important; } .l_f-s13:link, .l_fs13:link{ font-size: 13px !important; }
+.f-s14, .fs14{ font-size: 14px !important; } .a_f-s14:active, .a_fs14:active{ font-size: 14px !important; } .h_f-s14:hover, .h_fs14:hover{ font-size: 14px !important; } .f_f-s14:focus, .f_fs14:focus{ font-size: 14px !important; } .v_f-s14:visited, .v_fs14:visited{ font-size: 14px !important; } .l_f-s14:link, .l_fs14:link{ font-size: 14px !important; }
+.f-s15, .fs15{ font-size: 15px !important; } .a_f-s15:active, .a_fs15:active{ font-size: 15px !important; } .h_f-s15:hover, .h_fs15:hover{ font-size: 15px !important; } .f_f-s15:focus, .f_fs15:focus{ font-size: 15px !important; } .v_f-s15:visited, .v_fs15:visited{ font-size: 15px !important; } .l_f-s15:link, .l_fs15:link{ font-size: 15px !important; }
+.f-s16, .fs16{ font-size: 16px !important; } .a_f-s16:active, .a_fs16:active{ font-size: 16px !important; } .h_f-s16:hover, .h_fs16:hover{ font-size: 16px !important; } .f_f-s16:focus, .f_fs16:focus{ font-size: 16px !important; } .v_f-s16:visited, .v_fs16:visited{ font-size: 16px !important; } .l_f-s16:link, .l_fs16:link{ font-size: 16px !important; }
+.f-s17, .fs17{ font-size: 17px !important; } .a_f-s17:active, .a_fs17:active{ font-size: 17px !important; } .h_f-s17:hover, .h_fs17:hover{ font-size: 17px !important; } .f_f-s17:focus, .f_fs17:focus{ font-size: 17px !important; } .v_f-s17:visited, .v_fs17:visited{ font-size: 17px !important; } .l_f-s17:link, .l_fs17:link{ font-size: 17px !important; }
+.f-s18, .fs18{ font-size: 18px !important; } .a_f-s18:active, .a_fs18:active{ font-size: 18px !important; } .h_f-s18:hover, .h_fs18:hover{ font-size: 18px !important; } .f_f-s18:focus, .f_fs18:focus{ font-size: 18px !important; } .v_f-s18:visited, .v_fs18:visited{ font-size: 18px !important; } .l_f-s18:link, .l_fs18:link{ font-size: 18px !important; }
+.f-s19, .fs19{ font-size: 19px !important; } .a_f-s19:active, .a_fs19:active{ font-size: 19px !important; } .h_f-s19:hover, .h_fs19:hover{ font-size: 19px !important; } .f_f-s19:focus, .f_fs19:focus{ font-size: 19px !important; } .v_f-s19:visited, .v_fs19:visited{ font-size: 19px !important; } .l_f-s19:link, .l_fs19:link{ font-size: 19px !important; }
+.f-s20, .fs20{ font-size: 20px !important; } .a_f-s20:active, .a_fs20:active{ font-size: 20px !important; } .h_f-s20:hover, .h_fs20:hover{ font-size: 20px !important; } .f_f-s20:focus, .f_fs20:focus{ font-size: 20px !important; } .v_f-s20:visited, .v_fs20:visited{ font-size: 20px !important; } .l_f-s20:link, .l_fs20:link{ font-size: 20px !important; }
+.f-s21, .fs21{ font-size: 21px !important; } .a_f-s21:active, .a_fs21:active{ font-size: 21px !important; } .h_f-s21:hover, .h_fs21:hover{ font-size: 21px !important; } .f_f-s21:focus, .f_fs21:focus{ font-size: 21px !important; } .v_f-s21:visited, .v_fs21:visited{ font-size: 21px !important; } .l_f-s21:link, .l_fs21:link{ font-size: 21px !important; }
+.f-s22, .fs22{ font-size: 22px !important; } .a_f-s22:active, .a_fs22:active{ font-size: 22px !important; } .h_f-s22:hover, .h_fs22:hover{ font-size: 22px !important; } .f_f-s22:focus, .f_fs22:focus{ font-size: 22px !important; } .v_f-s22:visited, .v_fs22:visited{ font-size: 22px !important; } .l_f-s22:link, .l_fs22:link{ font-size: 22px !important; }
+.f-s23, .fs23{ font-size: 23px !important; } .a_f-s23:active, .a_fs23:active{ font-size: 23px !important; } .h_f-s23:hover, .h_fs23:hover{ font-size: 23px !important; } .f_f-s23:focus, .f_fs23:focus{ font-size: 23px !important; } .v_f-s23:visited, .v_fs23:visited{ font-size: 23px !important; } .l_f-s23:link, .l_fs23:link{ font-size: 23px !important; }
+.f-s24, .fs24{ font-size: 24px !important; } .a_f-s24:active, .a_fs24:active{ font-size: 24px !important; } .h_f-s24:hover, .h_fs24:hover{ font-size: 24px !important; } .f_f-s24:focus, .f_fs24:focus{ font-size: 24px !important; } .v_f-s24:visited, .v_fs24:visited{ font-size: 24px !important; } .l_f-s24:link, .l_fs24:link{ font-size: 24px !important; }
+.f-s25, .fs25{ font-size: 25px !important; } .a_f-s25:active, .a_fs25:active{ font-size: 25px !important; } .h_f-s25:hover, .h_fs25:hover{ font-size: 25px !important; } .f_f-s25:focus, .f_fs25:focus{ font-size: 25px !important; } .v_f-s25:visited, .v_fs25:visited{ font-size: 25px !important; } .l_f-s25:link, .l_fs25:link{ font-size: 25px !important; }
+.f-s26, .fs26{ font-size: 26px !important; } .a_f-s26:active, .a_fs26:active{ font-size: 26px !important; } .h_f-s26:hover, .h_fs26:hover{ font-size: 26px !important; } .f_f-s26:focus, .f_fs26:focus{ font-size: 26px !important; } .v_f-s26:visited, .v_fs26:visited{ font-size: 26px !important; } .l_f-s26:link, .l_fs26:link{ font-size: 26px !important; }
+.f-s27, .fs27{ font-size: 27px !important; } .a_f-s27:active, .a_fs27:active{ font-size: 27px !important; } .h_f-s27:hover, .h_fs27:hover{ font-size: 27px !important; } .f_f-s27:focus, .f_fs27:focus{ font-size: 27px !important; } .v_f-s27:visited, .v_fs27:visited{ font-size: 27px !important; } .l_f-s27:link, .l_fs27:link{ font-size: 27px !important; }
+.f-s28, .fs28{ font-size: 28px !important; } .a_f-s28:active, .a_fs28:active{ font-size: 28px !important; } .h_f-s28:hover, .h_fs28:hover{ font-size: 28px !important; } .f_f-s28:focus, .f_fs28:focus{ font-size: 28px !important; } .v_f-s28:visited, .v_fs28:visited{ font-size: 28px !important; } .l_f-s28:link, .l_fs28:link{ font-size: 28px !important; }
+.f-s29, .fs29{ font-size: 29px !important; } .a_f-s29:active, .a_fs29:active{ font-size: 29px !important; } .h_f-s29:hover, .h_fs29:hover{ font-size: 29px !important; } .f_f-s29:focus, .f_fs29:focus{ font-size: 29px !important; } .v_f-s29:visited, .v_fs29:visited{ font-size: 29px !important; } .l_f-s29:link, .l_fs29:link{ font-size: 29px !important; }
+.f-s30, .fs30{ font-size: 30px !important; } .a_f-s30:active, .a_fs30:active{ font-size: 30px !important; } .h_f-s30:hover, .h_fs30:hover{ font-size: 30px !important; } .f_f-s30:focus, .f_fs30:focus{ font-size: 30px !important; } .v_f-s30:visited, .v_fs30:visited{ font-size: 30px !important; } .l_f-s30:link, .l_fs30:link{ font-size: 30px !important; }
+.f-s31, .fs31{ font-size: 31px !important; } .a_f-s31:active, .a_fs31:active{ font-size: 31px !important; } .h_f-s31:hover, .h_fs31:hover{ font-size: 31px !important; } .f_f-s31:focus, .f_fs31:focus{ font-size: 31px !important; } .v_f-s31:visited, .v_fs31:visited{ font-size: 31px !important; } .l_f-s31:link, .l_fs31:link{ font-size: 31px !important; }
+.f-s32, .fs32{ font-size: 32px !important; } .a_f-s32:active, .a_fs32:active{ font-size: 32px !important; } .h_f-s32:hover, .h_fs32:hover{ font-size: 32px !important; } .f_f-s32:focus, .f_fs32:focus{ font-size: 32px !important; } .v_f-s32:visited, .v_fs32:visited{ font-size: 32px !important; } .l_f-s32:link, .l_fs32:link{ font-size: 32px !important; }
+.f-s33, .fs33{ font-size: 33px !important; } .a_f-s33:active, .a_fs33:active{ font-size: 33px !important; } .h_f-s33:hover, .h_fs33:hover{ font-size: 33px !important; } .f_f-s33:focus, .f_fs33:focus{ font-size: 33px !important; } .v_f-s33:visited, .v_fs33:visited{ font-size: 33px !important; } .l_f-s33:link, .l_fs33:link{ font-size: 33px !important; }
+.f-s34, .fs34{ font-size: 34px !important; } .a_f-s34:active, .a_fs34:active{ font-size: 34px !important; } .h_f-s34:hover, .h_fs34:hover{ font-size: 34px !important; } .f_f-s34:focus, .f_fs34:focus{ font-size: 34px !important; } .v_f-s34:visited, .v_fs34:visited{ font-size: 34px !important; } .l_f-s34:link, .l_fs34:link{ font-size: 34px !important; }
+.f-s35, .fs35{ font-size: 35px !important; } .a_f-s35:active, .a_fs35:active{ font-size: 35px !important; } .h_f-s35:hover, .h_fs35:hover{ font-size: 35px !important; } .f_f-s35:focus, .f_fs35:focus{ font-size: 35px !important; } .v_f-s35:visited, .v_fs35:visited{ font-size: 35px !important; } .l_f-s35:link, .l_fs35:link{ font-size: 35px !important; }
+.f-s36, .fs36{ font-size: 36px !important; } .a_f-s36:active, .a_fs36:active{ font-size: 36px !important; } .h_f-s36:hover, .h_fs36:hover{ font-size: 36px !important; } .f_f-s36:focus, .f_fs36:focus{ font-size: 36px !important; } .v_f-s36:visited, .v_fs36:visited{ font-size: 36px !important; } .l_f-s36:link, .l_fs36:link{ font-size: 36px !important; }
+.f-s37, .fs37{ font-size: 37px !important; } .a_f-s37:active, .a_fs37:active{ font-size: 37px !important; } .h_f-s37:hover, .h_fs37:hover{ font-size: 37px !important; } .f_f-s37:focus, .f_fs37:focus{ font-size: 37px !important; } .v_f-s37:visited, .v_fs37:visited{ font-size: 37px !important; } .l_f-s37:link, .l_fs37:link{ font-size: 37px !important; }
+.f-s38, .fs38{ font-size: 38px !important; } .a_f-s38:active, .a_fs38:active{ font-size: 38px !important; } .h_f-s38:hover, .h_fs38:hover{ font-size: 38px !important; } .f_f-s38:focus, .f_fs38:focus{ font-size: 38px !important; } .v_f-s38:visited, .v_fs38:visited{ font-size: 38px !important; } .l_f-s38:link, .l_fs38:link{ font-size: 38px !important; }
+.f-s39, .fs39{ font-size: 39px !important; } .a_f-s39:active, .a_fs39:active{ font-size: 39px !important; } .h_f-s39:hover, .h_fs39:hover{ font-size: 39px !important; } .f_f-s39:focus, .f_fs39:focus{ font-size: 39px !important; } .v_f-s39:visited, .v_fs39:visited{ font-size: 39px !important; } .l_f-s39:link, .l_fs39:link{ font-size: 39px !important; }
+.f-s40, .fs40{ font-size: 40px !important; } .a_f-s40:active, .a_fs40:active{ font-size: 40px !important; } .h_f-s40:hover, .h_fs40:hover{ font-size: 40px !important; } .f_f-s40:focus, .f_fs40:focus{ font-size: 40px !important; } .v_f-s40:visited, .v_fs40:visited{ font-size: 40px !important; } .l_f-s40:link, .l_fs40:link{ font-size: 40px !important; }
+.f-s41, .fs41{ font-size: 41px !important; } .a_f-s41:active, .a_fs41:active{ font-size: 41px !important; } .h_f-s41:hover, .h_fs41:hover{ font-size: 41px !important; } .f_f-s41:focus, .f_fs41:focus{ font-size: 41px !important; } .v_f-s41:visited, .v_fs41:visited{ font-size: 41px !important; } .l_f-s41:link, .l_fs41:link{ font-size: 41px !important; }
+.f-s42, .fs42{ font-size: 42px !important; } .a_f-s42:active, .a_fs42:active{ font-size: 42px !important; } .h_f-s42:hover, .h_fs42:hover{ font-size: 42px !important; } .f_f-s42:focus, .f_fs42:focus{ font-size: 42px !important; } .v_f-s42:visited, .v_fs42:visited{ font-size: 42px !important; } .l_f-s42:link, .l_fs42:link{ font-size: 42px !important; }
+.f-s43, .fs43{ font-size: 43px !important; } .a_f-s43:active, .a_fs43:active{ font-size: 43px !important; } .h_f-s43:hover, .h_fs43:hover{ font-size: 43px !important; } .f_f-s43:focus, .f_fs43:focus{ font-size: 43px !important; } .v_f-s43:visited, .v_fs43:visited{ font-size: 43px !important; } .l_f-s43:link, .l_fs43:link{ font-size: 43px !important; }
+.f-s44, .fs44{ font-size: 44px !important; } .a_f-s44:active, .a_fs44:active{ font-size: 44px !important; } .h_f-s44:hover, .h_fs44:hover{ font-size: 44px !important; } .f_f-s44:focus, .f_fs44:focus{ font-size: 44px !important; } .v_f-s44:visited, .v_fs44:visited{ font-size: 44px !important; } .l_f-s44:link, .l_fs44:link{ font-size: 44px !important; }
+.f-s45, .fs45{ font-size: 45px !important; } .a_f-s45:active, .a_fs45:active{ font-size: 45px !important; } .h_f-s45:hover, .h_fs45:hover{ font-size: 45px !important; } .f_f-s45:focus, .f_fs45:focus{ font-size: 45px !important; } .v_f-s45:visited, .v_fs45:visited{ font-size: 45px !important; } .l_f-s45:link, .l_fs45:link{ font-size: 45px !important; }
+.f-s46, .fs46{ font-size: 46px !important; } .a_f-s46:active, .a_fs46:active{ font-size: 46px !important; } .h_f-s46:hover, .h_fs46:hover{ font-size: 46px !important; } .f_f-s46:focus, .f_fs46:focus{ font-size: 46px !important; } .v_f-s46:visited, .v_fs46:visited{ font-size: 46px !important; } .l_f-s46:link, .l_fs46:link{ font-size: 46px !important; }
+.f-s47, .fs47{ font-size: 47px !important; } .a_f-s47:active, .a_fs47:active{ font-size: 47px !important; } .h_f-s47:hover, .h_fs47:hover{ font-size: 47px !important; } .f_f-s47:focus, .f_fs47:focus{ font-size: 47px !important; } .v_f-s47:visited, .v_fs47:visited{ font-size: 47px !important; } .l_f-s47:link, .l_fs47:link{ font-size: 47px !important; }
+.f-s48, .fs48{ font-size: 48px !important; } .a_f-s48:active, .a_fs48:active{ font-size: 48px !important; } .h_f-s48:hover, .h_fs48:hover{ font-size: 48px !important; } .f_f-s48:focus, .f_fs48:focus{ font-size: 48px !important; } .v_f-s48:visited, .v_fs48:visited{ font-size: 48px !important; } .l_f-s48:link, .l_fs48:link{ font-size: 48px !important; }
+.f-s49, .fs49{ font-size: 49px !important; } .a_f-s49:active, .a_fs49:active{ font-size: 49px !important; } .h_f-s49:hover, .h_fs49:hover{ font-size: 49px !important; } .f_f-s49:focus, .f_fs49:focus{ font-size: 49px !important; } .v_f-s49:visited, .v_fs49:visited{ font-size: 49px !important; } .l_f-s49:link, .l_fs49:link{ font-size: 49px !important; }
+.f-s50, .fs50{ font-size: 50px !important; } .a_f-s50:active, .a_fs50:active{ font-size: 50px !important; } .h_f-s50:hover, .h_fs50:hover{ font-size: 50px !important; } .f_f-s50:focus, .f_fs50:focus{ font-size: 50px !important; } .v_f-s50:visited, .v_fs50:visited{ font-size: 50px !important; } .l_f-s50:link, .l_fs50:link{ font-size: 50px !important; }
+.f-s51, .fs51{ font-size: 51px !important; } .a_f-s51:active, .a_fs51:active{ font-size: 51px !important; } .h_f-s51:hover, .h_fs51:hover{ font-size: 51px !important; } .f_f-s51:focus, .f_fs51:focus{ font-size: 51px !important; } .v_f-s51:visited, .v_fs51:visited{ font-size: 51px !important; } .l_f-s51:link, .l_fs51:link{ font-size: 51px !important; }
+.f-s52, .fs52{ font-size: 52px !important; } .a_f-s52:active, .a_fs52:active{ font-size: 52px !important; } .h_f-s52:hover, .h_fs52:hover{ font-size: 52px !important; } .f_f-s52:focus, .f_fs52:focus{ font-size: 52px !important; } .v_f-s52:visited, .v_fs52:visited{ font-size: 52px !important; } .l_f-s52:link, .l_fs52:link{ font-size: 52px !important; }
+.f-s53, .fs53{ font-size: 53px !important; } .a_f-s53:active, .a_fs53:active{ font-size: 53px !important; } .h_f-s53:hover, .h_fs53:hover{ font-size: 53px !important; } .f_f-s53:focus, .f_fs53:focus{ font-size: 53px !important; } .v_f-s53:visited, .v_fs53:visited{ font-size: 53px !important; } .l_f-s53:link, .l_fs53:link{ font-size: 53px !important; }
+.f-s54, .fs54{ font-size: 54px !important; } .a_f-s54:active, .a_fs54:active{ font-size: 54px !important; } .h_f-s54:hover, .h_fs54:hover{ font-size: 54px !important; } .f_f-s54:focus, .f_fs54:focus{ font-size: 54px !important; } .v_f-s54:visited, .v_fs54:visited{ font-size: 54px !important; } .l_f-s54:link, .l_fs54:link{ font-size: 54px !important; }
+.f-s55, .fs55{ font-size: 55px !important; } .a_f-s55:active, .a_fs55:active{ font-size: 55px !important; } .h_f-s55:hover, .h_fs55:hover{ font-size: 55px !important; } .f_f-s55:focus, .f_fs55:focus{ font-size: 55px !important; } .v_f-s55:visited, .v_fs55:visited{ font-size: 55px !important; } .l_f-s55:link, .l_fs55:link{ font-size: 55px !important; }
+.f-s56, .fs56{ font-size: 56px !important; } .a_f-s56:active, .a_fs56:active{ font-size: 56px !important; } .h_f-s56:hover, .h_fs56:hover{ font-size: 56px !important; } .f_f-s56:focus, .f_fs56:focus{ font-size: 56px !important; } .v_f-s56:visited, .v_fs56:visited{ font-size: 56px !important; } .l_f-s56:link, .l_fs56:link{ font-size: 56px !important; }
+.f-s57, .fs57{ font-size: 57px !important; } .a_f-s57:active, .a_fs57:active{ font-size: 57px !important; } .h_f-s57:hover, .h_fs57:hover{ font-size: 57px !important; } .f_f-s57:focus, .f_fs57:focus{ font-size: 57px !important; } .v_f-s57:visited, .v_fs57:visited{ font-size: 57px !important; } .l_f-s57:link, .l_fs57:link{ font-size: 57px !important; }
+.f-s58, .fs58{ font-size: 58px !important; } .a_f-s58:active, .a_fs58:active{ font-size: 58px !important; } .h_f-s58:hover, .h_fs58:hover{ font-size: 58px !important; } .f_f-s58:focus, .f_fs58:focus{ font-size: 58px !important; } .v_f-s58:visited, .v_fs58:visited{ font-size: 58px !important; } .l_f-s58:link, .l_fs58:link{ font-size: 58px !important; }
+.f-s59, .fs59{ font-size: 59px !important; } .a_f-s59:active, .a_fs59:active{ font-size: 59px !important; } .h_f-s59:hover, .h_fs59:hover{ font-size: 59px !important; } .f_f-s59:focus, .f_fs59:focus{ font-size: 59px !important; } .v_f-s59:visited, .v_fs59:visited{ font-size: 59px !important; } .l_f-s59:link, .l_fs59:link{ font-size: 59px !important; }
+.f-s60, .fs60{ font-size: 60px !important; } .a_f-s60:active, .a_fs60:active{ font-size: 60px !important; } .h_f-s60:hover, .h_fs60:hover{ font-size: 60px !important; } .f_f-s60:focus, .f_fs60:focus{ font-size: 60px !important; } .v_f-s60:visited, .v_fs60:visited{ font-size: 60px !important; } .l_f-s60:link, .l_fs60:link{ font-size: 60px !important; }
+.f-s61, .fs61{ font-size: 61px !important; } .a_f-s61:active, .a_fs61:active{ font-size: 61px !important; } .h_f-s61:hover, .h_fs61:hover{ font-size: 61px !important; } .f_f-s61:focus, .f_fs61:focus{ font-size: 61px !important; } .v_f-s61:visited, .v_fs61:visited{ font-size: 61px !important; } .l_f-s61:link, .l_fs61:link{ font-size: 61px !important; }
+.f-s62, .fs62{ font-size: 62px !important; } .a_f-s62:active, .a_fs62:active{ font-size: 62px !important; } .h_f-s62:hover, .h_fs62:hover{ font-size: 62px !important; } .f_f-s62:focus, .f_fs62:focus{ font-size: 62px !important; } .v_f-s62:visited, .v_fs62:visited{ font-size: 62px !important; } .l_f-s62:link, .l_fs62:link{ font-size: 62px !important; }
+.f-s63, .fs63{ font-size: 63px !important; } .a_f-s63:active, .a_fs63:active{ font-size: 63px !important; } .h_f-s63:hover, .h_fs63:hover{ font-size: 63px !important; } .f_f-s63:focus, .f_fs63:focus{ font-size: 63px !important; } .v_f-s63:visited, .v_fs63:visited{ font-size: 63px !important; } .l_f-s63:link, .l_fs63:link{ font-size: 63px !important; }
+.f-s64, .fs64{ font-size: 64px !important; } .a_f-s64:active, .a_fs64:active{ font-size: 64px !important; } .h_f-s64:hover, .h_fs64:hover{ font-size: 64px !important; } .f_f-s64:focus, .f_fs64:focus{ font-size: 64px !important; } .v_f-s64:visited, .v_fs64:visited{ font-size: 64px !important; } .l_f-s64:link, .l_fs64:link{ font-size: 64px !important; }
+.f-s65, .fs65{ font-size: 65px !important; } .a_f-s65:active, .a_fs65:active{ font-size: 65px !important; } .h_f-s65:hover, .h_fs65:hover{ font-size: 65px !important; } .f_f-s65:focus, .f_fs65:focus{ font-size: 65px !important; } .v_f-s65:visited, .v_fs65:visited{ font-size: 65px !important; } .l_f-s65:link, .l_fs65:link{ font-size: 65px !important; }
+.f-s66, .fs66{ font-size: 66px !important; } .a_f-s66:active, .a_fs66:active{ font-size: 66px !important; } .h_f-s66:hover, .h_fs66:hover{ font-size: 66px !important; } .f_f-s66:focus, .f_fs66:focus{ font-size: 66px !important; } .v_f-s66:visited, .v_fs66:visited{ font-size: 66px !important; } .l_f-s66:link, .l_fs66:link{ font-size: 66px !important; }
+.f-s67, .fs67{ font-size: 67px !important; } .a_f-s67:active, .a_fs67:active{ font-size: 67px !important; } .h_f-s67:hover, .h_fs67:hover{ font-size: 67px !important; } .f_f-s67:focus, .f_fs67:focus{ font-size: 67px !important; } .v_f-s67:visited, .v_fs67:visited{ font-size: 67px !important; } .l_f-s67:link, .l_fs67:link{ font-size: 67px !important; }
+.f-s68, .fs68{ font-size: 68px !important; } .a_f-s68:active, .a_fs68:active{ font-size: 68px !important; } .h_f-s68:hover, .h_fs68:hover{ font-size: 68px !important; } .f_f-s68:focus, .f_fs68:focus{ font-size: 68px !important; } .v_f-s68:visited, .v_fs68:visited{ font-size: 68px !important; } .l_f-s68:link, .l_fs68:link{ font-size: 68px !important; }
+.f-s69, .fs69{ font-size: 69px !important; } .a_f-s69:active, .a_fs69:active{ font-size: 69px !important; } .h_f-s69:hover, .h_fs69:hover{ font-size: 69px !important; } .f_f-s69:focus, .f_fs69:focus{ font-size: 69px !important; } .v_f-s69:visited, .v_fs69:visited{ font-size: 69px !important; } .l_f-s69:link, .l_fs69:link{ font-size: 69px !important; }
+.f-s70, .fs70{ font-size: 70px !important; } .a_f-s70:active, .a_fs70:active{ font-size: 70px !important; } .h_f-s70:hover, .h_fs70:hover{ font-size: 70px !important; } .f_f-s70:focus, .f_fs70:focus{ font-size: 70px !important; } .v_f-s70:visited, .v_fs70:visited{ font-size: 70px !important; } .l_f-s70:link, .l_fs70:link{ font-size: 70px !important; }
+.f-s71, .fs71{ font-size: 71px !important; } .a_f-s71:active, .a_fs71:active{ font-size: 71px !important; } .h_f-s71:hover, .h_fs71:hover{ font-size: 71px !important; } .f_f-s71:focus, .f_fs71:focus{ font-size: 71px !important; } .v_f-s71:visited, .v_fs71:visited{ font-size: 71px !important; } .l_f-s71:link, .l_fs71:link{ font-size: 71px !important; }
+.f-s72, .fs72{ font-size: 72px !important; } .a_f-s72:active, .a_fs72:active{ font-size: 72px !important; } .h_f-s72:hover, .h_fs72:hover{ font-size: 72px !important; } .f_f-s72:focus, .f_fs72:focus{ font-size: 72px !important; } .v_f-s72:visited, .v_fs72:visited{ font-size: 72px !important; } .l_f-s72:link, .l_fs72:link{ font-size: 72px !important; }
+.f-s73, .fs73{ font-size: 73px !important; } .a_f-s73:active, .a_fs73:active{ font-size: 73px !important; } .h_f-s73:hover, .h_fs73:hover{ font-size: 73px !important; } .f_f-s73:focus, .f_fs73:focus{ font-size: 73px !important; } .v_f-s73:visited, .v_fs73:visited{ font-size: 73px !important; } .l_f-s73:link, .l_fs73:link{ font-size: 73px !important; }
+.f-s74, .fs74{ font-size: 74px !important; } .a_f-s74:active, .a_fs74:active{ font-size: 74px !important; } .h_f-s74:hover, .h_fs74:hover{ font-size: 74px !important; } .f_f-s74:focus, .f_fs74:focus{ font-size: 74px !important; } .v_f-s74:visited, .v_fs74:visited{ font-size: 74px !important; } .l_f-s74:link, .l_fs74:link{ font-size: 74px !important; }
+.f-s75, .fs75{ font-size: 75px !important; } .a_f-s75:active, .a_fs75:active{ font-size: 75px !important; } .h_f-s75:hover, .h_fs75:hover{ font-size: 75px !important; } .f_f-s75:focus, .f_fs75:focus{ font-size: 75px !important; } .v_f-s75:visited, .v_fs75:visited{ font-size: 75px !important; } .l_f-s75:link, .l_fs75:link{ font-size: 75px !important; }
+.f-s76, .fs76{ font-size: 76px !important; } .a_f-s76:active, .a_fs76:active{ font-size: 76px !important; } .h_f-s76:hover, .h_fs76:hover{ font-size: 76px !important; } .f_f-s76:focus, .f_fs76:focus{ font-size: 76px !important; } .v_f-s76:visited, .v_fs76:visited{ font-size: 76px !important; } .l_f-s76:link, .l_fs76:link{ font-size: 76px !important; }
+.f-s77, .fs77{ font-size: 77px !important; } .a_f-s77:active, .a_fs77:active{ font-size: 77px !important; } .h_f-s77:hover, .h_fs77:hover{ font-size: 77px !important; } .f_f-s77:focus, .f_fs77:focus{ font-size: 77px !important; } .v_f-s77:visited, .v_fs77:visited{ font-size: 77px !important; } .l_f-s77:link, .l_fs77:link{ font-size: 77px !important; }
+.f-s78, .fs78{ font-size: 78px !important; } .a_f-s78:active, .a_fs78:active{ font-size: 78px !important; } .h_f-s78:hover, .h_fs78:hover{ font-size: 78px !important; } .f_f-s78:focus, .f_fs78:focus{ font-size: 78px !important; } .v_f-s78:visited, .v_fs78:visited{ font-size: 78px !important; } .l_f-s78:link, .l_fs78:link{ font-size: 78px !important; }
+.f-s79, .fs79{ font-size: 79px !important; } .a_f-s79:active, .a_fs79:active{ font-size: 79px !important; } .h_f-s79:hover, .h_fs79:hover{ font-size: 79px !important; } .f_f-s79:focus, .f_fs79:focus{ font-size: 79px !important; } .v_f-s79:visited, .v_fs79:visited{ font-size: 79px !important; } .l_f-s79:link, .l_fs79:link{ font-size: 79px !important; }
+.f-s80, .fs80{ font-size: 80px !important; } .a_f-s80:active, .a_fs80:active{ font-size: 80px !important; } .h_f-s80:hover, .h_fs80:hover{ font-size: 80px !important; } .f_f-s80:focus, .f_fs80:focus{ font-size: 80px !important; } .v_f-s80:visited, .v_fs80:visited{ font-size: 80px !important; } .l_f-s80:link, .l_fs80:link{ font-size: 80px !important; }
+.f-s81, .fs81{ font-size: 81px !important; } .a_f-s81:active, .a_fs81:active{ font-size: 81px !important; } .h_f-s81:hover, .h_fs81:hover{ font-size: 81px !important; } .f_f-s81:focus, .f_fs81:focus{ font-size: 81px !important; } .v_f-s81:visited, .v_fs81:visited{ font-size: 81px !important; } .l_f-s81:link, .l_fs81:link{ font-size: 81px !important; }
+.f-s82, .fs82{ font-size: 82px !important; } .a_f-s82:active, .a_fs82:active{ font-size: 82px !important; } .h_f-s82:hover, .h_fs82:hover{ font-size: 82px !important; } .f_f-s82:focus, .f_fs82:focus{ font-size: 82px !important; } .v_f-s82:visited, .v_fs82:visited{ font-size: 82px !important; } .l_f-s82:link, .l_fs82:link{ font-size: 82px !important; }
+.f-s83, .fs83{ font-size: 83px !important; } .a_f-s83:active, .a_fs83:active{ font-size: 83px !important; } .h_f-s83:hover, .h_fs83:hover{ font-size: 83px !important; } .f_f-s83:focus, .f_fs83:focus{ font-size: 83px !important; } .v_f-s83:visited, .v_fs83:visited{ font-size: 83px !important; } .l_f-s83:link, .l_fs83:link{ font-size: 83px !important; }
+.f-s84, .fs84{ font-size: 84px !important; } .a_f-s84:active, .a_fs84:active{ font-size: 84px !important; } .h_f-s84:hover, .h_fs84:hover{ font-size: 84px !important; } .f_f-s84:focus, .f_fs84:focus{ font-size: 84px !important; } .v_f-s84:visited, .v_fs84:visited{ font-size: 84px !important; } .l_f-s84:link, .l_fs84:link{ font-size: 84px !important; }
+.f-s85, .fs85{ font-size: 85px !important; } .a_f-s85:active, .a_fs85:active{ font-size: 85px !important; } .h_f-s85:hover, .h_fs85:hover{ font-size: 85px !important; } .f_f-s85:focus, .f_fs85:focus{ font-size: 85px !important; } .v_f-s85:visited, .v_fs85:visited{ font-size: 85px !important; } .l_f-s85:link, .l_fs85:link{ font-size: 85px !important; }
+.f-s86, .fs86{ font-size: 86px !important; } .a_f-s86:active, .a_fs86:active{ font-size: 86px !important; } .h_f-s86:hover, .h_fs86:hover{ font-size: 86px !important; } .f_f-s86:focus, .f_fs86:focus{ font-size: 86px !important; } .v_f-s86:visited, .v_fs86:visited{ font-size: 86px !important; } .l_f-s86:link, .l_fs86:link{ font-size: 86px !important; }
+.f-s87, .fs87{ font-size: 87px !important; } .a_f-s87:active, .a_fs87:active{ font-size: 87px !important; } .h_f-s87:hover, .h_fs87:hover{ font-size: 87px !important; } .f_f-s87:focus, .f_fs87:focus{ font-size: 87px !important; } .v_f-s87:visited, .v_fs87:visited{ font-size: 87px !important; } .l_f-s87:link, .l_fs87:link{ font-size: 87px !important; }
+.f-s88, .fs88{ font-size: 88px !important; } .a_f-s88:active, .a_fs88:active{ font-size: 88px !important; } .h_f-s88:hover, .h_fs88:hover{ font-size: 88px !important; } .f_f-s88:focus, .f_fs88:focus{ font-size: 88px !important; } .v_f-s88:visited, .v_fs88:visited{ font-size: 88px !important; } .l_f-s88:link, .l_fs88:link{ font-size: 88px !important; }
+.f-s89, .fs89{ font-size: 89px !important; } .a_f-s89:active, .a_fs89:active{ font-size: 89px !important; } .h_f-s89:hover, .h_fs89:hover{ font-size: 89px !important; } .f_f-s89:focus, .f_fs89:focus{ font-size: 89px !important; } .v_f-s89:visited, .v_fs89:visited{ font-size: 89px !important; } .l_f-s89:link, .l_fs89:link{ font-size: 89px !important; }
+.f-s90, .fs90{ font-size: 90px !important; } .a_f-s90:active, .a_fs90:active{ font-size: 90px !important; } .h_f-s90:hover, .h_fs90:hover{ font-size: 90px !important; } .f_f-s90:focus, .f_fs90:focus{ font-size: 90px !important; } .v_f-s90:visited, .v_fs90:visited{ font-size: 90px !important; } .l_f-s90:link, .l_fs90:link{ font-size: 90px !important; }
+.f-s91, .fs91{ font-size: 91px !important; } .a_f-s91:active, .a_fs91:active{ font-size: 91px !important; } .h_f-s91:hover, .h_fs91:hover{ font-size: 91px !important; } .f_f-s91:focus, .f_fs91:focus{ font-size: 91px !important; } .v_f-s91:visited, .v_fs91:visited{ font-size: 91px !important; } .l_f-s91:link, .l_fs91:link{ font-size: 91px !important; }
+.f-s92, .fs92{ font-size: 92px !important; } .a_f-s92:active, .a_fs92:active{ font-size: 92px !important; } .h_f-s92:hover, .h_fs92:hover{ font-size: 92px !important; } .f_f-s92:focus, .f_fs92:focus{ font-size: 92px !important; } .v_f-s92:visited, .v_fs92:visited{ font-size: 92px !important; } .l_f-s92:link, .l_fs92:link{ font-size: 92px !important; }
+.f-s93, .fs93{ font-size: 93px !important; } .a_f-s93:active, .a_fs93:active{ font-size: 93px !important; } .h_f-s93:hover, .h_fs93:hover{ font-size: 93px !important; } .f_f-s93:focus, .f_fs93:focus{ font-size: 93px !important; } .v_f-s93:visited, .v_fs93:visited{ font-size: 93px !important; } .l_f-s93:link, .l_fs93:link{ font-size: 93px !important; }
+.f-s94, .fs94{ font-size: 94px !important; } .a_f-s94:active, .a_fs94:active{ font-size: 94px !important; } .h_f-s94:hover, .h_fs94:hover{ font-size: 94px !important; } .f_f-s94:focus, .f_fs94:focus{ font-size: 94px !important; } .v_f-s94:visited, .v_fs94:visited{ font-size: 94px !important; } .l_f-s94:link, .l_fs94:link{ font-size: 94px !important; }
+.f-s95, .fs95{ font-size: 95px !important; } .a_f-s95:active, .a_fs95:active{ font-size: 95px !important; } .h_f-s95:hover, .h_fs95:hover{ font-size: 95px !important; } .f_f-s95:focus, .f_fs95:focus{ font-size: 95px !important; } .v_f-s95:visited, .v_fs95:visited{ font-size: 95px !important; } .l_f-s95:link, .l_fs95:link{ font-size: 95px !important; }
+.f-s96, .fs96{ font-size: 96px !important; } .a_f-s96:active, .a_fs96:active{ font-size: 96px !important; } .h_f-s96:hover, .h_fs96:hover{ font-size: 96px !important; } .f_f-s96:focus, .f_fs96:focus{ font-size: 96px !important; } .v_f-s96:visited, .v_fs96:visited{ font-size: 96px !important; } .l_f-s96:link, .l_fs96:link{ font-size: 96px !important; }
+.f-s97, .fs97{ font-size: 97px !important; } .a_f-s97:active, .a_fs97:active{ font-size: 97px !important; } .h_f-s97:hover, .h_fs97:hover{ font-size: 97px !important; } .f_f-s97:focus, .f_fs97:focus{ font-size: 97px !important; } .v_f-s97:visited, .v_fs97:visited{ font-size: 97px !important; } .l_f-s97:link, .l_fs97:link{ font-size: 97px !important; }
+.f-s98, .fs98{ font-size: 98px !important; } .a_f-s98:active, .a_fs98:active{ font-size: 98px !important; } .h_f-s98:hover, .h_fs98:hover{ font-size: 98px !important; } .f_f-s98:focus, .f_fs98:focus{ font-size: 98px !important; } .v_f-s98:visited, .v_fs98:visited{ font-size: 98px !important; } .l_f-s98:link, .l_fs98:link{ font-size: 98px !important; }
+.f-s99, .fs99{ font-size: 99px !important; } .a_f-s99:active, .a_fs99:active{ font-size: 99px !important; } .h_f-s99:hover, .h_fs99:hover{ font-size: 99px !important; } .f_f-s99:focus, .f_fs99:focus{ font-size: 99px !important; } .v_f-s99:visited, .v_fs99:visited{ font-size: 99px !important; } .l_f-s99:link, .l_fs99:link{ font-size: 99px !important; }
+.f-s100, .fs100{ font-size: 100px !important; } .a_f-s100:active, .a_fs100:active{ font-size: 100px !important; } .h_f-s100:hover, .h_fs100:hover{ font-size: 100px !important; } .f_f-s100:focus, .f_fs100:focus{ font-size: 100px !important; } .v_f-s100:visited, .v_fs100:visited{ font-size: 100px !important; } .l_f-s100:link, .l_fs100:link{ font-size: 100px !important; }
+/*.f-s${i}, .fs${i}{ font-size: ${i}px !important; }
+.a_f-s${i}:active, .a_fs${i}:active{ font-size: ${i}px !important; }
+.h_f-s${i}:hover, .h_fs${i}:hover{ font-size: ${i}px !important; }
+.f_f-s${i}:focus, .f_fs${i}:focus{ font-size: ${i}px !important; }
+.v_f-s${i}:visited, .v_fs${i}:visited{ font-size: ${i}px !important; }
+.l_f-s${i}:link, .l_fs${i}:link{ font-size: ${i}px !important; }
+*/
