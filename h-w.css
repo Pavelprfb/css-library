@@ -1,4 +1,17 @@
-
+/*
+.h${i} { height: ${i}px !important; } 
+.w${i} { width: ${i}px !important; }
+.a_h${i}:active { height: ${i}px !important; } 
+.a_w${i}:active { width: ${i}px !important; }
+.h_h${i}:hover { height: ${i}px !important; } 
+.h_w${i}:hover { width: ${i}px !important; }
+.f_h${i}:focus { height: ${i}px !important; } 
+.f_w${i}:focus { width: ${i}px !important; }
+.v_h${i}:visited { height: ${i}px !important; } 
+.v_w${i}:visited { width: ${i}px !important; }
+.l_h${i}:link { height: ${i}px !important; } 
+.l_w${i}:link { width: ${i}px !important; }
+*/
 .h0 { height: 0px !important; } 
 .w0 { width: 0px !important; }
 .a_h0:active { height: 0px !important; } 
