@@ -1,528 +1,95 @@
-/*color code*/
-.c-azure, .cazure{ color: azure !important; }
-.c-black, .cblack{ color: black !important; }
-.c-blue, .cblue{ color: blue !important; }
-.c-cornsilk, .ccornsilk{ color: cornsilk !important; }
-.c-darkblue, .cdarkblue{ color: darkblue !important; }
-.c-darkcyan, .cdarkcyan{ color: darkcyan !important; }
-.c-darkgoldenrod, .cdarkgoldenrod{ color: darkgoldenrod !important; }
-.c-darkgray, .cdarkgray{ color: darkgray !important; }
-.c-darkgreen, .cdarkgreen{ color: darkgreen !important; }
-.c-darkmagenta, .cdarkmagenta{ color: darkmagenta !important; }
-.c-darkorchid, .cdarkorchid{ color: darkorchid !important; }
-.c-darkred, .cdarkred{ color: darkred !important; }
-.c-deep, .cdeep{ color: deep !important; }
-.c-pink, .cpink{ color: pink !important; }
-.c-pink, .cpink{ color: pink !important; }
-.c-firebrick, .cfirebrick{ color: firebrick !important; }
-.c-floralwhite, .cfloralwhite{ color: floralwhite !important; }
-.c-forestgreen, .cforestgreen{ color: forestgreen !important; }
-.c-magenta, .cmagenta{ color: magenta !important; }
-.c-gainsboro, .cgainsboro{ color: gainsboro !important; }
-.c-ghostwhite, .cghostwhite{ color: ghostwhite !important; }
-.c-gold, .cgold{ color: gold !important; }
-.c-goldenrod, .cgoldenrod{ color: goldenrod !important; }
-.c-green, .cgreen{ color: green !important; }
-.c-greenyellow, .cgreenyellow{ color: greenyellow !important; }
-.c-honeydew, .choneydew{ color: honeydew !important; }
-.c-hotpink, .chotpink{ color: hotpink !important; }
-.c-indianred, .cindianred{ color: indianred !important; }
-.c-indigo, .cindigo{ color: indigo !important; }
-.c-ivory, .civory{ color: ivory !important; }
-.c-khaki, .ckhaki{ color: khaki !important; }
-.c-lavender, .clavender{ color: lavender !important; }
-.c-lavenderblush, .clavenderblush{ color: lavenderblush !important; }
-.c-lawngreen, .clawngreen{ color: lawngreen !important; }
-.c-lightblue, .clightblue{ color: lightblue !important; }
-.c-lightcoral, .clightcoral{ color: lightcoral !important; }
-.c-lightcyan, .clightcyan{ color: lightcyan !important; }
-.c-lightgoldenrodyellow, .clightgoldenrodyellow{ color: lightgoldenrodyellow !important; }
-.c-lightgray, .clightgray{ color: lightgray !important; }
-.c-lightgreen, .clightgreen{ color: lightgreen !important; }
-.c-lightpink, .clightpink{ color: lightpink !important; }
-.c-lightslategray, .clightslategray{ color: lightslategray !important; }
-.c-lightsteelblue, .clightsteelblue{ color: lightsteelblue !important; }
-.c-lime, .clime{ color: lime !important; }
-.c-limegreen, .climegreen{ color: limegreen !important; }
-.c-magenta, .cmagenta{ color: magenta !important; }
-.c-maroon, .cmaroon{ color: maroon !important; }
-.c-mediumblue, .cmediumblue{ color: mediumblue !important; }
-.c-mediumspringgreen, .cmediumspringgreen{ color: mediumspringgreen !important; }
-.c-mintcream, .cmintcream{ color: mintcream !important; }
-.c-mistyrose, .cmistyrose{ color: mistyrose !important; }
-.c-moccasin, .cmoccasin{ color: moccasin !important; }
-.c-navajowhite, .cnavajowhite{ color: navajowhite !important; }
-.c-olive, .colive{ color: olive !important; }
-.c-oldlace, .coldlace{ color: oldlace !important; }
-.c-olivedrab, .colivedrab{ color: olivedrab !important; }
-.c-orangered, .corangered{ color: orangered !important; }
-.c-palegreen, .cpalegreen{ color: palegreen !important; }
-.c-papayawhip, .cpapayawhip{ color: papayawhip !important; }
-.c-peachpuff, .cpeachpuff{ color: peachpuff !important; }
-.c-pink, .cpink{ color: pink !important; }
-.c-plum, .cplum{ color: plum !important; }
-.c-powderblue, .cpowderblue{ color: powderblue !important; }
-.c-purple, .cpurple{ color: purple !important; }
-.c-rebeccapurple, .crebeccapurple{ color: rebeccapurple !important; }
-.c-rosybrown, .crosybrown{ color: rosybrown !important; }
-.c-royalblue, .croyalblue{ color: royalblue !important; }
-.c-salmon, .csalmon{ color: salmon !important; }
-.c-sandybrown, .csandybrown{ color: sandybrown !important; }
-.c-seagreen, .cseagreen{ color: seagreen !important; }
-.c-seashell, .cseashell{ color: seashell !important; }
-.c-sienna, .csienna{ color: sienna !important; }
-.c-silver, .csilver{ color: silver !important; }
-.c-skyblue, .cskyblue{ color: skyblue !important; }
-.c-snow, .csnow{ color: snow !important; }
-.c-steelblue, .csteelblue{ color: steelblue !important; }
-.c-tan, .ctan{ color: tan !important; }
-.c-tomato, .ctomato{ color: tomato !important; }
-.c-turquoise, .cturquoise{ color: turquoise !important; }
-.c-violet, .cviolet{ color: violet !important; }
-.c-wheat, .cwheat{ color: wheat !important; }
-.c-white, .cwhite{ color: white !important; }
-.c-whitesmoke, .cwhitesmoke{ color: whitesmoke !important; }
-.c-yellowgreen, .cyellowgreen{ color: yellowgreen !important; }
-.c-red, .cred{ color: red !important; }
-.c-orange, .corange{ color: orange !important; }
-.c-yellow, .cyellow{ color: yellow !important; }
-/*hover color code*/
-.h_c-azure:hover, .h_cazure:hover{ color: azure !important; }
-.h_c-black:hover, .h_cblack:hover{ color: black !important; }
-.h_c-blue:hover, .h_cblue:hover{ color: blue !important; }
-.h_c-cornsilk:hover, .h_ccornsilk:hover{ color: cornsilk !important; }
-.h_c-darkblue:hover, .h_cdarkblue:hover{ color: darkblue !important; }
-.h_c-darkcyan:hover, .h_cdarkcyan:hover{ color: darkcyan !important; }
-.h_c-darkgoldenrod:hover, .h_cdarkgoldenrod:hover{ color: darkgoldenrod !important; }
-.h_c-darkgray:hover, .h_cdarkgray:hover{ color: darkgray !important; }
-.h_c-darkgreen:hover, .h_cdarkgreen:hover{ color: darkgreen !important; }
-.h_c-darkmagenta:hover, .h_cdarkmagenta:hover{ color: darkmagenta !important; }
-.h_c-darkorchid:hover, .h_cdarkorchid:hover{ color: darkorchid !important; }
-.h_c-darkred:hover, .h_cdarkred:hover{ color: darkred !important; }
-.h_c-deep:hover, .h_cdeep:hover{ color: deep !important; }
-.h_c-pink:hover, .h_cpink:hover{ color: pink !important; }
-.h_c-pink:hover, .h_cpink:hover{ color: pink !important; }
-.h_c-firebrick:hover, .h_cfirebrick:hover{ color: firebrick !important; }
-.h_c-floralwhite:hover, .h_cfloralwhite:hover{ color: floralwhite !important; }
-.h_c-forestgreen:hover, .h_cforestgreen:hover{ color: forestgreen !important; }
-.h_c-magenta:hover, .h_cmagenta:hover{ color: magenta !important; }
-.h_c-gainsboro:hover, .h_cgainsboro:hover{ color: gainsboro !important; }
-.h_c-ghostwhite:hover, .h_cghostwhite:hover{ color: ghostwhite !important; }
-.h_c-gold:hover, .h_cgold:hover{ color: gold !important; }
-.h_c-goldenrod:hover, .h_cgoldenrod:hover{ color: goldenrod !important; }
-.h_c-green:hover, .h_cgreen:hover{ color: green !important; }
-.h_c-greenyellow:hover, .h_cgreenyellow:hover{ color: greenyellow !important; }
-.h_c-honeydew:hover, .h_choneydew:hover{ color: honeydew !important; }
-.h_c-hotpink:hover, .h_chotpink:hover{ color: hotpink !important; }
-.h_c-indianred:hover, .h_cindianred:hover{ color: indianred !important; }
-.h_c-indigo:hover, .h_cindigo:hover{ color: indigo !important; }
-.h_c-ivory:hover, .h_civory:hover{ color: ivory !important; }
-.h_c-khaki:hover, .h_ckhaki:hover{ color: khaki !important; }
-.h_c-lavender:hover, .h_clavender:hover{ color: lavender !important; }
-.h_c-lavenderblush:hover, .h_clavenderblush:hover{ color: lavenderblush !important; }
-.h_c-lawngreen:hover, .h_clawngreen:hover{ color: lawngreen !important; }
-.h_c-lightblue:hover, .h_clightblue:hover{ color: lightblue !important; }
-.h_c-lightcoral:hover, .h_clightcoral:hover{ color: lightcoral !important; }
-.h_c-lightcyan:hover, .h_clightcyan:hover{ color: lightcyan !important; }
-.h_c-lightgoldenrodyellow:hover, .h_clightgoldenrodyellow:hover{ color: lightgoldenrodyellow !important; }
-.h_c-lightgray:hover, .h_clightgray:hover{ color: lightgray !important; }
-.h_c-lightgreen:hover, .h_clightgreen:hover{ color: lightgreen !important; }
-.h_c-lightpink:hover, .h_clightpink:hover{ color: lightpink !important; }
-.h_c-lightslategray:hover, .h_clightslategray:hover{ color: lightslategray !important; }
-.h_c-lightsteelblue:hover, .h_clightsteelblue:hover{ color: lightsteelblue !important; }
-.h_c-lime:hover, .h_clime:hover{ color: lime !important; }
-.h_c-limegreen:hover, .h_climegreen:hover{ color: limegreen !important; }
-.h_c-magenta:hover, .h_cmagenta:hover{ color: magenta !important; }
-.h_c-maroon:hover, .h_cmaroon:hover{ color: maroon !important; }
-.h_c-mediumblue:hover, .h_cmediumblue:hover{ color: mediumblue !important; }
-.h_c-mediumspringgreen:hover, .h_cmediumspringgreen:hover{ color: mediumspringgreen !important; }
-.h_c-mintcream:hover, .h_cmintcream:hover{ color: mintcream !important; }
-.h_c-mistyrose:hover, .h_cmistyrose:hover{ color: mistyrose !important; }
-.h_c-moccasin:hover, .h_cmoccasin:hover{ color: moccasin !important; }
-.h_c-navajowhite:hover, .h_cnavajowhite:hover{ color: navajowhite !important; }
-.h_c-olive:hover, .h_colive:hover{ color: olive !important; }
-.h_c-oldlace:hover, .h_coldlace:hover{ color: oldlace !important; }
-.h_c-olivedrab:hover, .h_colivedrab:hover{ color: olivedrab !important; }
-.h_c-orangered:hover, .h_corangered:hover{ color: orangered !important; }
-.h_c-palegreen:hover, .h_cpalegreen:hover{ color: palegreen !important; }
-.h_c-papayawhip:hover, .h_cpapayawhip:hover{ color: papayawhip !important; }
-.h_c-peachpuff:hover, .h_cpeachpuff:hover{ color: peachpuff !important; }
-.h_c-pink:hover, .h_cpink:hover{ color: pink !important; }
-.h_c-plum:hover, .h_cplum:hover{ color: plum !important; }
-.h_c-powderblue:hover, .h_cpowderblue:hover{ color: powderblue !important; }
-.h_c-purple:hover, .h_cpurple:hover{ color: purple !important; }
-.h_c-rebeccapurple:hover, .h_crebeccapurple:hover{ color: rebeccapurple !important; }
-.h_c-rosybrown:hover, .h_crosybrown:hover{ color: rosybrown !important; }
-.h_c-royalblue:hover, .h_croyalblue:hover{ color: royalblue !important; }
-.h_c-salmon:hover, .h_csalmon:hover{ color: salmon !important; }
-.h_c-sandybrown:hover, .h_csandybrown:hover{ color: sandybrown !important; }
-.h_c-seagreen:hover, .h_cseagreen:hover{ color: seagreen !important; }
-.h_c-seashell:hover, .h_cseashell:hover{ color: seashell !important; }
-.h_c-sienna:hover, .h_csienna:hover{ color: sienna !important; }
-.h_c-silver:hover, .h_csilver:hover{ color: silver !important; }
-.h_c-skyblue:hover, .h_cskyblue:hover{ color: skyblue !important; }
-.h_c-snow:hover, .h_csnow:hover{ color: snow !important; }
-.h_c-steelblue:hover, .h_csteelblue:hover{ color: steelblue !important; }
-.h_c-tan:hover, .h_ctan:hover{ color: tan !important; }
-.h_c-tomato:hover, .h_ctomato:hover{ color: tomato !important; }
-.h_c-turquoise:hover, .h_cturquoise:hover{ color: turquoise !important; }
-.h_c-violet:hover, .h_cviolet:hover{ color: violet !important; }
-.h_c-wheat:hover, .h_cwheat:hover{ color: wheat !important; }
-.h_c-white:hover, .h_cwhite:hover{ color: white !important; }
-.h_c-whitesmoke:hover, .h_cwhitesmoke:hover{ color: whitesmoke !important; }
-.h_c-yellowgreen:hover, .h_cyellowgreen:hover{ color: yellowgreen !important; }
-.h_c-red:hover, .h_cred:hover{ color: red !important; }
-.h_c-orange:hover, .h_corange:hover{ color: orange !important; }
-.h_c-yellow:hover, .h_cyellow:hover{ color: yellow !important; 
-/*active color code*/
-.a_c-azure:active, .a_cazure:active{ color: azure !important; }
-.a_c-black:active, .a_cblack:active{ color: black !important; }
-.a_c-blue:active, .a_cblue:active{ color: blue !important; }
-.a_c-cornsilk:active, .a_ccornsilk:active{ color: cornsilk !important; }
-.a_c-darkblue:active, .a_cdarkblue:active{ color: darkblue !important; }
-.a_c-darkcyan:active, .a_cdarkcyan:active{ color: darkcyan !important; }
-.a_c-darkgoldenrod:active, .a_cdarkgoldenrod:active{ color: darkgoldenrod !important; }
-.a_c-darkgray:active, .a_cdarkgray:active{ color: darkgray !important; }
-.a_c-darkgreen:active, .a_cdarkgreen:active{ color: darkgreen !important; }
-.a_c-darkmagenta:active, .a_cdarkmagenta:active{ color: darkmagenta !important; }
-.a_c-darkorchid:active, .a_cdarkorchid:active{ color: darkorchid !important; }
-.a_c-darkred:active, .a_cdarkred:active{ color: darkred !important; }
-.a_c-deep:active, .a_cdeep:active{ color: deep !important; }
-.a_c-pink:active, .a_cpink:active{ color: pink !important; }
-.a_c-pink:active, .a_cpink:active{ color: pink !important; }
-.a_c-firebrick:active, .a_cfirebrick:active{ color: firebrick !important; }
-.a_c-floralwhite:active, .a_cfloralwhite:active{ color: floralwhite !important; }
-.a_c-forestgreen:active, .a_cforestgreen:active{ color: forestgreen !important; }
-.a_c-magenta:active, .a_cmagenta:active{ color: magenta !important; }
-.a_c-gainsboro:active, .a_cgainsboro:active{ color: gainsboro !important; }
-.a_c-ghostwhite:active, .a_cghostwhite:active{ color: ghostwhite !important; }
-.a_c-gold:active, .a_cgold:active{ color: gold !important; }
-.a_c-goldenrod:active, .a_cgoldenrod:active{ color: goldenrod !important; }
-.a_c-green:active, .a_cgreen:active{ color: green !important; }
-.a_c-greenyellow:active, .a_cgreenyellow:active{ color: greenyellow !important; }
-.a_c-honeydew:active, .a_choneydew:active{ color: honeydew !important; }
-.a_c-hotpink:active, .a_chotpink:active{ color: hotpink !important; }
-.a_c-indianred:active, .a_cindianred:active{ color: indianred !important; }
-.a_c-indigo:active, .a_cindigo:active{ color: indigo !important; }
-.a_c-ivory:active, .a_civory:active{ color: ivory !important; }
-.a_c-khaki:active, .a_ckhaki:active{ color: khaki !important; }
-.a_c-lavender:active, .a_clavender:active{ color: lavender !important; }
-.a_c-lavenderblush:active, .a_clavenderblush:active{ color: lavenderblush !important; }
-.a_c-lawngreen:active, .a_clawngreen:active{ color: lawngreen !important; }
-.a_c-lightblue:active, .a_clightblue:active{ color: lightblue !important; }
-.a_c-lightcoral:active, .a_clightcoral:active{ color: lightcoral !important; }
-.a_c-lightcyan:active, .a_clightcyan:active{ color: lightcyan !important; }
-.a_c-lightgoldenrodyellow:active, .a_clightgoldenrodyellow:active{ color: lightgoldenrodyellow !important; }
-.a_c-lightgray:active, .a_clightgray:active{ color: lightgray !important; }
-.a_c-lightgreen:active, .a_clightgreen:active{ color: lightgreen !important; }
-.a_c-lightpink:active, .a_clightpink:active{ color: lightpink !important; }
-.a_c-lightslategray:active, .a_clightslategray:active{ color: lightslategray !important; }
-.a_c-lightsteelblue:active, .a_clightsteelblue:active{ color: lightsteelblue !important; }
-.a_c-lime:active, .a_clime:active{ color: lime !important; }
-.a_c-limegreen:active, .a_climegreen:active{ color: limegreen !important; }
-.a_c-magenta:active, .a_cmagenta:active{ color: magenta !important; }
-.a_c-maroon:active, .a_cmaroon:active{ color: maroon !important; }
-.a_c-mediumblue:active, .a_cmediumblue:active{ color: mediumblue !important; }
-.a_c-mediumspringgreen:active, .a_cmediumspringgreen:active{ color: mediumspringgreen !important; }
-.a_c-mintcream:active, .a_cmintcream:active{ color: mintcream !important; }
-.a_c-mistyrose:active, .a_cmistyrose:active{ color: mistyrose !important; }
-.a_c-moccasin:active, .a_cmoccasin:active{ color: moccasin !important; }
-.a_c-navajowhite:active, .a_cnavajowhite:active{ color: navajowhite !important; }
-.a_c-olive:active, .a_colive:active{ color: olive !important; }
-.a_c-oldlace:active, .a_coldlace:active{ color: oldlace !important; }
-.a_c-olivedrab:active, .a_colivedrab:active{ color: olivedrab !important; }
-.a_c-orangered:active, .a_corangered:active{ color: orangered !important; }
-.a_c-palegreen:active, .a_cpalegreen:active{ color: palegreen !important; }
-.a_c-papayawhip:active, .a_cpapayawhip:active{ color: papayawhip !important; }
-.a_c-peachpuff:active, .a_cpeachpuff:active{ color: peachpuff !important; }
-.a_c-pink:active, .a_cpink:active{ color: pink !important; }
-.a_c-plum:active, .a_cplum:active{ color: plum !important; }
-.a_c-powderblue:active, .a_cpowderblue:active{ color: powderblue !important; }
-.a_c-purple:active, .a_cpurple:active{ color: purple !important; }
-.a_c-rebeccapurple:active, .a_crebeccapurple:active{ color: rebeccapurple !important; }
-.a_c-rosybrown:active, .a_crosybrown:active{ color: rosybrown !important; }
-.a_c-royalblue:active, .a_croyalblue:active{ color: royalblue !important; }
-.a_c-salmon:active, .a_csalmon:active{ color: salmon !important; }
-.a_c-sandybrown:active, .a_csandybrown:active{ color: sandybrown !important; }
-.a_c-seagreen:active, .a_cseagreen:active{ color: seagreen !important; }
-.a_c-seashell:active, .a_cseashell:active{ color: seashell !important; }
-.a_c-sienna:active, .a_csienna:active{ color: sienna !important; }
-.a_c-silver:active, .a_csilver:active{ color: silver !important; }
-.a_c-skyblue:active, .a_cskyblue:active{ color: skyblue !important; }
-.a_c-snow:active, .a_csnow:active{ color: snow !important; }
-.a_c-steelblue:active, .a_csteelblue:active{ color: steelblue !important; }
-.a_c-tan:active, .a_ctan:active{ color: tan !important; }
-.a_c-tomato:active, .a_ctomato:active{ color: tomato !important; }
-.a_c-turquoise:active, .a_cturquoise:active{ color: turquoise !important; }
-.a_c-violet:active, .a_cviolet:active{ color: violet !important; }
-.a_c-wheat:active, .a_cwheat:active{ color: wheat !important; }
-.a_c-white:active, .a_cwhite:active{ color: white !important; }
-.a_c-whitesmoke:active, .a_cwhitesmoke:active{ color: whitesmoke !important; }
-.a_c-yellowgreen:active, .a_cyellowgreen:active{ color: yellowgreen !important; }
-.a_c-red:active, .a_cred:active{ color: red !important; }
-.a_c-orange:active, .a_corange:active{ color: orange !important; }
-.a_c-yellow:active, .a_cyellow:active{ color: yellow !important; }
-/*focus color code*/
-.a_c-azure:active, .a_cazure:active{ color: azure !important; }
-.a_c-black:active, .a_cblack:active{ color: black !important; }
-.a_c-blue:active, .a_cblue:active{ color: blue !important; }
-.a_c-cornsilk:active, .a_ccornsilk:active{ color: cornsilk !important; }
-.a_c-darkblue:active, .a_cdarkblue:active{ color: darkblue !important; }
-.a_c-darkcyan:active, .a_cdarkcyan:active{ color: darkcyan !important; }
-.a_c-darkgoldenrod:active, .a_cdarkgoldenrod:active{ color: darkgoldenrod !important; }
-.a_c-darkgray:active, .a_cdarkgray:active{ color: darkgray !important; }
-.a_c-darkgreen:active, .a_cdarkgreen:active{ color: darkgreen !important; }
-.a_c-darkmagenta:active, .a_cdarkmagenta:active{ color: darkmagenta !important; }
-.a_c-darkorchid:active, .a_cdarkorchid:active{ color: darkorchid !important; }
-.a_c-darkred:active, .a_cdarkred:active{ color: darkred !important; }
-.a_c-deep:active, .a_cdeep:active{ color: deep !important; }
-.a_c-pink:active, .a_cpink:active{ color: pink !important; }
-.a_c-pink:active, .a_cpink:active{ color: pink !important; }
-.a_c-firebrick:active, .a_cfirebrick:active{ color: firebrick !important; }
-.a_c-floralwhite:active, .a_cfloralwhite:active{ color: floralwhite !important; }
-.a_c-forestgreen:active, .a_cforestgreen:active{ color: forestgreen !important; }
-.a_c-magenta:active, .a_cmagenta:active{ color: magenta !important; }
-.a_c-gainsboro:active, .a_cgainsboro:active{ color: gainsboro !important; }
-.a_c-ghostwhite:active, .a_cghostwhite:active{ color: ghostwhite !important; }
-.a_c-gold:active, .a_cgold:active{ color: gold !important; }
-.a_c-goldenrod:active, .a_cgoldenrod:active{ color: goldenrod !important; }
-.a_c-green:active, .a_cgreen:active{ color: green !important; }
-.a_c-greenyellow:active, .a_cgreenyellow:active{ color: greenyellow !important; }
-.a_c-honeydew:active, .a_choneydew:active{ color: honeydew !important; }
-.a_c-hotpink:active, .a_chotpink:active{ color: hotpink !important; }
-.a_c-indianred:active, .a_cindianred:active{ color: indianred !important; }
-.a_c-indigo:active, .a_cindigo:active{ color: indigo !important; }
-.a_c-ivory:active, .a_civory:active{ color: ivory !important; }
-.a_c-khaki:active, .a_ckhaki:active{ color: khaki !important; }
-.a_c-lavender:active, .a_clavender:active{ color: lavender !important; }
-.a_c-lavenderblush:active, .a_clavenderblush:active{ color: lavenderblush !important; }
-.a_c-lawngreen:active, .a_clawngreen:active{ color: lawngreen !important; }
-.a_c-lightblue:active, .a_clightblue:active{ color: lightblue !important; }
-.a_c-lightcoral:active, .a_clightcoral:active{ color: lightcoral !important; }
-.a_c-lightcyan:active, .a_clightcyan:active{ color: lightcyan !important; }
-.a_c-lightgoldenrodyellow:active, .a_clightgoldenrodyellow:active{ color: lightgoldenrodyellow !important; }
-.a_c-lightgray:active, .a_clightgray:active{ color: lightgray !important; }
-.a_c-lightgreen:active, .a_clightgreen:active{ color: lightgreen !important; }
-.a_c-lightpink:active, .a_clightpink:active{ color: lightpink !important; }
-.a_c-lightslategray:active, .a_clightslategray:active{ color: lightslategray !important; }
-.a_c-lightsteelblue:active, .a_clightsteelblue:active{ color: lightsteelblue !important; }
-.a_c-lime:active, .a_clime:active{ color: lime !important; }
-.a_c-limegreen:active, .a_climegreen:active{ color: limegreen !important; }
-.a_c-magenta:active, .a_cmagenta:active{ color: magenta !important; }
-.a_c-maroon:active, .a_cmaroon:active{ color: maroon !important; }
-.a_c-mediumblue:active, .a_cmediumblue:active{ color: mediumblue !important; }
-.a_c-mediumspringgreen:active, .a_cmediumspringgreen:active{ color: mediumspringgreen !important; }
-.a_c-mintcream:active, .a_cmintcream:active{ color: mintcream !important; }
-.a_c-mistyrose:active, .a_cmistyrose:active{ color: mistyrose !important; }
-.a_c-moccasin:active, .a_cmoccasin:active{ color: moccasin !important; }
-.a_c-navajowhite:active, .a_cnavajowhite:active{ color: navajowhite !important; }
-.a_c-olive:active, .a_colive:active{ color: olive !important; }
-.a_c-oldlace:active, .a_coldlace:active{ color: oldlace !important; }
-.a_c-olivedrab:active, .a_colivedrab:active{ color: olivedrab !important; }
-.a_c-orangered:active, .a_corangered:active{ color: orangered !important; }
-.a_c-palegreen:active, .a_cpalegreen:active{ color: palegreen !important; }
-.a_c-papayawhip:active, .a_cpapayawhip:active{ color: papayawhip !important; }
-.a_c-peachpuff:active, .a_cpeachpuff:active{ color: peachpuff !important; }
-.a_c-pink:active, .a_cpink:active{ color: pink !important; }
-.a_c-plum:active, .a_cplum:active{ color: plum !important; }
-.a_c-powderblue:active, .a_cpowderblue:active{ color: powderblue !important; }
-.a_c-purple:active, .a_cpurple:active{ color: purple !important; }
-.a_c-rebeccapurple:active, .a_crebeccapurple:active{ color: rebeccapurple !important; }
-.a_c-rosybrown:active, .a_crosybrown:active{ color: rosybrown !important; }
-.a_c-royalblue:active, .a_croyalblue:active{ color: royalblue !important; }
-.a_c-salmon:active, .a_csalmon:active{ color: salmon !important; }
-.a_c-sandybrown:active, .a_csandybrown:active{ color: sandybrown !important; }
-.a_c-seagreen:active, .a_cseagreen:active{ color: seagreen !important; }
-.a_c-seashell:active, .a_cseashell:active{ color: seashell !important; }
-.a_c-sienna:active, .a_csienna:active{ color: sienna !important; }
-.a_c-silver:active, .a_csilver:active{ color: silver !important; }
-.a_c-skyblue:active, .a_cskyblue:active{ color: skyblue !important; }
-.a_c-snow:active, .a_csnow:active{ color: snow !important; }
-.a_c-steelblue:active, .a_csteelblue:active{ color: steelblue !important; }
-.a_c-tan:active, .a_ctan:active{ color: tan !important; }
-.a_c-tomato:active, .a_ctomato:active{ color: tomato !important; }
-.a_c-turquoise:active, .a_cturquoise:active{ color: turquoise !important; }
-.a_c-violet:active, .a_cviolet:active{ color: violet !important; }
-.a_c-wheat:active, .a_cwheat:active{ color: wheat !important; }
-.a_c-white:active, .a_cwhite:active{ color: white !important; }
-.a_c-whitesmoke:active, .a_cwhitesmoke:active{ color: whitesmoke !important; }
-.a_c-yellowgreen:active, .a_cyellowgreen:active{ color: yellowgreen !important; }
-.a_c-red:active, .a_cred:active{ color: red !important; }
-.a_c-orange:active, .a_corange:active{ color: orange !important; }
-.a_c-yellow:active, .a_cyellow:active{ color: yellow !important; }
-/*link color code*/
-.l_c-azure:link, .l_cazure:link{ color: azure !important; }
-.l_c-black:link, .l_cblack:link{ color: black !important; }
-.l_c-blue:link, .l_cblue:link{ color: blue !important; }
-.l_c-cornsilk:link, .l_ccornsilk:link{ color: cornsilk !important; }
-.l_c-darkblue:link, .l_cdarkblue:link{ color: darkblue !important; }
-.l_c-darkcyan:link, .l_cdarkcyan:link{ color: darkcyan !important; }
-.l_c-darkgoldenrod:link, .l_cdarkgoldenrod:link{ color: darkgoldenrod !important; }
-.l_c-darkgray:link, .l_cdarkgray:link{ color: darkgray !important; }
-.l_c-darkgreen:link, .l_cdarkgreen:link{ color: darkgreen !important; }
-.l_c-darkmagenta:link, .l_cdarkmagenta:link{ color: darkmagenta !important; }
-.l_c-darkorchid:link, .l_cdarkorchid:link{ color: darkorchid !important; }
-.l_c-darkred:link, .l_cdarkred:link{ color: darkred !important; }
-.l_c-deep:link, .l_cdeep:link{ color: deep !important; }
-.l_c-pink:link, .l_cpink:link{ color: pink !important; }
-.l_c-pink:link, .l_cpink:link{ color: pink !important; }
-.l_c-firebrick:link, .l_cfirebrick:link{ color: firebrick !important; }
-.l_c-floralwhite:link, .l_cfloralwhite:link{ color: floralwhite !important; }
-.l_c-forestgreen:link, .l_cforestgreen:link{ color: forestgreen !important; }
-.l_c-magenta:link, .l_cmagenta:link{ color: magenta !important; }
-.l_c-gainsboro:link, .l_cgainsboro:link{ color: gainsboro !important; }
-.l_c-ghostwhite:link, .l_cghostwhite:link{ color: ghostwhite !important; }
-.l_c-gold:link, .l_cgold:link{ color: gold !important; }
-.l_c-goldenrod:link, .l_cgoldenrod:link{ color: goldenrod !important; }
-.l_c-green:link, .l_cgreen:link{ color: green !important; }
-.l_c-greenyellow:link, .l_cgreenyellow:link{ color: greenyellow !important; }
-.l_c-honeydew:link, .l_choneydew:link{ color: honeydew !important; }
-.l_c-hotpink:link, .l_chotpink:link{ color: hotpink !important; }
-.l_c-indianred:link, .l_cindianred:link{ color: indianred !important; }
-.l_c-indigo:link, .l_cindigo:link{ color: indigo !important; }
-.l_c-ivory:link, .l_civory:link{ color: ivory !important; }
-.l_c-khaki:link, .l_ckhaki:link{ color: khaki !important; }
-.l_c-lavender:link, .l_clavender:link{ color: lavender !important; }
-.l_c-lavenderblush:link, .l_clavenderblush:link{ color: lavenderblush !important; }
-.l_c-lawngreen:link, .l_clawngreen:link{ color: lawngreen !important; }
-.l_c-lightblue:link, .l_clightblue:link{ color: lightblue !important; }
-.l_c-lightcoral:link, .l_clightcoral:link{ color: lightcoral !important; }
-.l_c-lightcyan:link, .l_clightcyan:link{ color: lightcyan !important; }
-.l_c-lightgoldenrodyellow:link, .l_clightgoldenrodyellow:link{ color: lightgoldenrodyellow !important; }
-.l_c-lightgray:link, .l_clightgray:link{ color: lightgray !important; }
-.l_c-lightgreen:link, .l_clightgreen:link{ color: lightgreen !important; }
-.l_c-lightpink:link, .l_clightpink:link{ color: lightpink !important; }
-.l_c-lightslategray:link, .l_clightslategray:link{ color: lightslategray !important; }
-.l_c-lightsteelblue:link, .l_clightsteelblue:link{ color: lightsteelblue !important; }
-.l_c-lime:link, .l_clime:link{ color: lime !important; }
-.l_c-limegreen:link, .l_climegreen:link{ color: limegreen !important; }
-.l_c-magenta:link, .l_cmagenta:link{ color: magenta !important; }
-.l_c-maroon:link, .l_cmaroon:link{ color: maroon !important; }
-.l_c-mediumblue:link, .l_cmediumblue:link{ color: mediumblue !important; }
-.l_c-mediumspringgreen:link, .l_cmediumspringgreen:link{ color: mediumspringgreen !important; }
-.l_c-mintcream:link, .l_cmintcream:link{ color: mintcream !important; }
-.l_c-mistyrose:link, .l_cmistyrose:link{ color: mistyrose !important; }
-.l_c-moccasin:link, .l_cmoccasin:link{ color: moccasin !important; }
-.l_c-navajowhite:link, .l_cnavajowhite:link{ color: navajowhite !important; }
-.l_c-olive:link, .l_colive:link{ color: olive !important; }
-.l_c-oldlace:link, .l_coldlace:link{ color: oldlace !important; }
-.l_c-olivedrab:link, .l_colivedrab:link{ color: olivedrab !important; }
-.l_c-orangered:link, .l_corangered:link{ color: orangered !important; }
-.l_c-palegreen:link, .l_cpalegreen:link{ color: palegreen !important; }
-.l_c-papayawhip:link, .l_cpapayawhip:link{ color: papayawhip !important; }
-.l_c-peachpuff:link, .l_cpeachpuff:link{ color: peachpuff !important; }
-.l_c-pink:link, .l_cpink:link{ color: pink !important; }
-.l_c-plum:link, .l_cplum:link{ color: plum !important; }
-.l_c-powderblue:link, .l_cpowderblue:link{ color: powderblue !important; }
-.l_c-purple:link, .l_cpurple:link{ color: purple !important; }
-.l_c-rebeccapurple:link, .l_crebeccapurple:link{ color: rebeccapurple !important; }
-.l_c-rosybrown:link, .l_crosybrown:link{ color: rosybrown !important; }
-.l_c-royalblue:link, .l_croyalblue:link{ color: royalblue !important; }
-.l_c-salmon:link, .l_csalmon:link{ color: salmon !important; }
-.l_c-sandybrown:link, .l_csandybrown:link{ color: sandybrown !important; }
-.l_c-seagreen:link, .l_cseagreen:link{ color: seagreen !important; }
-.l_c-seashell:link, .l_cseashell:link{ color: seashell !important; }
-.l_c-sienna:link, .l_csienna:link{ color: sienna !important; }
-.l_c-silver:link, .l_csilver:link{ color: silver !important; }
-.l_c-skyblue:link, .l_cskyblue:link{ color: skyblue !important; }
-.l_c-snow:link, .l_csnow:link{ color: snow !important; }
-.l_c-steelblue:link, .l_csteelblue:link{ color: steelblue !important; }
-.l_c-tan:link, .l_ctan:link{ color: tan !important; }
-.l_c-tomato:link, .l_ctomato:link{ color: tomato !important; }
-.l_c-turquoise:link, .l_cturquoise:link{ color: turquoise !important; }
-.l_c-violet:link, .l_cviolet:link{ color: violet !important; }
-.l_c-wheat:link, .l_cwheat:link{ color: wheat !important; }
-.l_c-white:link, .l_cwhite:link{ color: white !important; }
-.l_c-whitesmoke:link, .l_cwhitesmoke:link{ color: whitesmoke !important; }
-.l_c-yellowgreen:link, .l_cyellowgreen:link{ color: yellowgreen !important; }
-.l_c-red:link, .l_cred:link{ color: red !important; }
-.l_c-orange:link, .l_corange:link{ color: orange !important; }
-.l_c-yellow:link, .l_cyellow:link{ color: yellow !important; }
-/*visited color code*/
-.v_c-azure:visited, .v_cazure:visited{ color: azure !important; }
-.v_c-black:visited, .v_cblack:visited{ color: black !important; }
-.v_c-blue:visited, .v_cblue:visited{ color: blue !important; }
-.v_c-cornsilk:visited, .v_ccornsilk:visited{ color: cornsilk !important; }
-.v_c-darkblue:visited, .v_cdarkblue:visited{ color: darkblue !important; }
-.v_c-darkcyan:visited, .v_cdarkcyan:visited{ color: darkcyan !important; }
-.v_c-darkgoldenrod:visited, .v_cdarkgoldenrod:visited{ color: darkgoldenrod !important; }
-.v_c-darkgray:visited, .v_cdarkgray:visited{ color: darkgray !important; }
-.v_c-darkgreen:visited, .v_cdarkgreen:visited{ color: darkgreen !important; }
-.v_c-darkmagenta:visited, .v_cdarkmagenta:visited{ color: darkmagenta !important; }
-.v_c-darkorchid:visited, .v_cdarkorchid:visited{ color: darkorchid !important; }
-.v_c-darkred:visited, .v_cdarkred:visited{ color: darkred !important; }
-.v_c-deep:visited, .v_cdeep:visited{ color: deep !important; }
-.v_c-pink:visited, .v_cpink:visited{ color: pink !important; }
-.v_c-pink:visited, .v_cpink:visited{ color: pink !important; }
-.v_c-firebrick:visited, .v_cfirebrick:visited{ color: firebrick !important; }
-.v_c-floralwhite:visited, .v_cfloralwhite:visited{ color: floralwhite !important; }
-.v_c-forestgreen:visited, .v_cforestgreen:visited{ color: forestgreen !important; }
-.v_c-magenta:visited, .v_cmagenta:visited{ color: magenta !important; }
-.v_c-gainsboro:visited, .v_cgainsboro:visited{ color: gainsboro !important; }
-.v_c-ghostwhite:visited, .v_cghostwhite:visited{ color: ghostwhite !important; }
-.v_c-gold:visited, .v_cgold:visited{ color: gold !important; }
-.v_c-goldenrod:visited, .v_cgoldenrod:visited{ color: goldenrod !important; }
-.v_c-green:visited, .v_cgreen:visited{ color: green !important; }
-.v_c-greenyellow:visited, .v_cgreenyellow:visited{ color: greenyellow !important; }
-.v_c-honeydew:visited, .v_choneydew:visited{ color: honeydew !important; }
-.v_c-hotpink:visited, .v_chotpink:visited{ color: hotpink !important; }
-.v_c-indianred:visited, .v_cindianred:visited{ color: indianred !important; }
-.v_c-indigo:visited, .v_cindigo:visited{ color: indigo !important; }
-.v_c-ivory:visited, .v_civory:visited{ color: ivory !important; }
-.v_c-khaki:visited, .v_ckhaki:visited{ color: khaki !important; }
-.v_c-lavender:visited, .v_clavender:visited{ color: lavender !important; }
-.v_c-lavenderblush:visited, .v_clavenderblush:visited{ color: lavenderblush !important; }
-.v_c-lawngreen:visited, .v_clawngreen:visited{ color: lawngreen !important; }
-.v_c-lightblue:visited, .v_clightblue:visited{ color: lightblue !important; }
-.v_c-lightcoral:visited, .v_clightcoral:visited{ color: lightcoral !important; }
-.v_c-lightcyan:visited, .v_clightcyan:visited{ color: lightcyan !important; }
-.v_c-lightgoldenrodyellow:visited, .v_clightgoldenrodyellow:visited{ color: lightgoldenrodyellow !important; }
-.v_c-lightgray:visited, .v_clightgray:visited{ color: lightgray !important; }
-.v_c-lightgreen:visited, .v_clightgreen:visited{ color: lightgreen !important; }
-.v_c-lightpink:visited, .v_clightpink:visited{ color: lightpink !important; }
-.v_c-lightslategray:visited, .v_clightslategray:visited{ color: lightslategray !important; }
-.v_c-lightsteelblue:visited, .v_clightsteelblue:visited{ color: lightsteelblue !important; }
-.v_c-lime:visited, .v_clime:visited{ color: lime !important; }
-.v_c-limegreen:visited, .v_climegreen:visited{ color: limegreen !important; }
-.v_c-magenta:visited, .v_cmagenta:visited{ color: magenta !important; }
-.v_c-maroon:visited, .v_cmaroon:visited{ color: maroon !important; }
-.v_c-mediumblue:visited, .v_cmediumblue:visited{ color: mediumblue !important; }
-.v_c-mediumspringgreen:visited, .v_cmediumspringgreen:visited{ color: mediumspringgreen !important; }
-.v_c-mintcream:visited, .v_cmintcream:visited{ color: mintcream !important; }
-.v_c-mistyrose:visited, .v_cmistyrose:visited{ color: mistyrose !important; }
-.v_c-moccasin:visited, .v_cmoccasin:visited{ color: moccasin !important; }
-.v_c-navajowhite:visited, .v_cnavajowhite:visited{ color: navajowhite !important; }
-.v_c-olive:visited, .v_colive:visited{ color: olive !important; }
-.v_c-oldlace:visited, .v_coldlace:visited{ color: oldlace !important; }
-.v_c-olivedrab:visited, .v_colivedrab:visited{ color: olivedrab !important; }
-.v_c-orangered:visited, .v_corangered:visited{ color: orangered !important; }
-.v_c-palegreen:visited, .v_cpalegreen:visited{ color: palegreen !important; }
-.v_c-papayawhip:visited, .v_cpapayawhip:visited{ color: papayawhip !important; }
-.v_c-peachpuff:visited, .v_cpeachpuff:visited{ color: peachpuff !important; }
-.v_c-pink:visited, .v_cpink:visited{ color: pink !important; }
-.v_c-plum:visited, .v_cplum:visited{ color: plum !important; }
-.v_c-powderblue:visited, .v_cpowderblue:visited{ color: powderblue !important; }
-.v_c-purple:visited, .v_cpurple:visited{ color: purple !important; }
-.v_c-rebeccapurple:visited, .v_crebeccapurple:visited{ color: rebeccapurple !important; }
-.v_c-rosybrown:visited, .v_crosybrown:visited{ color: rosybrown !important; }
-.v_c-royalblue:visited, .v_croyalblue:visited{ color: royalblue !important; }
-.v_c-salmon:visited, .v_csalmon:visited{ color: salmon !important; }
-.v_c-sandybrown:visited, .v_csandybrown:visited{ color: sandybrown !important; }
-.v_c-seagreen:visited, .v_cseagreen:visited{ color: seagreen !important; }
-.v_c-seashell:visited, .v_cseashell:visited{ color: seashell !important; }
-.v_c-sienna:visited, .v_csienna:visited{ color: sienna !important; }
-.v_c-silver:visited, .v_csilver:visited{ color: silver !important; }
-.v_c-skyblue:visited, .v_cskyblue:visited{ color: skyblue !important; }
-.v_c-snow:visited, .v_csnow:visited{ color: snow !important; }
-.v_c-steelblue:visited, .v_csteelblue:visited{ color: steelblue !important; }
-.v_c-tan:visited, .v_ctan:visited{ color: tan !important; }
-.v_c-tomato:visited, .v_ctomato:visited{ color: tomato !important; }
-.v_c-turquoise:visited, .v_cturquoise:visited{ color: turquoise !important; }
-.v_c-violet:visited, .v_cviolet:visited{ color: violet !important; }
-.v_c-wheat:visited, .v_cwheat:visited{ color: wheat !important; }
-.v_c-white:visited, .v_cwhite:visited{ color: white !important; }
-.v_c-whitesmoke:visited, .v_cwhitesmoke:visited{ color: whitesmoke !important; }
-.v_c-yellowgreen:visited, .v_cyellowgreen:visited{ color: yellowgreen !important; }
-.v_c-red:visited, .v_cred:visited{ color: red !important; }
-.v_c-orange:visited, .v_corange:visited{ color: orange !important; }
-.v_c-yellow:visited, .v_cyellow:visited{ color: yellow !important; }
+/*
+.c-${data}, .c${data}{ color: ${data} !important; }
+.a_c-${data}:active, .a_c${data}:active{ color: ${data} !important; }
+.h_c-${data}:hover, .h_c${data}:hover{ color: ${data} !important; }
+.f_c-${data}:focus, .f_c${data}:focus{ color: ${data} !important; }
+.l_c-${data}:link, .l_c${data}:link{ color: ${data} !important; }
+.v_c-${data}:visited, .v_c${data}:visited{ color: ${data} !important; }
+*/
+.c-azure, .cazure{ color: azure !important; } .a_c-azure:active, .a_cazure:active{ color: azure !important; } .h_c-azure:hover, .h_cazure:hover{ color: azure !important; } .f_c-azure:focus, .f_cazure:focus{ color: azure !important; } .l_c-azure:link, .l_cazure:link{ color: azure !important; } .v_c-azure:visited, .v_cazure:visited{ color: azure !important; }
+.c-black, .cblack{ color: black !important; } .a_c-black:active, .a_cblack:active{ color: black !important; } .h_c-black:hover, .h_cblack:hover{ color: black !important; } .f_c-black:focus, .f_cblack:focus{ color: black !important; } .l_c-black:link, .l_cblack:link{ color: black !important; } .v_c-black:visited, .v_cblack:visited{ color: black !important; }
+.c-blue, .cblue{ color: blue !important; } .a_c-blue:active, .a_cblue:active{ color: blue !important; } .h_c-blue:hover, .h_cblue:hover{ color: blue !important; } .f_c-blue:focus, .f_cblue:focus{ color: blue !important; } .l_c-blue:link, .l_cblue:link{ color: blue !important; } .v_c-blue:visited, .v_cblue:visited{ color: blue !important; }
+.c-cornsilk, .ccornsilk{ color: cornsilk !important; } .a_c-cornsilk:active, .a_ccornsilk:active{ color: cornsilk !important; } .h_c-cornsilk:hover, .h_ccornsilk:hover{ color: cornsilk !important; } .f_c-cornsilk:focus, .f_ccornsilk:focus{ color: cornsilk !important; } .l_c-cornsilk:link, .l_ccornsilk:link{ color: cornsilk !important; } .v_c-cornsilk:visited, .v_ccornsilk:visited{ color: cornsilk !important; }
+.c-darkblue, .cdarkblue{ color: darkblue !important; } .a_c-darkblue:active, .a_cdarkblue:active{ color: darkblue !important; } .h_c-darkblue:hover, .h_cdarkblue:hover{ color: darkblue !important; } .f_c-darkblue:focus, .f_cdarkblue:focus{ color: darkblue !important; } .l_c-darkblue:link, .l_cdarkblue:link{ color: darkblue !important; } .v_c-darkblue:visited, .v_cdarkblue:visited{ color: darkblue !important; }
+.c-darkcyan, .cdarkcyan{ color: darkcyan !important; } .a_c-darkcyan:active, .a_cdarkcyan:active{ color: darkcyan !important; } .h_c-darkcyan:hover, .h_cdarkcyan:hover{ color: darkcyan !important; } .f_c-darkcyan:focus, .f_cdarkcyan:focus{ color: darkcyan !important; } .l_c-darkcyan:link, .l_cdarkcyan:link{ color: darkcyan !important; } .v_c-darkcyan:visited, .v_cdarkcyan:visited{ color: darkcyan !important; }
+.c-darkgoldenrod, .cdarkgoldenrod{ color: darkgoldenrod !important; } .a_c-darkgoldenrod:active, .a_cdarkgoldenrod:active{ color: darkgoldenrod !important; } .h_c-darkgoldenrod:hover, .h_cdarkgoldenrod:hover{ color: darkgoldenrod !important; } .f_c-darkgoldenrod:focus, .f_cdarkgoldenrod:focus{ color: darkgoldenrod !important; } .l_c-darkgoldenrod:link, .l_cdarkgoldenrod:link{ color: darkgoldenrod !important; } .v_c-darkgoldenrod:visited, .v_cdarkgoldenrod:visited{ color: darkgoldenrod !important; }
+.c-darkgray, .cdarkgray{ color: darkgray !important; } .a_c-darkgray:active, .a_cdarkgray:active{ color: darkgray !important; } .h_c-darkgray:hover, .h_cdarkgray:hover{ color: darkgray !important; } .f_c-darkgray:focus, .f_cdarkgray:focus{ color: darkgray !important; } .l_c-darkgray:link, .l_cdarkgray:link{ color: darkgray !important; } .v_c-darkgray:visited, .v_cdarkgray:visited{ color: darkgray !important; }
+.c-darkgreen, .cdarkgreen{ color: darkgreen !important; } .a_c-darkgreen:active, .a_cdarkgreen:active{ color: darkgreen !important; } .h_c-darkgreen:hover, .h_cdarkgreen:hover{ color: darkgreen !important; } .f_c-darkgreen:focus, .f_cdarkgreen:focus{ color: darkgreen !important; } .l_c-darkgreen:link, .l_cdarkgreen:link{ color: darkgreen !important; } .v_c-darkgreen:visited, .v_cdarkgreen:visited{ color: darkgreen !important; }
+.c-darkmagenta, .cdarkmagenta{ color: darkmagenta !important; } .a_c-darkmagenta:active, .a_cdarkmagenta:active{ color: darkmagenta !important; } .h_c-darkmagenta:hover, .h_cdarkmagenta:hover{ color: darkmagenta !important; } .f_c-darkmagenta:focus, .f_cdarkmagenta:focus{ color: darkmagenta !important; } .l_c-darkmagenta:link, .l_cdarkmagenta:link{ color: darkmagenta !important; } .v_c-darkmagenta:visited, .v_cdarkmagenta:visited{ color: darkmagenta !important; }
+.c-darkorchid, .cdarkorchid{ color: darkorchid !important; } .a_c-darkorchid:active, .a_cdarkorchid:active{ color: darkorchid !important; } .h_c-darkorchid:hover, .h_cdarkorchid:hover{ color: darkorchid !important; } .f_c-darkorchid:focus, .f_cdarkorchid:focus{ color: darkorchid !important; } .l_c-darkorchid:link, .l_cdarkorchid:link{ color: darkorchid !important; } .v_c-darkorchid:visited, .v_cdarkorchid:visited{ color: darkorchid !important; }
+.c-darkred, .cdarkred{ color: darkred !important; } .a_c-darkred:active, .a_cdarkred:active{ color: darkred !important; } .h_c-darkred:hover, .h_cdarkred:hover{ color: darkred !important; } .f_c-darkred:focus, .f_cdarkred:focus{ color: darkred !important; } .l_c-darkred:link, .l_cdarkred:link{ color: darkred !important; } .v_c-darkred:visited, .v_cdarkred:visited{ color: darkred !important; }
+.c-deep, .cdeep{ color: deep !important; } .a_c-deep:active, .a_cdeep:active{ color: deep !important; } .h_c-deep:hover, .h_cdeep:hover{ color: deep !important; } .f_c-deep:focus, .f_cdeep:focus{ color: deep !important; } .l_c-deep:link, .l_cdeep:link{ color: deep !important; } .v_c-deep:visited, .v_cdeep:visited{ color: deep !important; }
+.c-pink, .cpink{ color: pink !important; } .a_c-pink:active, .a_cpink:active{ color: pink !important; } .h_c-pink:hover, .h_cpink:hover{ color: pink !important; } .f_c-pink:focus, .f_cpink:focus{ color: pink !important; } .l_c-pink:link, .l_cpink:link{ color: pink !important; } .v_c-pink:visited, .v_cpink:visited{ color: pink !important; }
+.c-pink, .cpink{ color: pink !important; } .a_c-pink:active, .a_cpink:active{ color: pink !important; } .h_c-pink:hover, .h_cpink:hover{ color: pink !important; } .f_c-pink:focus, .f_cpink:focus{ color: pink !important; } .l_c-pink:link, .l_cpink:link{ color: pink !important; } .v_c-pink:visited, .v_cpink:visited{ color: pink !important; }
+.c-firebrick, .cfirebrick{ color: firebrick !important; } .a_c-firebrick:active, .a_cfirebrick:active{ color: firebrick !important; } .h_c-firebrick:hover, .h_cfirebrick:hover{ color: firebrick !important; } .f_c-firebrick:focus, .f_cfirebrick:focus{ color: firebrick !important; } .l_c-firebrick:link, .l_cfirebrick:link{ color: firebrick !important; } .v_c-firebrick:visited, .v_cfirebrick:visited{ color: firebrick !important; }
+.c-floralwhite, .cfloralwhite{ color: floralwhite !important; } .a_c-floralwhite:active, .a_cfloralwhite:active{ color: floralwhite !important; } .h_c-floralwhite:hover, .h_cfloralwhite:hover{ color: floralwhite !important; } .f_c-floralwhite:focus, .f_cfloralwhite:focus{ color: floralwhite !important; } .l_c-floralwhite:link, .l_cfloralwhite:link{ color: floralwhite !important; } .v_c-floralwhite:visited, .v_cfloralwhite:visited{ color: floralwhite !important; }
+.c-forestgreen, .cforestgreen{ color: forestgreen !important; } .a_c-forestgreen:active, .a_cforestgreen:active{ color: forestgreen !important; } .h_c-forestgreen:hover, .h_cforestgreen:hover{ color: forestgreen !important; } .f_c-forestgreen:focus, .f_cforestgreen:focus{ color: forestgreen !important; } .l_c-forestgreen:link, .l_cforestgreen:link{ color: forestgreen !important; } .v_c-forestgreen:visited, .v_cforestgreen:visited{ color: forestgreen !important; }
+.c-magenta, .cmagenta{ color: magenta !important; } .a_c-magenta:active, .a_cmagenta:active{ color: magenta !important; } .h_c-magenta:hover, .h_cmagenta:hover{ color: magenta !important; } .f_c-magenta:focus, .f_cmagenta:focus{ color: magenta !important; } .l_c-magenta:link, .l_cmagenta:link{ color: magenta !important; } .v_c-magenta:visited, .v_cmagenta:visited{ color: magenta !important; }
+.c-gainsboro, .cgainsboro{ color: gainsboro !important; } .a_c-gainsboro:active, .a_cgainsboro:active{ color: gainsboro !important; } .h_c-gainsboro:hover, .h_cgainsboro:hover{ color: gainsboro !important; } .f_c-gainsboro:focus, .f_cgainsboro:focus{ color: gainsboro !important; } .l_c-gainsboro:link, .l_cgainsboro:link{ color: gainsboro !important; } .v_c-gainsboro:visited, .v_cgainsboro:visited{ color: gainsboro !important; }
+.c-ghostwhite, .cghostwhite{ color: ghostwhite !important; } .a_c-ghostwhite:active, .a_cghostwhite:active{ color: ghostwhite !important; } .h_c-ghostwhite:hover, .h_cghostwhite:hover{ color: ghostwhite !important; } .f_c-ghostwhite:focus, .f_cghostwhite:focus{ color: ghostwhite !important; } .l_c-ghostwhite:link, .l_cghostwhite:link{ color: ghostwhite !important; } .v_c-ghostwhite:visited, .v_cghostwhite:visited{ color: ghostwhite !important; }
+.c-gold, .cgold{ color: gold !important; } .a_c-gold:active, .a_cgold:active{ color: gold !important; } .h_c-gold:hover, .h_cgold:hover{ color: gold !important; } .f_c-gold:focus, .f_cgold:focus{ color: gold !important; } .l_c-gold:link, .l_cgold:link{ color: gold !important; } .v_c-gold:visited, .v_cgold:visited{ color: gold !important; }
+.c-goldenrod, .cgoldenrod{ color: goldenrod !important; } .a_c-goldenrod:active, .a_cgoldenrod:active{ color: goldenrod !important; } .h_c-goldenrod:hover, .h_cgoldenrod:hover{ color: goldenrod !important; } .f_c-goldenrod:focus, .f_cgoldenrod:focus{ color: goldenrod !important; } .l_c-goldenrod:link, .l_cgoldenrod:link{ color: goldenrod !important; } .v_c-goldenrod:visited, .v_cgoldenrod:visited{ color: goldenrod !important; }
+.c-green, .cgreen{ color: green !important; } .a_c-green:active, .a_cgreen:active{ color: green !important; } .h_c-green:hover, .h_cgreen:hover{ color: green !important; } .f_c-green:focus, .f_cgreen:focus{ color: green !important; } .l_c-green:link, .l_cgreen:link{ color: green !important; } .v_c-green:visited, .v_cgreen:visited{ color: green !important; }
+.c-greenyellow, .cgreenyellow{ color: greenyellow !important; } .a_c-greenyellow:active, .a_cgreenyellow:active{ color: greenyellow !important; } .h_c-greenyellow:hover, .h_cgreenyellow:hover{ color: greenyellow !important; } .f_c-greenyellow:focus, .f_cgreenyellow:focus{ color: greenyellow !important; } .l_c-greenyellow:link, .l_cgreenyellow:link{ color: greenyellow !important; } .v_c-greenyellow:visited, .v_cgreenyellow:visited{ color: greenyellow !important; }
+.c-honeydew, .choneydew{ color: honeydew !important; } .a_c-honeydew:active, .a_choneydew:active{ color: honeydew !important; } .h_c-honeydew:hover, .h_choneydew:hover{ color: honeydew !important; } .f_c-honeydew:focus, .f_choneydew:focus{ color: honeydew !important; } .l_c-honeydew:link, .l_choneydew:link{ color: honeydew !important; } .v_c-honeydew:visited, .v_choneydew:visited{ color: honeydew !important; }
+.c-hotpink, .chotpink{ color: hotpink !important; } .a_c-hotpink:active, .a_chotpink:active{ color: hotpink !important; } .h_c-hotpink:hover, .h_chotpink:hover{ color: hotpink !important; } .f_c-hotpink:focus, .f_chotpink:focus{ color: hotpink !important; } .l_c-hotpink:link, .l_chotpink:link{ color: hotpink !important; } .v_c-hotpink:visited, .v_chotpink:visited{ color: hotpink !important; }
+.c-indianred, .cindianred{ color: indianred !important; } .a_c-indianred:active, .a_cindianred:active{ color: indianred !important; } .h_c-indianred:hover, .h_cindianred:hover{ color: indianred !important; } .f_c-indianred:focus, .f_cindianred:focus{ color: indianred !important; } .l_c-indianred:link, .l_cindianred:link{ color: indianred !important; } .v_c-indianred:visited, .v_cindianred:visited{ color: indianred !important; }
+.c-indigo, .cindigo{ color: indigo !important; } .a_c-indigo:active, .a_cindigo:active{ color: indigo !important; } .h_c-indigo:hover, .h_cindigo:hover{ color: indigo !important; } .f_c-indigo:focus, .f_cindigo:focus{ color: indigo !important; } .l_c-indigo:link, .l_cindigo:link{ color: indigo !important; } .v_c-indigo:visited, .v_cindigo:visited{ color: indigo !important; }
+.c-ivory, .civory{ color: ivory !important; } .a_c-ivory:active, .a_civory:active{ color: ivory !important; } .h_c-ivory:hover, .h_civory:hover{ color: ivory !important; } .f_c-ivory:focus, .f_civory:focus{ color: ivory !important; } .l_c-ivory:link, .l_civory:link{ color: ivory !important; } .v_c-ivory:visited, .v_civory:visited{ color: ivory !important; }
+.c-khaki, .ckhaki{ color: khaki !important; } .a_c-khaki:active, .a_ckhaki:active{ color: khaki !important; } .h_c-khaki:hover, .h_ckhaki:hover{ color: khaki !important; } .f_c-khaki:focus, .f_ckhaki:focus{ color: khaki !important; } .l_c-khaki:link, .l_ckhaki:link{ color: khaki !important; } .v_c-khaki:visited, .v_ckhaki:visited{ color: khaki !important; }
+.c-lavender, .clavender{ color: lavender !important; } .a_c-lavender:active, .a_clavender:active{ color: lavender !important; } .h_c-lavender:hover, .h_clavender:hover{ color: lavender !important; } .f_c-lavender:focus, .f_clavender:focus{ color: lavender !important; } .l_c-lavender:link, .l_clavender:link{ color: lavender !important; } .v_c-lavender:visited, .v_clavender:visited{ color: lavender !important; }
+.c-lavenderblush, .clavenderblush{ color: lavenderblush !important; } .a_c-lavenderblush:active, .a_clavenderblush:active{ color: lavenderblush !important; } .h_c-lavenderblush:hover, .h_clavenderblush:hover{ color: lavenderblush !important; } .f_c-lavenderblush:focus, .f_clavenderblush:focus{ color: lavenderblush !important; } .l_c-lavenderblush:link, .l_clavenderblush:link{ color: lavenderblush !important; } .v_c-lavenderblush:visited, .v_clavenderblush:visited{ color: lavenderblush !important; }
+.c-lawngreen, .clawngreen{ color: lawngreen !important; } .a_c-lawngreen:active, .a_clawngreen:active{ color: lawngreen !important; } .h_c-lawngreen:hover, .h_clawngreen:hover{ color: lawngreen !important; } .f_c-lawngreen:focus, .f_clawngreen:focus{ color: lawngreen !important; } .l_c-lawngreen:link, .l_clawngreen:link{ color: lawngreen !important; } .v_c-lawngreen:visited, .v_clawngreen:visited{ color: lawngreen !important; }
+.c-lightblue, .clightblue{ color: lightblue !important; } .a_c-lightblue:active, .a_clightblue:active{ color: lightblue !important; } .h_c-lightblue:hover, .h_clightblue:hover{ color: lightblue !important; } .f_c-lightblue:focus, .f_clightblue:focus{ color: lightblue !important; } .l_c-lightblue:link, .l_clightblue:link{ color: lightblue !important; } .v_c-lightblue:visited, .v_clightblue:visited{ color: lightblue !important; }
+.c-lightcoral, .clightcoral{ color: lightcoral !important; } .a_c-lightcoral:active, .a_clightcoral:active{ color: lightcoral !important; } .h_c-lightcoral:hover, .h_clightcoral:hover{ color: lightcoral !important; } .f_c-lightcoral:focus, .f_clightcoral:focus{ color: lightcoral !important; } .l_c-lightcoral:link, .l_clightcoral:link{ color: lightcoral !important; } .v_c-lightcoral:visited, .v_clightcoral:visited{ color: lightcoral !important; }
+.c-lightcyan, .clightcyan{ color: lightcyan !important; } .a_c-lightcyan:active, .a_clightcyan:active{ color: lightcyan !important; } .h_c-lightcyan:hover, .h_clightcyan:hover{ color: lightcyan !important; } .f_c-lightcyan:focus, .f_clightcyan:focus{ color: lightcyan !important; } .l_c-lightcyan:link, .l_clightcyan:link{ color: lightcyan !important; } .v_c-lightcyan:visited, .v_clightcyan:visited{ color: lightcyan !important; }
+.c-lightgoldenrodyellow, .clightgoldenrodyellow{ color: lightgoldenrodyellow !important; } .a_c-lightgoldenrodyellow:active, .a_clightgoldenrodyellow:active{ color: lightgoldenrodyellow !important; } .h_c-lightgoldenrodyellow:hover, .h_clightgoldenrodyellow:hover{ color: lightgoldenrodyellow !important; } .f_c-lightgoldenrodyellow:focus, .f_clightgoldenrodyellow:focus{ color: lightgoldenrodyellow !important; } .l_c-lightgoldenrodyellow:link, .l_clightgoldenrodyellow:link{ color: lightgoldenrodyellow !important; } .v_c-lightgoldenrodyellow:visited, .v_clightgoldenrodyellow:visited{ color: lightgoldenrodyellow !important; }
+.c-lightgray, .clightgray{ color: lightgray !important; } .a_c-lightgray:active, .a_clightgray:active{ color: lightgray !important; } .h_c-lightgray:hover, .h_clightgray:hover{ color: lightgray !important; } .f_c-lightgray:focus, .f_clightgray:focus{ color: lightgray !important; } .l_c-lightgray:link, .l_clightgray:link{ color: lightgray !important; } .v_c-lightgray:visited, .v_clightgray:visited{ color: lightgray !important; }
+.c-lightgreen, .clightgreen{ color: lightgreen !important; } .a_c-lightgreen:active, .a_clightgreen:active{ color: lightgreen !important; } .h_c-lightgreen:hover, .h_clightgreen:hover{ color: lightgreen !important; } .f_c-lightgreen:focus, .f_clightgreen:focus{ color: lightgreen !important; } .l_c-lightgreen:link, .l_clightgreen:link{ color: lightgreen !important; } .v_c-lightgreen:visited, .v_clightgreen:visited{ color: lightgreen !important; }
+.c-lightpink, .clightpink{ color: lightpink !important; } .a_c-lightpink:active, .a_clightpink:active{ color: lightpink !important; } .h_c-lightpink:hover, .h_clightpink:hover{ color: lightpink !important; } .f_c-lightpink:focus, .f_clightpink:focus{ color: lightpink !important; } .l_c-lightpink:link, .l_clightpink:link{ color: lightpink !important; } .v_c-lightpink:visited, .v_clightpink:visited{ color: lightpink !important; }
+.c-lightslategray, .clightslategray{ color: lightslategray !important; } .a_c-lightslategray:active, .a_clightslategray:active{ color: lightslategray !important; } .h_c-lightslategray:hover, .h_clightslategray:hover{ color: lightslategray !important; } .f_c-lightslategray:focus, .f_clightslategray:focus{ color: lightslategray !important; } .l_c-lightslategray:link, .l_clightslategray:link{ color: lightslategray !important; } .v_c-lightslategray:visited, .v_clightslategray:visited{ color: lightslategray !important; }
+.c-lightsteelblue, .clightsteelblue{ color: lightsteelblue !important; } .a_c-lightsteelblue:active, .a_clightsteelblue:active{ color: lightsteelblue !important; } .h_c-lightsteelblue:hover, .h_clightsteelblue:hover{ color: lightsteelblue !important; } .f_c-lightsteelblue:focus, .f_clightsteelblue:focus{ color: lightsteelblue !important; } .l_c-lightsteelblue:link, .l_clightsteelblue:link{ color: lightsteelblue !important; } .v_c-lightsteelblue:visited, .v_clightsteelblue:visited{ color: lightsteelblue !important; }
+.c-lime, .clime{ color: lime !important; } .a_c-lime:active, .a_clime:active{ color: lime !important; } .h_c-lime:hover, .h_clime:hover{ color: lime !important; } .f_c-lime:focus, .f_clime:focus{ color: lime !important; } .l_c-lime:link, .l_clime:link{ color: lime !important; } .v_c-lime:visited, .v_clime:visited{ color: lime !important; }
+.c-limegreen, .climegreen{ color: limegreen !important; } .a_c-limegreen:active, .a_climegreen:active{ color: limegreen !important; } .h_c-limegreen:hover, .h_climegreen:hover{ color: limegreen !important; } .f_c-limegreen:focus, .f_climegreen:focus{ color: limegreen !important; } .l_c-limegreen:link, .l_climegreen:link{ color: limegreen !important; } .v_c-limegreen:visited, .v_climegreen:visited{ color: limegreen !important; }
+.c-magenta, .cmagenta{ color: magenta !important; } .a_c-magenta:active, .a_cmagenta:active{ color: magenta !important; } .h_c-magenta:hover, .h_cmagenta:hover{ color: magenta !important; } .f_c-magenta:focus, .f_cmagenta:focus{ color: magenta !important; } .l_c-magenta:link, .l_cmagenta:link{ color: magenta !important; } .v_c-magenta:visited, .v_cmagenta:visited{ color: magenta !important; }
+.c-maroon, .cmaroon{ color: maroon !important; } .a_c-maroon:active, .a_cmaroon:active{ color: maroon !important; } .h_c-maroon:hover, .h_cmaroon:hover{ color: maroon !important; } .f_c-maroon:focus, .f_cmaroon:focus{ color: maroon !important; } .l_c-maroon:link, .l_cmaroon:link{ color: maroon !important; } .v_c-maroon:visited, .v_cmaroon:visited{ color: maroon !important; }
+.c-mediumblue, .cmediumblue{ color: mediumblue !important; } .a_c-mediumblue:active, .a_cmediumblue:active{ color: mediumblue !important; } .h_c-mediumblue:hover, .h_cmediumblue:hover{ color: mediumblue !important; } .f_c-mediumblue:focus, .f_cmediumblue:focus{ color: mediumblue !important; } .l_c-mediumblue:link, .l_cmediumblue:link{ color: mediumblue !important; } .v_c-mediumblue:visited, .v_cmediumblue:visited{ color: mediumblue !important; }
+.c-mediumspringgreen, .cmediumspringgreen{ color: mediumspringgreen !important; } .a_c-mediumspringgreen:active, .a_cmediumspringgreen:active{ color: mediumspringgreen !important; } .h_c-mediumspringgreen:hover, .h_cmediumspringgreen:hover{ color: mediumspringgreen !important; } .f_c-mediumspringgreen:focus, .f_cmediumspringgreen:focus{ color: mediumspringgreen !important; } .l_c-mediumspringgreen:link, .l_cmediumspringgreen:link{ color: mediumspringgreen !important; } .v_c-mediumspringgreen:visited, .v_cmediumspringgreen:visited{ color: mediumspringgreen !important; }
+.c-mintcream, .cmintcream{ color: mintcream !important; } .a_c-mintcream:active, .a_cmintcream:active{ color: mintcream !important; } .h_c-mintcream:hover, .h_cmintcream:hover{ color: mintcream !important; } .f_c-mintcream:focus, .f_cmintcream:focus{ color: mintcream !important; } .l_c-mintcream:link, .l_cmintcream:link{ color: mintcream !important; } .v_c-mintcream:visited, .v_cmintcream:visited{ color: mintcream !important; }
+.c-mistyrose, .cmistyrose{ color: mistyrose !important; } .a_c-mistyrose:active, .a_cmistyrose:active{ color: mistyrose !important; } .h_c-mistyrose:hover, .h_cmistyrose:hover{ color: mistyrose !important; } .f_c-mistyrose:focus, .f_cmistyrose:focus{ color: mistyrose !important; } .l_c-mistyrose:link, .l_cmistyrose:link{ color: mistyrose !important; } .v_c-mistyrose:visited, .v_cmistyrose:visited{ color: mistyrose !important; }
+.c-moccasin, .cmoccasin{ color: moccasin !important; } .a_c-moccasin:active, .a_cmoccasin:active{ color: moccasin !important; } .h_c-moccasin:hover, .h_cmoccasin:hover{ color: moccasin !important; } .f_c-moccasin:focus, .f_cmoccasin:focus{ color: moccasin !important; } .l_c-moccasin:link, .l_cmoccasin:link{ color: moccasin !important; } .v_c-moccasin:visited, .v_cmoccasin:visited{ color: moccasin !important; }
+.c-navajowhite, .cnavajowhite{ color: navajowhite !important; } .a_c-navajowhite:active, .a_cnavajowhite:active{ color: navajowhite !important; } .h_c-navajowhite:hover, .h_cnavajowhite:hover{ color: navajowhite !important; } .f_c-navajowhite:focus, .f_cnavajowhite:focus{ color: navajowhite !important; } .l_c-navajowhite:link, .l_cnavajowhite:link{ color: navajowhite !important; } .v_c-navajowhite:visited, .v_cnavajowhite:visited{ color: navajowhite !important; }
+.c-olive, .colive{ color: olive !important; } .a_c-olive:active, .a_colive:active{ color: olive !important; } .h_c-olive:hover, .h_colive:hover{ color: olive !important; } .f_c-olive:focus, .f_colive:focus{ color: olive !important; } .l_c-olive:link, .l_colive:link{ color: olive !important; } .v_c-olive:visited, .v_colive:visited{ color: olive !important; }
+.c-oldlace, .coldlace{ color: oldlace !important; } .a_c-oldlace:active, .a_coldlace:active{ color: oldlace !important; } .h_c-oldlace:hover, .h_coldlace:hover{ color: oldlace !important; } .f_c-oldlace:focus, .f_coldlace:focus{ color: oldlace !important; } .l_c-oldlace:link, .l_coldlace:link{ color: oldlace !important; } .v_c-oldlace:visited, .v_coldlace:visited{ color: oldlace !important; }
+.c-olivedrab, .colivedrab{ color: olivedrab !important; } .a_c-olivedrab:active, .a_colivedrab:active{ color: olivedrab !important; } .h_c-olivedrab:hover, .h_colivedrab:hover{ color: olivedrab !important; } .f_c-olivedrab:focus, .f_colivedrab:focus{ color: olivedrab !important; } .l_c-olivedrab:link, .l_colivedrab:link{ color: olivedrab !important; } .v_c-olivedrab:visited, .v_colivedrab:visited{ color: olivedrab !important; }
+.c-orangered, .corangered{ color: orangered !important; } .a_c-orangered:active, .a_corangered:active{ color: orangered !important; } .h_c-orangered:hover, .h_corangered:hover{ color: orangered !important; } .f_c-orangered:focus, .f_corangered:focus{ color: orangered !important; } .l_c-orangered:link, .l_corangered:link{ color: orangered !important; } .v_c-orangered:visited, .v_corangered:visited{ color: orangered !important; }
+.c-palegreen, .cpalegreen{ color: palegreen !important; } .a_c-palegreen:active, .a_cpalegreen:active{ color: palegreen !important; } .h_c-palegreen:hover, .h_cpalegreen:hover{ color: palegreen !important; } .f_c-palegreen:focus, .f_cpalegreen:focus{ color: palegreen !important; } .l_c-palegreen:link, .l_cpalegreen:link{ color: palegreen !important; } .v_c-palegreen:visited, .v_cpalegreen:visited{ color: palegreen !important; }
+.c-papayawhip, .cpapayawhip{ color: papayawhip !important; } .a_c-papayawhip:active, .a_cpapayawhip:active{ color: papayawhip !important; } .h_c-papayawhip:hover, .h_cpapayawhip:hover{ color: papayawhip !important; } .f_c-papayawhip:focus, .f_cpapayawhip:focus{ color: papayawhip !important; } .l_c-papayawhip:link, .l_cpapayawhip:link{ color: papayawhip !important; } .v_c-papayawhip:visited, .v_cpapayawhip:visited{ color: papayawhip !important; }
+.c-peachpuff, .cpeachpuff{ color: peachpuff !important; } .a_c-peachpuff:active, .a_cpeachpuff:active{ color: peachpuff !important; } .h_c-peachpuff:hover, .h_cpeachpuff:hover{ color: peachpuff !important; } .f_c-peachpuff:focus, .f_cpeachpuff:focus{ color: peachpuff !important; } .l_c-peachpuff:link, .l_cpeachpuff:link{ color: peachpuff !important; } .v_c-peachpuff:visited, .v_cpeachpuff:visited{ color: peachpuff !important; }
+.c-pink, .cpink{ color: pink !important; } .a_c-pink:active, .a_cpink:active{ color: pink !important; } .h_c-pink:hover, .h_cpink:hover{ color: pink !important; } .f_c-pink:focus, .f_cpink:focus{ color: pink !important; } .l_c-pink:link, .l_cpink:link{ color: pink !important; } .v_c-pink:visited, .v_cpink:visited{ color: pink !important; }
+.c-plum, .cplum{ color: plum !important; } .a_c-plum:active, .a_cplum:active{ color: plum !important; } .h_c-plum:hover, .h_cplum:hover{ color: plum !important; } .f_c-plum:focus, .f_cplum:focus{ color: plum !important; } .l_c-plum:link, .l_cplum:link{ color: plum !important; } .v_c-plum:visited, .v_cplum:visited{ color: plum !important; }
+.c-powderblue, .cpowderblue{ color: powderblue !important; } .a_c-powderblue:active, .a_cpowderblue:active{ color: powderblue !important; } .h_c-powderblue:hover, .h_cpowderblue:hover{ color: powderblue !important; } .f_c-powderblue:focus, .f_cpowderblue:focus{ color: powderblue !important; } .l_c-powderblue:link, .l_cpowderblue:link{ color: powderblue !important; } .v_c-powderblue:visited, .v_cpowderblue:visited{ color: powderblue !important; }
+.c-purple, .cpurple{ color: purple !important; } .a_c-purple:active, .a_cpurple:active{ color: purple !important; } .h_c-purple:hover, .h_cpurple:hover{ color: purple !important; } .f_c-purple:focus, .f_cpurple:focus{ color: purple !important; } .l_c-purple:link, .l_cpurple:link{ color: purple !important; } .v_c-purple:visited, .v_cpurple:visited{ color: purple !important; }
+.c-rebeccapurple, .crebeccapurple{ color: rebeccapurple !important; } .a_c-rebeccapurple:active, .a_crebeccapurple:active{ color: rebeccapurple !important; } .h_c-rebeccapurple:hover, .h_crebeccapurple:hover{ color: rebeccapurple !important; } .f_c-rebeccapurple:focus, .f_crebeccapurple:focus{ color: rebeccapurple !important; } .l_c-rebeccapurple:link, .l_crebeccapurple:link{ color: rebeccapurple !important; } .v_c-rebeccapurple:visited, .v_crebeccapurple:visited{ color: rebeccapurple !important; }
+.c-rosybrown, .crosybrown{ color: rosybrown !important; } .a_c-rosybrown:active, .a_crosybrown:active{ color: rosybrown !important; } .h_c-rosybrown:hover, .h_crosybrown:hover{ color: rosybrown !important; } .f_c-rosybrown:focus, .f_crosybrown:focus{ color: rosybrown !important; } .l_c-rosybrown:link, .l_crosybrown:link{ color: rosybrown !important; } .v_c-rosybrown:visited, .v_crosybrown:visited{ color: rosybrown !important; }
+.c-royalblue, .croyalblue{ color: royalblue !important; } .a_c-royalblue:active, .a_croyalblue:active{ color: royalblue !important; } .h_c-royalblue:hover, .h_croyalblue:hover{ color: royalblue !important; } .f_c-royalblue:focus, .f_croyalblue:focus{ color: royalblue !important; } .l_c-royalblue:link, .l_croyalblue:link{ color: royalblue !important; } .v_c-royalblue:visited, .v_croyalblue:visited{ color: royalblue !important; }
+.c-salmon, .csalmon{ color: salmon !important; } .a_c-salmon:active, .a_csalmon:active{ color: salmon !important; } .h_c-salmon:hover, .h_csalmon:hover{ color: salmon !important; } .f_c-salmon:focus, .f_csalmon:focus{ color: salmon !important; } .l_c-salmon:link, .l_csalmon:link{ color: salmon !important; } .v_c-salmon:visited, .v_csalmon:visited{ color: salmon !important; }
+.c-sandybrown, .csandybrown{ color: sandybrown !important; } .a_c-sandybrown:active, .a_csandybrown:active{ color: sandybrown !important; } .h_c-sandybrown:hover, .h_csandybrown:hover{ color: sandybrown !important; } .f_c-sandybrown:focus, .f_csandybrown:focus{ color: sandybrown !important; } .l_c-sandybrown:link, .l_csandybrown:link{ color: sandybrown !important; } .v_c-sandybrown:visited, .v_csandybrown:visited{ color: sandybrown !important; }
+.c-seagreen, .cseagreen{ color: seagreen !important; } .a_c-seagreen:active, .a_cseagreen:active{ color: seagreen !important; } .h_c-seagreen:hover, .h_cseagreen:hover{ color: seagreen !important; } .f_c-seagreen:focus, .f_cseagreen:focus{ color: seagreen !important; } .l_c-seagreen:link, .l_cseagreen:link{ color: seagreen !important; } .v_c-seagreen:visited, .v_cseagreen:visited{ color: seagreen !important; }
+.c-seashell, .cseashell{ color: seashell !important; } .a_c-seashell:active, .a_cseashell:active{ color: seashell !important; } .h_c-seashell:hover, .h_cseashell:hover{ color: seashell !important; } .f_c-seashell:focus, .f_cseashell:focus{ color: seashell !important; } .l_c-seashell:link, .l_cseashell:link{ color: seashell !important; } .v_c-seashell:visited, .v_cseashell:visited{ color: seashell !important; }
+.c-sienna, .csienna{ color: sienna !important; } .a_c-sienna:active, .a_csienna:active{ color: sienna !important; } .h_c-sienna:hover, .h_csienna:hover{ color: sienna !important; } .f_c-sienna:focus, .f_csienna:focus{ color: sienna !important; } .l_c-sienna:link, .l_csienna:link{ color: sienna !important; } .v_c-sienna:visited, .v_csienna:visited{ color: sienna !important; }
+.c-silver, .csilver{ color: silver !important; } .a_c-silver:active, .a_csilver:active{ color: silver !important; } .h_c-silver:hover, .h_csilver:hover{ color: silver !important; } .f_c-silver:focus, .f_csilver:focus{ color: silver !important; } .l_c-silver:link, .l_csilver:link{ color: silver !important; } .v_c-silver:visited, .v_csilver:visited{ color: silver !important; }
+.c-skyblue, .cskyblue{ color: skyblue !important; } .a_c-skyblue:active, .a_cskyblue:active{ color: skyblue !important; } .h_c-skyblue:hover, .h_cskyblue:hover{ color: skyblue !important; } .f_c-skyblue:focus, .f_cskyblue:focus{ color: skyblue !important; } .l_c-skyblue:link, .l_cskyblue:link{ color: skyblue !important; } .v_c-skyblue:visited, .v_cskyblue:visited{ color: skyblue !important; }
+.c-snow, .csnow{ color: snow !important; } .a_c-snow:active, .a_csnow:active{ color: snow !important; } .h_c-snow:hover, .h_csnow:hover{ color: snow !important; } .f_c-snow:focus, .f_csnow:focus{ color: snow !important; } .l_c-snow:link, .l_csnow:link{ color: snow !important; } .v_c-snow:visited, .v_csnow:visited{ color: snow !important; }
+.c-steelblue, .csteelblue{ color: steelblue !important; } .a_c-steelblue:active, .a_csteelblue:active{ color: steelblue !important; } .h_c-steelblue:hover, .h_csteelblue:hover{ color: steelblue !important; } .f_c-steelblue:focus, .f_csteelblue:focus{ color: steelblue !important; } .l_c-steelblue:link, .l_csteelblue:link{ color: steelblue !important; } .v_c-steelblue:visited, .v_csteelblue:visited{ color: steelblue !important; }
+.c-tan, .ctan{ color: tan !important; } .a_c-tan:active, .a_ctan:active{ color: tan !important; } .h_c-tan:hover, .h_ctan:hover{ color: tan !important; } .f_c-tan:focus, .f_ctan:focus{ color: tan !important; } .l_c-tan:link, .l_ctan:link{ color: tan !important; } .v_c-tan:visited, .v_ctan:visited{ color: tan !important; }
+.c-tomato, .ctomato{ color: tomato !important; } .a_c-tomato:active, .a_ctomato:active{ color: tomato !important; } .h_c-tomato:hover, .h_ctomato:hover{ color: tomato !important; } .f_c-tomato:focus, .f_ctomato:focus{ color: tomato !important; } .l_c-tomato:link, .l_ctomato:link{ color: tomato !important; } .v_c-tomato:visited, .v_ctomato:visited{ color: tomato !important; }
+.c-turquoise, .cturquoise{ color: turquoise !important; } .a_c-turquoise:active, .a_cturquoise:active{ color: turquoise !important; } .h_c-turquoise:hover, .h_cturquoise:hover{ color: turquoise !important; } .f_c-turquoise:focus, .f_cturquoise:focus{ color: turquoise !important; } .l_c-turquoise:link, .l_cturquoise:link{ color: turquoise !important; } .v_c-turquoise:visited, .v_cturquoise:visited{ color: turquoise !important; }
+.c-violet, .cviolet{ color: violet !important; } .a_c-violet:active, .a_cviolet:active{ color: violet !important; } .h_c-violet:hover, .h_cviolet:hover{ color: violet !important; } .f_c-violet:focus, .f_cviolet:focus{ color: violet !important; } .l_c-violet:link, .l_cviolet:link{ color: violet !important; } .v_c-violet:visited, .v_cviolet:visited{ color: violet !important; }
+.c-wheat, .cwheat{ color: wheat !important; } .a_c-wheat:active, .a_cwheat:active{ color: wheat !important; } .h_c-wheat:hover, .h_cwheat:hover{ color: wheat !important; } .f_c-wheat:focus, .f_cwheat:focus{ color: wheat !important; } .l_c-wheat:link, .l_cwheat:link{ color: wheat !important; } .v_c-wheat:visited, .v_cwheat:visited{ color: wheat !important; }
+.c-white, .cwhite{ color: white !important; } .a_c-white:active, .a_cwhite:active{ color: white !important; } .h_c-white:hover, .h_cwhite:hover{ color: white !important; } .f_c-white:focus, .f_cwhite:focus{ color: white !important; } .l_c-white:link, .l_cwhite:link{ color: white !important; } .v_c-white:visited, .v_cwhite:visited{ color: white !important; }
+.c-whitesmoke, .cwhitesmoke{ color: whitesmoke !important; } .a_c-whitesmoke:active, .a_cwhitesmoke:active{ color: whitesmoke !important; } .h_c-whitesmoke:hover, .h_cwhitesmoke:hover{ color: whitesmoke !important; } .f_c-whitesmoke:focus, .f_cwhitesmoke:focus{ color: whitesmoke !important; } .l_c-whitesmoke:link, .l_cwhitesmoke:link{ color: whitesmoke !important; } .v_c-whitesmoke:visited, .v_cwhitesmoke:visited{ color: whitesmoke !important; }
+.c-yellowgreen, .cyellowgreen{ color: yellowgreen !important; } .a_c-yellowgreen:active, .a_cyellowgreen:active{ color: yellowgreen !important; } .h_c-yellowgreen:hover, .h_cyellowgreen:hover{ color: yellowgreen !important; } .f_c-yellowgreen:focus, .f_cyellowgreen:focus{ color: yellowgreen !important; } .l_c-yellowgreen:link, .l_cyellowgreen:link{ color: yellowgreen !important; } .v_c-yellowgreen:visited, .v_cyellowgreen:visited{ color: yellowgreen !important; }
+.c-red, .cred{ color: red !important; } .a_c-red:active, .a_cred:active{ color: red !important; } .h_c-red:hover, .h_cred:hover{ color: red !important; } .f_c-red:focus, .f_cred:focus{ color: red !important; } .l_c-red:link, .l_cred:link{ color: red !important; } .v_c-red:visited, .v_cred:visited{ color: red !important; }
+.c-orange, .corange{ color: orange !important; } .a_c-orange:active, .a_corange:active{ color: orange !important; } .h_c-orange:hover, .h_corange:hover{ color: orange !important; } .f_c-orange:focus, .f_corange:focus{ color: orange !important; } .l_c-orange:link, .l_corange:link{ color: orange !important; } .v_c-orange:visited, .v_corange:visited{ color: orange !important; }
+.c-yellow, .cyellow{ color: yellow !important; } .a_c-yellow:active, .a_cyellow:active{ color: yellow !important; } .h_c-yellow:hover, .h_cyellow:hover{ color: yellow !important; } .f_c-yellow:focus, .f_cyellow:focus{ color: yellow !important; } .l_c-yellow:link, .l_cyellow:link{ color: yellow !important; } .v_c-yellow:visited, .v_cyellow:visited{ color: yellow !important; }

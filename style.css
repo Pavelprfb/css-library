@@ -17,16 +17,16 @@
 @import url("margin-11.css");
 @import url("padding.css");
 @import url("z-index.css");
-@import url("all.css");
-@import url("btn.css");
-@import url("flex-basis.css");
-@import url("form.css");
-@import url("input.css");
 @import url("letter-spacing.css");
 @import url("line-height.css");
 @import url("text-indent.css");
 @import url("word-spacing.css");
 @import url("border.css");
+@import url("all.css");
+@import url("btn.css");
+@import url("flex-basis.css");
+@import url("form.css");
+@import url("input.css");
 /*
 @import url("");
 */
@@ -35,7 +35,7 @@
 /*
 background-color
 color
-border-radius
+border-radius √ but no shortcut X
 font-size
 h-w.css
 margin
@@ -50,4 +50,6 @@ margin-8
 margin-9
 margin-10
 margin-11
+padding
+z-index
 */
