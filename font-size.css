@@ -99,7 +99,8 @@
 .f-s98, .fs98{ font-size: 98px !important; } .a_f-s98:active, .a_fs98:active{ font-size: 98px !important; } .h_f-s98:hover, .h_fs98:hover{ font-size: 98px !important; } .f_f-s98:focus, .f_fs98:focus{ font-size: 98px !important; } .v_f-s98:visited, .v_fs98:visited{ font-size: 98px !important; } .l_f-s98:link, .l_fs98:link{ font-size: 98px !important; }
 .f-s99, .fs99{ font-size: 99px !important; } .a_f-s99:active, .a_fs99:active{ font-size: 99px !important; } .h_f-s99:hover, .h_fs99:hover{ font-size: 99px !important; } .f_f-s99:focus, .f_fs99:focus{ font-size: 99px !important; } .v_f-s99:visited, .v_fs99:visited{ font-size: 99px !important; } .l_f-s99:link, .l_fs99:link{ font-size: 99px !important; }
 .f-s100, .fs100{ font-size: 100px !important; } .a_f-s100:active, .a_fs100:active{ font-size: 100px !important; } .h_f-s100:hover, .h_fs100:hover{ font-size: 100px !important; } .f_f-s100:focus, .f_fs100:focus{ font-size: 100px !important; } .v_f-s100:visited, .v_fs100:visited{ font-size: 100px !important; } .l_f-s100:link, .l_fs100:link{ font-size: 100px !important; }
-/*.f-s${i}, .fs${i}{ font-size: ${i}px !important; }
+/*
+.f-s${i}, .fs${i}{ font-size: ${i}px !important; }
 .a_f-s${i}:active, .a_fs${i}:active{ font-size: ${i}px !important; }
 .h_f-s${i}:hover, .h_fs${i}:hover{ font-size: ${i}px !important; }
 .f_f-s${i}:focus, .f_fs${i}:focus{ font-size: ${i}px !important; }

@@ -19,6 +19,16 @@ color code
 */
 
 /*
+border-radius
+.b-r${i}, .br${i}{ border-radius: ${i}px ;} .b-t-r-r${i}, .btrr${i}{ border-top-right-radius: ${i}px; } .b-t-l-r${i}, .btlr${i}{ border-top-left-radius: ${i}px; } .b-b-r-r${i}, .bbrr${i}{ border-bottom-right-radius: ${i}px; } .b-b-l-r${i}, .bblr${i}{ border-bottom-left-radius: ${i}px; }
+.a_b-r${i}:active, .a_br${i}:active{ border-radius: ${i}px ;} .a_b-t-r-r${i}:active, .a_btrr${i}:active{ border-top-right-radius: ${i}px; } .a_b-t-l-r${i}:active, .a_btlr${i}:active{ border-top-left-radius: ${i}px; } .a_b-b-r-r${i}:active, .a_bbrr${i}:active{ border-bottom-right-radius: ${i}px; } .a_b-b-l-r${i}:active, .a_bblr${i}:active{ border-bottom-left-radius: ${i}px; }
+.h_b-r${i}:hover, .h_br${i}:hover{ border-radius: ${i}px ;} .h_b-t-r-r${i}:hover, .h_btrr${i}:hover{ border-top-right-radius: ${i}px; } .h_b-t-l-r${i}:hover, .h_btlr${i}:hover{ border-top-left-radius: ${i}px; } .h_b-b-r-r${i}:hover, .h_bbrr${i}:hover{ border-bottom-right-radius: ${i}px; } .h_b-b-l-r${i}:hover, .h_bblr${i}:hover{ border-bottom-left-radius: ${i}px; }
+.f_b-r${i}:focus, .f_br${i}:focus{ border-radius: ${i}px ;} .f_b-t-r-r${i}:focus, .f_btrr${i}:focus{ border-top-right-radius: ${i}px; } .f_b-t-l-r${i}:focus, .f_btlr${i}:focus{ border-top-left-radius: ${i}px; } .f_b-b-r-r${i}:focus, .f_bbrr${i}:focus{ border-bottom-right-radius: ${i}px; } .f_b-b-l-r${i}:focus, .f_bblr${i}:focus{ border-bottom-left-radius: ${i}px; }
+.l_b-r${i}:link, .l_br${i}:link{ border-radius: ${i}px ;} .l_b-t-r-r${i}:link, .l_btrr${i}:link{ border-top-right-radius: ${i}px; } .l_b-t-l-r${i}:link, .l_btlr${i}:link{ border-top-left-radius: ${i}px; } .l_b-b-r-r${i}:link, .l_bbrr${i}:link{ border-bottom-right-radius: ${i}px; } .l_b-b-l-r${i}:link, .l_bblr${i}:link{ border-bottom-left-radius: ${i}px; }
+.v_b-r${i}:visited, .v_br${i}:visited{ border-radius: ${i}px ;} .v_b-t-r-r${i}:visited, .v_btrr${i}:visited{ border-top-right-radius: ${i}px; } .v_b-t-l-r${i}:visited, .v_btlr${i}:visited{ border-top-left-radius: ${i}px; } .v_b-b-r-r${i}:visited, .v_bbrr${i}:visited{ border-bottom-right-radius: ${i}px; } .v_b-b-l-r${i}:visited, .v_bblr${i}:visited{ border-bottom-left-radius: ${i}px; }
+*/
+
+/*
 font-size code
 .a_f-s${i}:active, .a_fs${i}:active{ font-size: ${i}px !important; }
 .h_f-s${i}:hover, .h_fs${i}:hover{ font-size: ${i}px !important; }
@@ -30,7 +40,7 @@ font-size code
 
 /*
 height and width code
-.h${i} { height: ${i}px !important; } 
+.h${i} { height: ${i}px !important; }
 .w${i} { width: ${i}px !important; }
 .a_h${i}:active { height: ${i}px !important; } 
 .a_w${i}:active { width: ${i}px !important; }
@@ -206,37 +216,38 @@ text-indent code
 /*
 border code
 .b${i}-${data}, .b${i}${data}{ border: ${i}px solid ${data} }
-.a_b${i}-${data}:active, .a_b${i}${data}:active{ border: ${i}px solid ${data} }
-.h_b${i}-${data}:hover, .h_b${i}${data}:hover{ border: ${i}px solid ${data} }
-.f_b${i}-${data}:focus, .f_b${i}${data}:focus{ border: ${i}px solid ${data} }
-.l_b${i}-${data}:link, .l_b${i}${data}:link{ border: ${i}px solid ${data} }
-.v_b${i}-${data}:visited, .b_b${i}${data}:visited{ border: ${i}px solid ${data} }
-
 .b-t${i}-${data}, .bt${i}${data}{ border-top: ${i}px solid ${data} }
-.a_b-t${i}-${data}:active, .a_bt${i}${data}:active{ border-top: ${i}px solid ${data} }
-.h_b-t${i}-${data}:hover, .h_bt${i}${data}:hover{ border-top: ${i}px solid ${data} }
-.f_b-t${i}-${data}:focus, .f_bt${i}${data}:focus{ border-top: ${i}px solid ${data} }
-.l_b-t${i}-${data}:link, .l_bt${i}${data}:link{ border-top: ${i}px solid ${data} }
-.v_b-t${i}-${data}:visited, .b_bt${i}${data}:visited{ border-top: ${i}px solid ${data} }
-
 .b-r${i}-${data}, .br${i}${data}{ border-right: ${i}px solid ${data} }
-.a_b-r${i}-${data}:active, .a_br${i}${data}:active{ border-right: ${i}px solid ${data} }
-.h_b-r${i}-${data}:hover, .h_br${i}${data}:hover{ border-right: ${i}px solid ${data} }
-.f_b-r${i}-${data}:focus, .f_br${i}${data}:focus{ border-right: ${i}px solid ${data} }
-.l_b-r${i}-${data}:link, .l_br${i}${data}:link{ border-right: ${i}px solid ${data} }
-.v_b-r${i}-${data}:visited, .b_br${i}${data}:visited{ border-right: ${i}px solid ${data} }
-
 .b-b${i}-${data}, .bb${i}${data}{ border-bottom: ${i}px solid ${data} }
-.a_b-b${i}-${data}:active, .a_bb${i}${data}:active{ border-bottom: ${i}px solid ${data} }
-.h_b-b${i}-${data}:hover, .h_bb${i}${data}:hover{ border-bottom: ${i}px solid ${data} }
-.f_b-b${i}-${data}:focus, .f_bb${i}${data}:focus{ border-bottom: ${i}px solid ${data} }
-.l_b-b${i}-${data}:link, .l_bb${i}${data}:link{ border-bottom: ${i}px solid ${data} }
-.v_b-b${i}-${data}:visited, .b_bb${i}${data}:visited{ border-bottom: ${i}px solid ${data} }
-
 .b-l${i}-${data}, .bl${i}${data}{ border-left: ${i}px solid ${data} }
+
+.a_b${i}-${data}:active, .a_b${i}${data}:active{ border: ${i}px solid ${data} }
+.a_b-t${i}-${data}:active, .a_bt${i}${data}:active{ border-top: ${i}px solid ${data} }
+.a_b-r${i}-${data}:active, .a_br${i}${data}:active{ border-right: ${i}px solid ${data} }
+.a_b-b${i}-${data}:active, .a_bb${i}${data}:active{ border-bottom: ${i}px solid ${data} }
 .a_b-l${i}-${data}:active, .a_bl${i}${data}:active{ border-left: ${i}px solid ${data} }
+
+.h_b${i}-${data}:hover, .h_b${i}${data}:hover{ border: ${i}px solid ${data} }
+.h_b-t${i}-${data}:hover, .h_bt${i}${data}:hover{ border-top: ${i}px solid ${data} }
+.h_b-r${i}-${data}:hover, .h_br${i}${data}:hover{ border-right: ${i}px solid ${data} }
+.h_b-b${i}-${data}:hover, .h_bb${i}${data}:hover{ border-bottom: ${i}px solid ${data} }
 .h_b-l${i}-${data}:hover, .h_bl${i}${data}:hover{ border-left: ${i}px solid ${data} }
+
+.f_b${i}-${data}:focus, .f_b${i}${data}:focus{ border: ${i}px solid ${data} }
+.f_b-t${i}-${data}:focus, .f_bt${i}${data}:focus{ border-top: ${i}px solid ${data} }
+.f_b-r${i}-${data}:focus, .f_br${i}${data}:focus{ border-right: ${i}px solid ${data} }
+.f_b-b${i}-${data}:focus, .f_bb${i}${data}:focus{ border-bottom: ${i}px solid ${data} }
 .f_b-l${i}-${data}:focus, .f_bl${i}${data}:focus{ border-left: ${i}px solid ${data} }
+
+.l_b${i}-${data}:link, .l_b${i}${data}:link{ border: ${i}px solid ${data} }
+.l_b-t${i}-${data}:link, .l_bt${i}${data}:link{ border-top: ${i}px solid ${data} }
+.l_b-r${i}-${data}:link, .l_br${i}${data}:link{ border-right: ${i}px solid ${data} }
+.l_b-b${i}-${data}:link, .l_bb${i}${data}:link{ border-bottom: ${i}px solid ${data} }
 .l_b-l${i}-${data}:link, .l_bl${i}${data}:link{ border-left: ${i}px solid ${data} }
+
+.v_b${i}-${data}:visited, .b_b${i}${data}:visited{ border: ${i}px solid ${data} }
+.v_b-t${i}-${data}:visited, .b_bt${i}${data}:visited{ border-top: ${i}px solid ${data} }
+.v_b-r${i}-${data}:visited, .b_br${i}${data}:visited{ border-right: ${i}px solid ${data} }
+.v_b-b${i}-${data}:visited, .b_bb${i}${data}:visited{ border-bottom: ${i}px solid ${data} }
 .v_b-l${i}-${data}:visited, .b_bl${i}${data}:visited{ border-left: ${i}px solid ${data} }
 */

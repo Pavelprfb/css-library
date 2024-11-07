@@ -1,0 +1,107 @@
+
+.default button{
+  background-color: blue;
+  color: white;
+  outline: none;
+  background-color: ;
+  padding: 10px 20px;
+  border-radius: 3px;
+  border: 1px solid blue;
+}
+.default button:active{
+  color: blue;
+  background-color: transparent;
+}
+.default input, .default textarea{
+  outline: none;
+  border: 1px solid blue;
+  display: block;
+  padding: 10px 10px;
+  border-radius: 3px;
+}
+.default input:focus, .default textarea:focus{
+  border: 1px solid #0000ff63;
+  box-shadow: 0 0 5px rgba(30, 144, 255, 0.5);
+}
+
+/* Main select box styling */
+.default select {
+  width: 200px;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid blue; /* Blue color border */
+  border-radius: 5px;
+  background-color: white;
+  color: #333;
+  outline: none;
+  cursor: pointer;
+  -webkit-appearance: none; /* Remove default arrow */
+  -moz-appearance: none;
+  appearance: none;
+  background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"%3E%3Cpath fill="blue" d="M7 10l5 5 5-5z"/%3E%3C/svg%3E');
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+}
+
+/* Hover effect for select box */
+.default select:hover {
+  border-color: #0000ff63;
+}
+
+/* Focus effect for select box */
+.default select:focus {
+  border-color: #0000ff63;
+  box-shadow: 0 0 5px rgba(30, 144, 255, 0.5);
+}
+
+/* Custom styling for options */
+.default option {
+  padding: 10px;
+  background-color: #f0f8ff; /* Light blue background for options */
+  color: #333;
+}
+
+/* Hover effect on option */
+.default option:hover {
+  background-color: blue; /* Blue background on hover */
+  color: white; /* White text on blue background */
+}
+.default p{
+  text-align: justify;
+}
+.default img{
+  width: 100%;
+}
+.default hr{
+  background-color: blue;
+  color: blue;
+  border: none;
+  height: 1px;
+}
+.default table{
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+.default table th{
+  border: 1px solid black;
+  padding: 10px;
+  background-color: blue;
+  color: white;
+  text-align: center;
+}
+.default table td{
+  text-align: center;
+  padding: 5px 10px;
+  border: 1px solid black;
+}
+h1, h2, h3, h4, h5, h6, p{
+  font-size: 16px;
+}
+.default iframe{
+  border: 1px solid blue;
+  width: 100%;
+  height: 100vh;
+}
+.default iframe:hover{
+  box-shadow: 0 0 5px rgba(30, 144, 255, 0.5);
+}

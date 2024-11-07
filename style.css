@@ -27,6 +27,7 @@
 @import url("flex-basis.css");
 @import url("form.css");
 @import url("input.css");
+@import url("default.css");
 /*
 @import url("");
 */
@@ -35,7 +36,7 @@
 /*
 background-color
 color
-border-radius √ but no shortcut X
+border-radius
 font-size
 h-w.css
 margin
