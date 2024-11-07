@@ -1,102 +1,366 @@
-
-.l-s0{letter-spacing: 0px !important;}
-
-.l-s1{letter-spacing: 1px !important;}
-
-.l-s2{letter-spacing: 2px !important;}
-
-.l-s3{letter-spacing: 3px !important;}
-
-.l-s4{letter-spacing: 4px !important;}
-
-.l-s5{letter-spacing: 5px !important;}
-
-.l-s6{letter-spacing: 6px !important;}
-
-.l-s7{letter-spacing: 7px !important;}
-
-.l-s8{letter-spacing: 8px !important;}
-
-.l-s9{letter-spacing: 9px !important;}
-
-.l-s10{letter-spacing: 10px !important;}
-
-.l-s11{letter-spacing: 11px !important;}
-
-.l-s12{letter-spacing: 12px !important;}
-
-.l-s13{letter-spacing: 13px !important;}
-
-.l-s14{letter-spacing: 14px !important;}
-
-.l-s15{letter-spacing: 15px !important;}
-
-.l-s16{letter-spacing: 16px !important;}
-
-.l-s17{letter-spacing: 17px !important;}
-
-.l-s18{letter-spacing: 18px !important;}
-
-.l-s19{letter-spacing: 19px !important;}
-
-.l-s20{letter-spacing: 20px !important;}
-
-.l-s21{letter-spacing: 21px !important;}
-
-.l-s22{letter-spacing: 22px !important;}
-
-.l-s23{letter-spacing: 23px !important;}
-
-.l-s24{letter-spacing: 24px !important;}
-
-.l-s25{letter-spacing: 25px !important;}
-
-.l-s26{letter-spacing: 26px !important;}
-
-.l-s27{letter-spacing: 27px !important;}
-
-.l-s28{letter-spacing: 28px !important;}
-
-.l-s29{letter-spacing: 29px !important;}
-
-.l-s30{letter-spacing: 30px !important;}
-
-.l-s31{letter-spacing: 31px !important;}
-
-.l-s32{letter-spacing: 32px !important;}
-
-.l-s33{letter-spacing: 33px !important;}
-
-.l-s34{letter-spacing: 34px !important;}
-
-.l-s35{letter-spacing: 35px !important;}
-
-.l-s36{letter-spacing: 36px !important;}
-
-.l-s37{letter-spacing: 37px !important;}
-
-.l-s38{letter-spacing: 38px !important;}
-
-.l-s39{letter-spacing: 39px !important;}
-
-.l-s40{letter-spacing: 40px !important;}
-
-.l-s41{letter-spacing: 41px !important;}
-
-.l-s42{letter-spacing: 42px !important;}
-
-.l-s43{letter-spacing: 43px !important;}
-
-.l-s44{letter-spacing: 44px !important;}
-
-.l-s45{letter-spacing: 45px !important;}
-
-.l-s46{letter-spacing: 46px !important;}
-
-.l-s47{letter-spacing: 47px !important;}
-
-.l-s48{letter-spacing: 48px !important;}
-
-.l-s49{letter-spacing: 49px !important;}
-
-.l-s50{letter-spacing: 50px !important;}
+/*
+letter-spacing code
+.l-s${i}, .ls${i}{ letter-spacing: ${i}px !important;}
+.a_l-s${i}:active, .a_ls${i}:active{ letter-spacing: ${i}px !important;}
+.h_l-s${i}:hover, .h_ls${i}:hover{ letter-spacing: ${i}px !important;}
+.f_l-s${i}:focus, .f_ls${i}:focus{ letter-spacing: ${i}px !important;}
+.l_l-s${i}:link, .l_ls${i}:link{ letter-spacing: ${i}px !important;}
+.v_l-s${i}:visited, .v_ls${i}:visited{ letter-spacing: ${i}px !important;}
+*/
+.l-s0, .ls0{ letter-spacing: 0px !important;}
+.a_l-s0:active, .a_ls0:active{ letter-spacing: 0px !important;}
+.h_l-s0:hover, .h_ls0:hover{ letter-spacing: 0px !important;}
+.f_l-s0:focus, .f_ls0:focus{ letter-spacing: 0px !important;}
+.l_l-s0:link, .l_ls0:link{ letter-spacing: 0px !important;}
+.v_l-s0:visited, .v_ls0:visited{ letter-spacing: 0px !important;}
+        
+.l-s1, .ls1{ letter-spacing: 1px !important;}
+.a_l-s1:active, .a_ls1:active{ letter-spacing: 1px !important;}
+.h_l-s1:hover, .h_ls1:hover{ letter-spacing: 1px !important;}
+.f_l-s1:focus, .f_ls1:focus{ letter-spacing: 1px !important;}
+.l_l-s1:link, .l_ls1:link{ letter-spacing: 1px !important;}
+.v_l-s1:visited, .v_ls1:visited{ letter-spacing: 1px !important;}
+        
+.l-s2, .ls2{ letter-spacing: 2px !important;}
+.a_l-s2:active, .a_ls2:active{ letter-spacing: 2px !important;}
+.h_l-s2:hover, .h_ls2:hover{ letter-spacing: 2px !important;}
+.f_l-s2:focus, .f_ls2:focus{ letter-spacing: 2px !important;}
+.l_l-s2:link, .l_ls2:link{ letter-spacing: 2px !important;}
+.v_l-s2:visited, .v_ls2:visited{ letter-spacing: 2px !important;}
+        
+.l-s3, .ls3{ letter-spacing: 3px !important;}
+.a_l-s3:active, .a_ls3:active{ letter-spacing: 3px !important;}
+.h_l-s3:hover, .h_ls3:hover{ letter-spacing: 3px !important;}
+.f_l-s3:focus, .f_ls3:focus{ letter-spacing: 3px !important;}
+.l_l-s3:link, .l_ls3:link{ letter-spacing: 3px !important;}
+.v_l-s3:visited, .v_ls3:visited{ letter-spacing: 3px !important;}
+        
+.l-s4, .ls4{ letter-spacing: 4px !important;}
+.a_l-s4:active, .a_ls4:active{ letter-spacing: 4px !important;}
+.h_l-s4:hover, .h_ls4:hover{ letter-spacing: 4px !important;}
+.f_l-s4:focus, .f_ls4:focus{ letter-spacing: 4px !important;}
+.l_l-s4:link, .l_ls4:link{ letter-spacing: 4px !important;}
+.v_l-s4:visited, .v_ls4:visited{ letter-spacing: 4px !important;}
+        
+.l-s5, .ls5{ letter-spacing: 5px !important;}
+.a_l-s5:active, .a_ls5:active{ letter-spacing: 5px !important;}
+.h_l-s5:hover, .h_ls5:hover{ letter-spacing: 5px !important;}
+.f_l-s5:focus, .f_ls5:focus{ letter-spacing: 5px !important;}
+.l_l-s5:link, .l_ls5:link{ letter-spacing: 5px !important;}
+.v_l-s5:visited, .v_ls5:visited{ letter-spacing: 5px !important;}
+        
+.l-s6, .ls6{ letter-spacing: 6px !important;}
+.a_l-s6:active, .a_ls6:active{ letter-spacing: 6px !important;}
+.h_l-s6:hover, .h_ls6:hover{ letter-spacing: 6px !important;}
+.f_l-s6:focus, .f_ls6:focus{ letter-spacing: 6px !important;}
+.l_l-s6:link, .l_ls6:link{ letter-spacing: 6px !important;}
+.v_l-s6:visited, .v_ls6:visited{ letter-spacing: 6px !important;}
+        
+.l-s7, .ls7{ letter-spacing: 7px !important;}
+.a_l-s7:active, .a_ls7:active{ letter-spacing: 7px !important;}
+.h_l-s7:hover, .h_ls7:hover{ letter-spacing: 7px !important;}
+.f_l-s7:focus, .f_ls7:focus{ letter-spacing: 7px !important;}
+.l_l-s7:link, .l_ls7:link{ letter-spacing: 7px !important;}
+.v_l-s7:visited, .v_ls7:visited{ letter-spacing: 7px !important;}
+        
+.l-s8, .ls8{ letter-spacing: 8px !important;}
+.a_l-s8:active, .a_ls8:active{ letter-spacing: 8px !important;}
+.h_l-s8:hover, .h_ls8:hover{ letter-spacing: 8px !important;}
+.f_l-s8:focus, .f_ls8:focus{ letter-spacing: 8px !important;}
+.l_l-s8:link, .l_ls8:link{ letter-spacing: 8px !important;}
+.v_l-s8:visited, .v_ls8:visited{ letter-spacing: 8px !important;}
+        
+.l-s9, .ls9{ letter-spacing: 9px !important;}
+.a_l-s9:active, .a_ls9:active{ letter-spacing: 9px !important;}
+.h_l-s9:hover, .h_ls9:hover{ letter-spacing: 9px !important;}
+.f_l-s9:focus, .f_ls9:focus{ letter-spacing: 9px !important;}
+.l_l-s9:link, .l_ls9:link{ letter-spacing: 9px !important;}
+.v_l-s9:visited, .v_ls9:visited{ letter-spacing: 9px !important;}
+        
+.l-s10, .ls10{ letter-spacing: 10px !important;}
+.a_l-s10:active, .a_ls10:active{ letter-spacing: 10px !important;}
+.h_l-s10:hover, .h_ls10:hover{ letter-spacing: 10px !important;}
+.f_l-s10:focus, .f_ls10:focus{ letter-spacing: 10px !important;}
+.l_l-s10:link, .l_ls10:link{ letter-spacing: 10px !important;}
+.v_l-s10:visited, .v_ls10:visited{ letter-spacing: 10px !important;}
+        
+.l-s11, .ls11{ letter-spacing: 11px !important;}
+.a_l-s11:active, .a_ls11:active{ letter-spacing: 11px !important;}
+.h_l-s11:hover, .h_ls11:hover{ letter-spacing: 11px !important;}
+.f_l-s11:focus, .f_ls11:focus{ letter-spacing: 11px !important;}
+.l_l-s11:link, .l_ls11:link{ letter-spacing: 11px !important;}
+.v_l-s11:visited, .v_ls11:visited{ letter-spacing: 11px !important;}
+        
+.l-s12, .ls12{ letter-spacing: 12px !important;}
+.a_l-s12:active, .a_ls12:active{ letter-spacing: 12px !important;}
+.h_l-s12:hover, .h_ls12:hover{ letter-spacing: 12px !important;}
+.f_l-s12:focus, .f_ls12:focus{ letter-spacing: 12px !important;}
+.l_l-s12:link, .l_ls12:link{ letter-spacing: 12px !important;}
+.v_l-s12:visited, .v_ls12:visited{ letter-spacing: 12px !important;}
+        
+.l-s13, .ls13{ letter-spacing: 13px !important;}
+.a_l-s13:active, .a_ls13:active{ letter-spacing: 13px !important;}
+.h_l-s13:hover, .h_ls13:hover{ letter-spacing: 13px !important;}
+.f_l-s13:focus, .f_ls13:focus{ letter-spacing: 13px !important;}
+.l_l-s13:link, .l_ls13:link{ letter-spacing: 13px !important;}
+.v_l-s13:visited, .v_ls13:visited{ letter-spacing: 13px !important;}
+        
+.l-s14, .ls14{ letter-spacing: 14px !important;}
+.a_l-s14:active, .a_ls14:active{ letter-spacing: 14px !important;}
+.h_l-s14:hover, .h_ls14:hover{ letter-spacing: 14px !important;}
+.f_l-s14:focus, .f_ls14:focus{ letter-spacing: 14px !important;}
+.l_l-s14:link, .l_ls14:link{ letter-spacing: 14px !important;}
+.v_l-s14:visited, .v_ls14:visited{ letter-spacing: 14px !important;}
+        
+.l-s15, .ls15{ letter-spacing: 15px !important;}
+.a_l-s15:active, .a_ls15:active{ letter-spacing: 15px !important;}
+.h_l-s15:hover, .h_ls15:hover{ letter-spacing: 15px !important;}
+.f_l-s15:focus, .f_ls15:focus{ letter-spacing: 15px !important;}
+.l_l-s15:link, .l_ls15:link{ letter-spacing: 15px !important;}
+.v_l-s15:visited, .v_ls15:visited{ letter-spacing: 15px !important;}
+        
+.l-s16, .ls16{ letter-spacing: 16px !important;}
+.a_l-s16:active, .a_ls16:active{ letter-spacing: 16px !important;}
+.h_l-s16:hover, .h_ls16:hover{ letter-spacing: 16px !important;}
+.f_l-s16:focus, .f_ls16:focus{ letter-spacing: 16px !important;}
+.l_l-s16:link, .l_ls16:link{ letter-spacing: 16px !important;}
+.v_l-s16:visited, .v_ls16:visited{ letter-spacing: 16px !important;}
+        
+.l-s17, .ls17{ letter-spacing: 17px !important;}
+.a_l-s17:active, .a_ls17:active{ letter-spacing: 17px !important;}
+.h_l-s17:hover, .h_ls17:hover{ letter-spacing: 17px !important;}
+.f_l-s17:focus, .f_ls17:focus{ letter-spacing: 17px !important;}
+.l_l-s17:link, .l_ls17:link{ letter-spacing: 17px !important;}
+.v_l-s17:visited, .v_ls17:visited{ letter-spacing: 17px !important;}
+        
+.l-s18, .ls18{ letter-spacing: 18px !important;}
+.a_l-s18:active, .a_ls18:active{ letter-spacing: 18px !important;}
+.h_l-s18:hover, .h_ls18:hover{ letter-spacing: 18px !important;}
+.f_l-s18:focus, .f_ls18:focus{ letter-spacing: 18px !important;}
+.l_l-s18:link, .l_ls18:link{ letter-spacing: 18px !important;}
+.v_l-s18:visited, .v_ls18:visited{ letter-spacing: 18px !important;}
+        
+.l-s19, .ls19{ letter-spacing: 19px !important;}
+.a_l-s19:active, .a_ls19:active{ letter-spacing: 19px !important;}
+.h_l-s19:hover, .h_ls19:hover{ letter-spacing: 19px !important;}
+.f_l-s19:focus, .f_ls19:focus{ letter-spacing: 19px !important;}
+.l_l-s19:link, .l_ls19:link{ letter-spacing: 19px !important;}
+.v_l-s19:visited, .v_ls19:visited{ letter-spacing: 19px !important;}
+        
+.l-s20, .ls20{ letter-spacing: 20px !important;}
+.a_l-s20:active, .a_ls20:active{ letter-spacing: 20px !important;}
+.h_l-s20:hover, .h_ls20:hover{ letter-spacing: 20px !important;}
+.f_l-s20:focus, .f_ls20:focus{ letter-spacing: 20px !important;}
+.l_l-s20:link, .l_ls20:link{ letter-spacing: 20px !important;}
+.v_l-s20:visited, .v_ls20:visited{ letter-spacing: 20px !important;}
+        
+.l-s21, .ls21{ letter-spacing: 21px !important;}
+.a_l-s21:active, .a_ls21:active{ letter-spacing: 21px !important;}
+.h_l-s21:hover, .h_ls21:hover{ letter-spacing: 21px !important;}
+.f_l-s21:focus, .f_ls21:focus{ letter-spacing: 21px !important;}
+.l_l-s21:link, .l_ls21:link{ letter-spacing: 21px !important;}
+.v_l-s21:visited, .v_ls21:visited{ letter-spacing: 21px !important;}
+        
+.l-s22, .ls22{ letter-spacing: 22px !important;}
+.a_l-s22:active, .a_ls22:active{ letter-spacing: 22px !important;}
+.h_l-s22:hover, .h_ls22:hover{ letter-spacing: 22px !important;}
+.f_l-s22:focus, .f_ls22:focus{ letter-spacing: 22px !important;}
+.l_l-s22:link, .l_ls22:link{ letter-spacing: 22px !important;}
+.v_l-s22:visited, .v_ls22:visited{ letter-spacing: 22px !important;}
+        
+.l-s23, .ls23{ letter-spacing: 23px !important;}
+.a_l-s23:active, .a_ls23:active{ letter-spacing: 23px !important;}
+.h_l-s23:hover, .h_ls23:hover{ letter-spacing: 23px !important;}
+.f_l-s23:focus, .f_ls23:focus{ letter-spacing: 23px !important;}
+.l_l-s23:link, .l_ls23:link{ letter-spacing: 23px !important;}
+.v_l-s23:visited, .v_ls23:visited{ letter-spacing: 23px !important;}
+        
+.l-s24, .ls24{ letter-spacing: 24px !important;}
+.a_l-s24:active, .a_ls24:active{ letter-spacing: 24px !important;}
+.h_l-s24:hover, .h_ls24:hover{ letter-spacing: 24px !important;}
+.f_l-s24:focus, .f_ls24:focus{ letter-spacing: 24px !important;}
+.l_l-s24:link, .l_ls24:link{ letter-spacing: 24px !important;}
+.v_l-s24:visited, .v_ls24:visited{ letter-spacing: 24px !important;}
+        
+.l-s25, .ls25{ letter-spacing: 25px !important;}
+.a_l-s25:active, .a_ls25:active{ letter-spacing: 25px !important;}
+.h_l-s25:hover, .h_ls25:hover{ letter-spacing: 25px !important;}
+.f_l-s25:focus, .f_ls25:focus{ letter-spacing: 25px !important;}
+.l_l-s25:link, .l_ls25:link{ letter-spacing: 25px !important;}
+.v_l-s25:visited, .v_ls25:visited{ letter-spacing: 25px !important;}
+        
+.l-s26, .ls26{ letter-spacing: 26px !important;}
+.a_l-s26:active, .a_ls26:active{ letter-spacing: 26px !important;}
+.h_l-s26:hover, .h_ls26:hover{ letter-spacing: 26px !important;}
+.f_l-s26:focus, .f_ls26:focus{ letter-spacing: 26px !important;}
+.l_l-s26:link, .l_ls26:link{ letter-spacing: 26px !important;}
+.v_l-s26:visited, .v_ls26:visited{ letter-spacing: 26px !important;}
+        
+.l-s27, .ls27{ letter-spacing: 27px !important;}
+.a_l-s27:active, .a_ls27:active{ letter-spacing: 27px !important;}
+.h_l-s27:hover, .h_ls27:hover{ letter-spacing: 27px !important;}
+.f_l-s27:focus, .f_ls27:focus{ letter-spacing: 27px !important;}
+.l_l-s27:link, .l_ls27:link{ letter-spacing: 27px !important;}
+.v_l-s27:visited, .v_ls27:visited{ letter-spacing: 27px !important;}
+        
+.l-s28, .ls28{ letter-spacing: 28px !important;}
+.a_l-s28:active, .a_ls28:active{ letter-spacing: 28px !important;}
+.h_l-s28:hover, .h_ls28:hover{ letter-spacing: 28px !important;}
+.f_l-s28:focus, .f_ls28:focus{ letter-spacing: 28px !important;}
+.l_l-s28:link, .l_ls28:link{ letter-spacing: 28px !important;}
+.v_l-s28:visited, .v_ls28:visited{ letter-spacing: 28px !important;}
+        
+.l-s29, .ls29{ letter-spacing: 29px !important;}
+.a_l-s29:active, .a_ls29:active{ letter-spacing: 29px !important;}
+.h_l-s29:hover, .h_ls29:hover{ letter-spacing: 29px !important;}
+.f_l-s29:focus, .f_ls29:focus{ letter-spacing: 29px !important;}
+.l_l-s29:link, .l_ls29:link{ letter-spacing: 29px !important;}
+.v_l-s29:visited, .v_ls29:visited{ letter-spacing: 29px !important;}
+        
+.l-s30, .ls30{ letter-spacing: 30px !important;}
+.a_l-s30:active, .a_ls30:active{ letter-spacing: 30px !important;}
+.h_l-s30:hover, .h_ls30:hover{ letter-spacing: 30px !important;}
+.f_l-s30:focus, .f_ls30:focus{ letter-spacing: 30px !important;}
+.l_l-s30:link, .l_ls30:link{ letter-spacing: 30px !important;}
+.v_l-s30:visited, .v_ls30:visited{ letter-spacing: 30px !important;}
+        
+.l-s31, .ls31{ letter-spacing: 31px !important;}
+.a_l-s31:active, .a_ls31:active{ letter-spacing: 31px !important;}
+.h_l-s31:hover, .h_ls31:hover{ letter-spacing: 31px !important;}
+.f_l-s31:focus, .f_ls31:focus{ letter-spacing: 31px !important;}
+.l_l-s31:link, .l_ls31:link{ letter-spacing: 31px !important;}
+.v_l-s31:visited, .v_ls31:visited{ letter-spacing: 31px !important;}
+        
+.l-s32, .ls32{ letter-spacing: 32px !important;}
+.a_l-s32:active, .a_ls32:active{ letter-spacing: 32px !important;}
+.h_l-s32:hover, .h_ls32:hover{ letter-spacing: 32px !important;}
+.f_l-s32:focus, .f_ls32:focus{ letter-spacing: 32px !important;}
+.l_l-s32:link, .l_ls32:link{ letter-spacing: 32px !important;}
+.v_l-s32:visited, .v_ls32:visited{ letter-spacing: 32px !important;}
+        
+.l-s33, .ls33{ letter-spacing: 33px !important;}
+.a_l-s33:active, .a_ls33:active{ letter-spacing: 33px !important;}
+.h_l-s33:hover, .h_ls33:hover{ letter-spacing: 33px !important;}
+.f_l-s33:focus, .f_ls33:focus{ letter-spacing: 33px !important;}
+.l_l-s33:link, .l_ls33:link{ letter-spacing: 33px !important;}
+.v_l-s33:visited, .v_ls33:visited{ letter-spacing: 33px !important;}
+        
+.l-s34, .ls34{ letter-spacing: 34px !important;}
+.a_l-s34:active, .a_ls34:active{ letter-spacing: 34px !important;}
+.h_l-s34:hover, .h_ls34:hover{ letter-spacing: 34px !important;}
+.f_l-s34:focus, .f_ls34:focus{ letter-spacing: 34px !important;}
+.l_l-s34:link, .l_ls34:link{ letter-spacing: 34px !important;}
+.v_l-s34:visited, .v_ls34:visited{ letter-spacing: 34px !important;}
+        
+.l-s35, .ls35{ letter-spacing: 35px !important;}
+.a_l-s35:active, .a_ls35:active{ letter-spacing: 35px !important;}
+.h_l-s35:hover, .h_ls35:hover{ letter-spacing: 35px !important;}
+.f_l-s35:focus, .f_ls35:focus{ letter-spacing: 35px !important;}
+.l_l-s35:link, .l_ls35:link{ letter-spacing: 35px !important;}
+.v_l-s35:visited, .v_ls35:visited{ letter-spacing: 35px !important;}
+        
+.l-s36, .ls36{ letter-spacing: 36px !important;}
+.a_l-s36:active, .a_ls36:active{ letter-spacing: 36px !important;}
+.h_l-s36:hover, .h_ls36:hover{ letter-spacing: 36px !important;}
+.f_l-s36:focus, .f_ls36:focus{ letter-spacing: 36px !important;}
+.l_l-s36:link, .l_ls36:link{ letter-spacing: 36px !important;}
+.v_l-s36:visited, .v_ls36:visited{ letter-spacing: 36px !important;}
+        
+.l-s37, .ls37{ letter-spacing: 37px !important;}
+.a_l-s37:active, .a_ls37:active{ letter-spacing: 37px !important;}
+.h_l-s37:hover, .h_ls37:hover{ letter-spacing: 37px !important;}
+.f_l-s37:focus, .f_ls37:focus{ letter-spacing: 37px !important;}
+.l_l-s37:link, .l_ls37:link{ letter-spacing: 37px !important;}
+.v_l-s37:visited, .v_ls37:visited{ letter-spacing: 37px !important;}
+        
+.l-s38, .ls38{ letter-spacing: 38px !important;}
+.a_l-s38:active, .a_ls38:active{ letter-spacing: 38px !important;}
+.h_l-s38:hover, .h_ls38:hover{ letter-spacing: 38px !important;}
+.f_l-s38:focus, .f_ls38:focus{ letter-spacing: 38px !important;}
+.l_l-s38:link, .l_ls38:link{ letter-spacing: 38px !important;}
+.v_l-s38:visited, .v_ls38:visited{ letter-spacing: 38px !important;}
+        
+.l-s39, .ls39{ letter-spacing: 39px !important;}
+.a_l-s39:active, .a_ls39:active{ letter-spacing: 39px !important;}
+.h_l-s39:hover, .h_ls39:hover{ letter-spacing: 39px !important;}
+.f_l-s39:focus, .f_ls39:focus{ letter-spacing: 39px !important;}
+.l_l-s39:link, .l_ls39:link{ letter-spacing: 39px !important;}
+.v_l-s39:visited, .v_ls39:visited{ letter-spacing: 39px !important;}
+        
+.l-s40, .ls40{ letter-spacing: 40px !important;}
+.a_l-s40:active, .a_ls40:active{ letter-spacing: 40px !important;}
+.h_l-s40:hover, .h_ls40:hover{ letter-spacing: 40px !important;}
+.f_l-s40:focus, .f_ls40:focus{ letter-spacing: 40px !important;}
+.l_l-s40:link, .l_ls40:link{ letter-spacing: 40px !important;}
+.v_l-s40:visited, .v_ls40:visited{ letter-spacing: 40px !important;}
+        
+.l-s41, .ls41{ letter-spacing: 41px !important;}
+.a_l-s41:active, .a_ls41:active{ letter-spacing: 41px !important;}
+.h_l-s41:hover, .h_ls41:hover{ letter-spacing: 41px !important;}
+.f_l-s41:focus, .f_ls41:focus{ letter-spacing: 41px !important;}
+.l_l-s41:link, .l_ls41:link{ letter-spacing: 41px !important;}
+.v_l-s41:visited, .v_ls41:visited{ letter-spacing: 41px !important;}
+        
+.l-s42, .ls42{ letter-spacing: 42px !important;}
+.a_l-s42:active, .a_ls42:active{ letter-spacing: 42px !important;}
+.h_l-s42:hover, .h_ls42:hover{ letter-spacing: 42px !important;}
+.f_l-s42:focus, .f_ls42:focus{ letter-spacing: 42px !important;}
+.l_l-s42:link, .l_ls42:link{ letter-spacing: 42px !important;}
+.v_l-s42:visited, .v_ls42:visited{ letter-spacing: 42px !important;}
+        
+.l-s43, .ls43{ letter-spacing: 43px !important;}
+.a_l-s43:active, .a_ls43:active{ letter-spacing: 43px !important;}
+.h_l-s43:hover, .h_ls43:hover{ letter-spacing: 43px !important;}
+.f_l-s43:focus, .f_ls43:focus{ letter-spacing: 43px !important;}
+.l_l-s43:link, .l_ls43:link{ letter-spacing: 43px !important;}
+.v_l-s43:visited, .v_ls43:visited{ letter-spacing: 43px !important;}
+        
+.l-s44, .ls44{ letter-spacing: 44px !important;}
+.a_l-s44:active, .a_ls44:active{ letter-spacing: 44px !important;}
+.h_l-s44:hover, .h_ls44:hover{ letter-spacing: 44px !important;}
+.f_l-s44:focus, .f_ls44:focus{ letter-spacing: 44px !important;}
+.l_l-s44:link, .l_ls44:link{ letter-spacing: 44px !important;}
+.v_l-s44:visited, .v_ls44:visited{ letter-spacing: 44px !important;}
+        
+.l-s45, .ls45{ letter-spacing: 45px !important;}
+.a_l-s45:active, .a_ls45:active{ letter-spacing: 45px !important;}
+.h_l-s45:hover, .h_ls45:hover{ letter-spacing: 45px !important;}
+.f_l-s45:focus, .f_ls45:focus{ letter-spacing: 45px !important;}
+.l_l-s45:link, .l_ls45:link{ letter-spacing: 45px !important;}
+.v_l-s45:visited, .v_ls45:visited{ letter-spacing: 45px !important;}
+        
+.l-s46, .ls46{ letter-spacing: 46px !important;}
+.a_l-s46:active, .a_ls46:active{ letter-spacing: 46px !important;}
+.h_l-s46:hover, .h_ls46:hover{ letter-spacing: 46px !important;}
+.f_l-s46:focus, .f_ls46:focus{ letter-spacing: 46px !important;}
+.l_l-s46:link, .l_ls46:link{ letter-spacing: 46px !important;}
+.v_l-s46:visited, .v_ls46:visited{ letter-spacing: 46px !important;}
+        
+.l-s47, .ls47{ letter-spacing: 47px !important;}
+.a_l-s47:active, .a_ls47:active{ letter-spacing: 47px !important;}
+.h_l-s47:hover, .h_ls47:hover{ letter-spacing: 47px !important;}
+.f_l-s47:focus, .f_ls47:focus{ letter-spacing: 47px !important;}
+.l_l-s47:link, .l_ls47:link{ letter-spacing: 47px !important;}
+.v_l-s47:visited, .v_ls47:visited{ letter-spacing: 47px !important;}
+        
+.l-s48, .ls48{ letter-spacing: 48px !important;}
+.a_l-s48:active, .a_ls48:active{ letter-spacing: 48px !important;}
+.h_l-s48:hover, .h_ls48:hover{ letter-spacing: 48px !important;}
+.f_l-s48:focus, .f_ls48:focus{ letter-spacing: 48px !important;}
+.l_l-s48:link, .l_ls48:link{ letter-spacing: 48px !important;}
+.v_l-s48:visited, .v_ls48:visited{ letter-spacing: 48px !important;}
+        
+.l-s49, .ls49{ letter-spacing: 49px !important;}
+.a_l-s49:active, .a_ls49:active{ letter-spacing: 49px !important;}
+.h_l-s49:hover, .h_ls49:hover{ letter-spacing: 49px !important;}
+.f_l-s49:focus, .f_ls49:focus{ letter-spacing: 49px !important;}
+.l_l-s49:link, .l_ls49:link{ letter-spacing: 49px !important;}
+.v_l-s49:visited, .v_ls49:visited{ letter-spacing: 49px !important;}
+        
+.l-s50, .ls50{ letter-spacing: 50px !important;}
+.a_l-s50:active, .a_ls50:active{ letter-spacing: 50px !important;}
+.h_l-s50:hover, .h_ls50:hover{ letter-spacing: 50px !important;}
+.f_l-s50:focus, .f_ls50:focus{ letter-spacing: 50px !important;}
+.l_l-s50:link, .l_ls50:link{ letter-spacing: 50px !important;}
+.v_l-s50:visited, .v_ls50:visited{ letter-spacing: 50px !important;}
+        

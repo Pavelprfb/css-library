@@ -162,3 +162,23 @@ z-index code
 .l_z-i${i}:link, .l_zi${i}:link{ z-index: ${i} !important; }
 .v_z-i${i}:visited, .v_zi${i}:visited{ z-index: ${i} !important; }
 */
+
+/*
+letter-spacing code
+.l-s${i}, .ls${i}{ letter-spacing: ${i}px !important;}
+.a_l-s${i}:active, .a_ls${i}:active{ letter-spacing: ${i}px !important;}
+.h_l-s${i}:hover, .h_ls${i}:hover{ letter-spacing: ${i}px !important;}
+.f_l-s${i}:focus, .f_ls${i}:focus{ letter-spacing: ${i}px !important;}
+.l_l-s${i}:link, .l_ls${i}:link{ letter-spacing: ${i}px !important;}
+.v_l-s${i}:visited, .v_ls${i}:visited{ letter-spacing: ${i}px !important;}
+*/
+
+/*
+line-height code
+.l-h${i}, .lh${i}{ line-height: ${i}px !important; }
+.a_l-h${i}:active, .a_lh${i}:active{ line-height: ${i}px !important; }
+.g_l-h${i}:hover, .h_lh${i}:hover{ line-height: ${i}px !important; }
+.f_l-h${i}:focus, .f_lh${i}:focus{ line-height: ${i}px !important; }
+.l_l-h${i}:link, .l_lh${i}:link{ line-height: ${i}px !important; }
+.v_l-h${i}:visited, .v_lh${i}:visited{ line-height: ${i}px !important; }
+*/

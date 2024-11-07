@@ -19,8 +19,8 @@
 @import url("z-index.css");
 @import url("letter-spacing.css");
 @import url("line-height.css");
-@import url("text-indent.css");
 @import url("word-spacing.css");
+@import url("text-indent.css");
 @import url("border.css");
 @import url("all.css");
 @import url("btn.css");
@@ -52,4 +52,6 @@ margin-10
 margin-11
 padding
 z-index
+letter-spacing
+line-height
 */
