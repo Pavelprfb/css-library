@@ -182,3 +182,61 @@ line-height code
 .l_l-h${i}:link, .l_lh${i}:link{ line-height: ${i}px !important; }
 .v_l-h${i}:visited, .v_lh${i}:visited{ line-height: ${i}px !important; }
 */
+
+/*
+word-spacing code
+.w-s${i}, .ws${i}{ word-spacing: ${i}:px !important; }
+.a_w-s${i}:active, .a_ws${i}:active{ word-spacing: ${i}:px !important; }
+.h_w-s${i}:hover, .h_ws${i}:hover{ word-spacing: ${i}:px !important; }
+.f_w-s${i}:focus, .f_ws${i}:focus{ word-spacing: ${i}:px !important; }
+.l_w-s${i}:link, .l_ws${i}:link{ word-spacing: ${i}:px !important; }
+.v_w-s${i}:visited, .v_ws${i}:visited{ word-spacing: ${i}:px !important; }
+*/
+
+/*
+text-indent code
+.t-i${i}, .ti${i} { text-indent: ${i}px !important; }
+.a_t-i${i}:active, .a_ti${i}:active { text-indent: ${i}px !important; }
+.h_t-i${i}:hover, .h_ti${i}:hover { text-indent: ${i}px !important; }
+.f_t-i${i}:focus, .f_ti${i}:focus { text-indent: ${i}px !important; }
+.l_t-i${i}:link, .l_ti${i}:link { text-indent: ${i}px !important; }
+.v_t-i${i}:visited, .v_ti${i}:visited { text-indent: ${i}px !important; }
+*/
+
+/*
+border code
+.b${i}-${data}, .b${i}${data}{ border: ${i}px solid ${data} }
+.a_b${i}-${data}:active, .a_b${i}${data}:active{ border: ${i}px solid ${data} }
+.h_b${i}-${data}:hover, .h_b${i}${data}:hover{ border: ${i}px solid ${data} }
+.f_b${i}-${data}:focus, .f_b${i}${data}:focus{ border: ${i}px solid ${data} }
+.l_b${i}-${data}:link, .l_b${i}${data}:link{ border: ${i}px solid ${data} }
+.v_b${i}-${data}:visited, .b_b${i}${data}:visited{ border: ${i}px solid ${data} }
+
+.b-t${i}-${data}, .bt${i}${data}{ border-top: ${i}px solid ${data} }
+.a_b-t${i}-${data}:active, .a_bt${i}${data}:active{ border-top: ${i}px solid ${data} }
+.h_b-t${i}-${data}:hover, .h_bt${i}${data}:hover{ border-top: ${i}px solid ${data} }
+.f_b-t${i}-${data}:focus, .f_bt${i}${data}:focus{ border-top: ${i}px solid ${data} }
+.l_b-t${i}-${data}:link, .l_bt${i}${data}:link{ border-top: ${i}px solid ${data} }
+.v_b-t${i}-${data}:visited, .b_bt${i}${data}:visited{ border-top: ${i}px solid ${data} }
+
+.b-r${i}-${data}, .br${i}${data}{ border-right: ${i}px solid ${data} }
+.a_b-r${i}-${data}:active, .a_br${i}${data}:active{ border-right: ${i}px solid ${data} }
+.h_b-r${i}-${data}:hover, .h_br${i}${data}:hover{ border-right: ${i}px solid ${data} }
+.f_b-r${i}-${data}:focus, .f_br${i}${data}:focus{ border-right: ${i}px solid ${data} }
+.l_b-r${i}-${data}:link, .l_br${i}${data}:link{ border-right: ${i}px solid ${data} }
+.v_b-r${i}-${data}:visited, .b_br${i}${data}:visited{ border-right: ${i}px solid ${data} }
+
+.b-b${i}-${data}, .bb${i}${data}{ border-bottom: ${i}px solid ${data} }
+.a_b-b${i}-${data}:active, .a_bb${i}${data}:active{ border-bottom: ${i}px solid ${data} }
+.h_b-b${i}-${data}:hover, .h_bb${i}${data}:hover{ border-bottom: ${i}px solid ${data} }
+.f_b-b${i}-${data}:focus, .f_bb${i}${data}:focus{ border-bottom: ${i}px solid ${data} }
+.l_b-b${i}-${data}:link, .l_bb${i}${data}:link{ border-bottom: ${i}px solid ${data} }
+.v_b-b${i}-${data}:visited, .b_bb${i}${data}:visited{ border-bottom: ${i}px solid ${data} }
+
+.b-l${i}-${data}, .bl${i}${data}{ border-left: ${i}px solid ${data} }
+.a_b-l${i}-${data}:active, .a_bl${i}${data}:active{ border-left: ${i}px solid ${data} }
+.h_b-l${i}-${data}:hover, .h_bl${i}${data}:hover{ border-left: ${i}px solid ${data} }
+.f_b-l${i}-${data}:focus, .f_bl${i}${data}:focus{ border-left: ${i}px solid ${data} }
+.l_b-l${i}-${data}:link, .l_bl${i}${data}:link{ border-left: ${i}px solid ${data} }
+.v_b-l${i}-${data}:visited, .b_bl${i}${data}:visited{ border-left: ${i}px solid ${data} }
+*/

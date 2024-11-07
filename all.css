@@ -4,36 +4,36 @@
   font-family: Sans-Serif;
   box-sizing: border-box;
 }
-.p-sc, .p-static{ position: static; }
-.p-r{ position: relative; }
-.p-f{ position: fixed; }
-.p-a{ position: absolute; }
-.p-sy, .p-sticky{ position: sticky; }
+.p-sc, .p-static, .psc, .pstatic{ position: static; }
+.p-r, .pr{ position: relative; }
+.p-f, .pf.{ position: fixed; }
+.p-a, .pa{ position: absolute; }
+.p-sy, .p-sticky, .psy, .psticky{ position: sticky; }
 
-.d-i{ display: inline; }
-.d-b{ display: block; }
-.d-contents, .d-cs{ display: contents; }
-.d-f{ display: flex; }
-.d-g{ display: grid; }
-.d-i-b{ display: inline-block; }
-.d-i-f{ display: inline-flex; }
-.d-i-g{ display: inline-grid; }
-.d-i-t{ display: inline-table; }
-.d-r-i{ display: run-in; }
-.d-l-i{ display: list-item; }
-.d-t{ display: table; }
-.d-t-c{ display: table-caption; }
-.d-t-f-g{ display: table-footer-group; }
-.d-t-h-g{ display: table-header-group; }
-.d-t-c-g{ display: table-column-group; }
+.d-i, .di{ display: inline; }
+.d-b, .db{ display: block; }
+.d-cs, .d-contents, .dcs, .dcontents{ display: contents; }
+.d-f, .df{ display: flex; }
+.d-g, .dg{ display: grid; }
+.d-i-b, .dib{ display: inline-block; }
+.d-i-f, .dif{ display: inline-flex; }
+.d-i-g, .dig{ display: inline-grid; }
+.d-i-t, .dit{ display: inline-table; }
+.d-r-i, .dri{ display: run-in; }
+.d-l-i, .dli{ display: list-item; }
+.d-t, .dt{ display: table; }
+.d-t-c, .dtc{ display: table-caption; }
+.d-t-f-g, .dtfg{ display: table-footer-group; }
+.d-t-h-g, .dthg{ display: table-header-group; }
+.d-t-c-g, .dtcg{ display: table-column-group; }
 .d-t-r-g{ display: table-row-group; }
 .d-t-r{ display: table-row; }
 .d-t-column, .d-t-cm{ display: table-column; }
 .d-t-cell, .d-t-cl{ display: table-cell; }
 .d-inherit, .d-it{ display: inherit; }
 .d-initial, .d-il{ display: initial; }
-.d-n{ display: none; }
-
+.d-n, .dn{ display: none; }
+/* 
 .o-a{ overflow: auto; }
 .o-s{ overflow: scroll; }
 .o-h{ overflow: hidden; }
@@ -183,78 +183,231 @@
 .f-s-i{font-style: italic !important;}
 .f-s-o{font-style: oblique !important;}
 
-.l-s-n{list-style: none !important;}
-.l-s-t-n{list-style-type: none !important;}
-.l-s-t-d{list-style-type: disc !important;}
-.l-s-t-c{list-style-type: circle !important;}
-.l-s-t-s{list-style-type: square !important;}
-.l-s-t-d{list-style-type: decimal !important;}
-.l-s-t-d-l-z{list-style-type: decimal-leading-zero !important;}
-.l-s-t-u-a{list-style-type: upper-alpha !important;}
-.l-s-t-u-r{list-style-type: upper-roman !important;}
-.l-s-t-u-l{list-style-type: upper-latin !important;}
-.l-s-t-l-a{list-style-type: lower-alpha !important;}
-.l-s-t-l-g{list-style-type: lower-greek !important;}
-.l-s-t-l-l{list-style-type: lower-latin !important;}
-.l-s-t-l-r{list-style-type: lower-roman !important;}
+.l-s-n{list-style: none !important;} */
 
-.l-s-p-i{list-style-position: inside !important;}
-.l-s-p-o{list-style-position: outside !important;}
 
-.o-f-f{object-fit: fill !important;}
-.o-f-cn, .l-s-contain{object-fit: contain !important;}
-.o-f-c{object-fit: cover !important;}
-.o-f-s-d{object-fit: scale-down !important;}
-.o-f-n{object-fit: none !important;}
 
-.o01{opacity: 0.1 !important;}
-.o02{opacity: 0.2 !important;}
-.o03{opacity: 0.3 !important;}
-.o04{opacity: 0.4 !important;}
-.o05{opacity: 0.5 !important;}
-.o06{opacity: 0.6 !important;}
-.o07{opacity: 0.7 !important;}
-.o08{opacity: 0.8 !important;}
-.o09{opacity: 0.9 !important;}
-.o1{opacity: 1 !important;}
+.o-a, .oa{ overflow: auto; }
+.o-s, .os{ overflow: scroll; }
+.o-h, .oh{ overflow: hidden; }
+.o-v, .ov{ overflow: visible; }
+.o-x-a, .oxa{ overflow-x: auto; }
+.o-x-s, .oxs{ overflow-x: scroll; }
+.o-x-h, .oxh{ overflow-x: hidden; }
+.o-x-v, .oxv{ overflow-x: visible; }
+.o-y-a, .oya{ overflow-y: auto; }
+.o-y-s, .oys{ overflow-y: scroll; }
+.o-y-h, .oyh{ overflow-y: hidden; }
+.o-y-v, .oyv{ overflow-y: visible; }
 
-.r-b{ resize: both; }
-.r-h{ resize: horizontal; }
-.r-v{ resize: vertical; }
-.r-n{ resize: none; }
+.t-a-j, .taj{ text-align: justify; }
+.t-a-r, .tar{ text-align: right; }
+.t-a-l, .tal{ text-align: left; }
+.t-a-c, .tac{ text-align: center; }
+.t-a-n, .tan{ text-align: none; }
+.t-a-l-j, .talj{ text-align-last: justify; }
+.t-a-l-r, .talr{ text-align-last: right; }
+.t-a-l-l, .tall{ text-align-last: left; }
+.t-a-l-c, .talc{ text-align-last: center; }
+.t-a-l-n, .taln{ text-align-last: none; }
 
-.t-l-a{table-layout: auto !important;}
-.t-l-f{table-layout: fixed !important;}
+.j-c-f-s, .jcf-s{ justify-content: flex-start; }
+.j-c-f-e, .jcf-e{ justify-content: flex-end; }
+.j-c-c, .jcc{ justify-content: center; }
+.j-c-s-e, .jcs-e{ justify-content: space-evenly; }
+.j-c-s-a, .jcs-a{ justify-content: space-around; }
+.j-c-s-b, .jcs-b{ justify-content: space-between; }
+.j-c-n, .jcn{ justify-content: none; }
 
-.t-t-u{text-transform: uppercase !important;}
-.t-t-l{text-transform: lowercase !important;}
-.t-t-c{text-transform: capitalize !important;}
+.t-d-u, .tdu{ text-decoration: underline; }
+.t-d-o, .tdo{ text-decoration: overline; }
+.t-d-l-t, .tdlt{ text-decoration: line-through; }
+.t-d-n, .tdn{ text-decoration: none; }
 
-.v-a-b{vertical-align: baseline !important;}
-.v-a-sb, .v-a-sub{vertical-align: sub !important;}
-.v-a-sr, .v-a-super{vertical-align: super !important;}
-.v-a-t{vertical-align: top !important;}
-.v-a-t-t{vertical-align: text-top !important;}
-.v-a-m{vertical-align: middle !important;}
-.v-a-b{vertical-align: bottom !important;}
-.v-a-t-b{vertical-align: text-bottom !important;}
+.a-c-s, .acs{ align-content: stretch; }
+.a-c-c, .acc{ align-content: center; }
+.a-c-f-s, .acfs{ align-content: flex-start; }
+.a-c-f-e, .acfe{ align-content: flex-end; }
+.a-c-s-b, .acs-b{ align-content: space-between; }
+.a-c-s-a, .acs-a{ align-content: space-around; }
+.a-c-s-e, .acse{ align-content: space-evenly; }
+.a-c-n, .acn{ align-content: none; }
 
-.w-s-p{white-space: pre !important;}
-.w-s-n{white-space: nowrap !important;}
+.a-i-f-e, .aife{ align-items: flex-end; }
+.a-i-f-s, .aifs{ align-items: flex-start; }
+.a-i-c, .aic{ align-items: center; }
+.a-i-s, .ais{ align-items: stretch; }
+.a-i-nl, .a-i-normal, .ainl, .ainormal{ align-items: normal; }
+.a-i-b, .aib{ align-items: baseline; }
+.a-i-e, .aie{ align-items: end; }
+.a-i-s, .ais{ align-items: start; }
+.a-i-n, .ain{ align-items: none; }
 
-.w-w-b-w{word-wrap: break-word !important;}
+.a-s-a, .asa{ align-self: auto; }
+.a-s-s, .ass{ align-self: stretch; }
+.a-s-c, .asc{ align-self: center; }
+.a-s-f-s, .asfs{ align-self: flex-start; }
+.a-s-f-e, .asfe{ align-self: flex-end; }
+.a-s-b, .asb{ align-self: baseline; }
+.a-s-b, .asb{ align-self: none; }
 
-.w-m-v-l{writing-mode: vertical-lr !important;}
-.w-m-v-r{writing-mode: vertical-rl !important;}
+.b-s-c-b, .bscb{ box-sizing: content-box }
+.b-s-b-b, .bsbb{ box-sizing: border-box }
 
-.w-s-h-t{writing-space: horizontal-tb !important;}
-.w-s-v-r{writing-space: vertical-rl !important;}
-.w-s-v-l{writing-space: vertical-lr !important;}
+.f-f-s, .ffs{ font-family: serif; }
+.f-f-s-s, .ffss{ font-family: sans-serif; }
+.f-f-c, .ffc{ font-family: cursive; }
+.f-f-f, .fff{ font-family: fantasy; }
+.f-f-m, .ffm{ font-family: monospace; }
 
-.f-v-s-c{font-variant: small-caps !important;}
-.f-v-n{font-variant: normal !important;}
-.f-v-il, .f-v-initial{font-variant: initial !important;}
-.f-v-it, .f-v-inherit{font-variant: inherit !important;}
+.f-d-r, .fdr{ flex-direction: row; }
+.f-d-r-r, .fdrr{ flex-direction: row-reverse; }
+.f-d-c, .fdc{ flex-direction: column; }
+.f-d-c-r, .fdcr{ flex-direction: column-reverse; }
+
+.c-as, .ca{cursor: alias;}
+.c-a-s, .cas{cursor: all-scroll;}
+.c-ao, .cauto{cursor: auto;}
+.c-c, .cc{cursor: cell;}
+.c-c-r, .ccr{cursor: col-resize;}
+.c-c-m, .ccm{cursor: context-menu;}
+.c-cy, .ccy, .ccopy{cursor: copy;}
+.c-cr, .ccr, .ccrosshair{cursor: crosshair;}
+.c-d, .cd{cursor: default;}
+.c-e-s, .ces{cursor: e-resize;}
+.c-ew-r, .cewr{cursor: ew-resize;}
+.c-gb, .cgb, .cgrap{cursor: grab;}
+.c-gg, .cgg, .cgrabbing{cursor: grabbing;}
+.c-h, .ch{cursor: help;}
+.c-m, .cm{cursor: move;}
+.c-n-re, .cnre, .cnresize{cursor: n-resize;}
+.c-ne-r, .cner{cursor: ne-resize;}
+.c-nesw-r, .cneswr{cursor: nesw-resize;}
+.c-ns-r, .cnsr{cursor: ns-resize;}
+.c-nw-r, .cnwr{cursor: nw-resize;}
+.c-nw-s-e-re, .cnwsere, .cnwseresize{cursor: nw-s-e-resize;}
+.c-no-d, .cno-d{cursor: no-drop;}
+.c-n, .cn{cursor: none;}
+.c-not-a, .cnot-a{cursor: not-allowed;}
+.c-pr, .cpr, .cpointer{cursor: pointer;}
+.c-ps, .cps, .cprogress{cursor: progress;}
+.c-r-r, .crr{cursor: row-resize;}
+.c-s-r, .csr{cursor: s-resize;}
+.c-se-r, .cser{cursor: se-resize;}
+.c-sw-r, .cswr{cursor: sw-resize;}
+.c-t, .ct{cursor: text;}
+.c-w-r, .cwr{cursor: w-resize;}
+.c-w, .cw{cursor: wait;}
+.c-z-i, .czin{cursor: zoom-in;}
+.c-z-o, .czout{cursor: zoom-out;}
+
+.f-w-n, .fwn{ font-weight: normal; }
+.f-w-bd, .fwbd, .fwbold{ font-weight: bold; }
+.f-w-br, .fwbr, .fwbolder{ font-weight: bolder; }
+.f-w-l, .fwl{ font-weight: lighter; }
+.f-w-n, .fwn{ font-weight: number; }
+.f-w-100, .fw100{ font-weight: 100; }
+.f-w-200, .fw200{ font-weight: 200; }
+.f-w-300, .fw300{ font-weight: 300; }
+.f-w-400, .fw400{ font-weight: 400; }
+.f-w-500, .fw500{ font-weight: 500; }
+.f-w-600, .fw600{ font-weight: 600; }
+.f-w-700, .fw700{ font-weight: 700; }
+.f-w-800, .fw800{ font-weight: 800; }
+.f-w-900, .fw900{ font-weight: 900; }
+
+.b-c-c, .bcc{ border-collapse: collapse; }
+.b-c-s, .bcs{ border-collapse: separate; }
+
+.e-c-s, .ecs{empty-cells: show !important;}
+.e-c-h, .ech{empty-cells: hide !important;}
+
+.f-f-r, .ffr{flex-flow: row !important;}
+.f-f-r-r, .ffrr{flex-flow: row-reverse !important;}
+
+.f-w-w, .fww{flex-wrap: wrap !important;}
+.f-w-w-r, .fwwr{flex-wrap: wrap-reverse !important;}
+.f-w-n, .fwn{flex-wrap: nowrap !important;}
+
+.f-l, .fl{float: left !important;}
+.f-r, .fr{float: right !important;}
+
+.f-s-n, .fsn{font-style: normal !important;}
+.f-s-i, .fsi{font-style: italic !important;}
+.f-s-o, .fso{font-style: oblique !important;}
+
+.l-s-n, .lsn{list-style: none !important;}
+.l-s-t-n, .lstn{list-style-type: none !important;}
+.l-s-t-d, .lstd{list-style-type: disc !important;}
+.l-s-t-c, .lstc{list-style-type: circle !important;}
+.l-s-t-s, .lsts{list-style-type: square !important;}
+.l-s-t-d, .lstd{list-style-type: decimal !important;}
+.l-s-t-d-l-z, .lstdlz{list-style-type: decimal-leading-zero !important;}
+.l-s-t-u-a, .lstua{list-style-type: upper-alpha !important;}
+.l-s-t-u-r, .lstur{list-style-type: upper-roman !important;}
+.l-s-t-u-l, .lstul{list-style-type: upper-latin !important;}
+.l-s-t-l-a, .lstla{list-style-type: lower-alpha !important;}
+.l-s-t-l-g, .lstlg{list-style-type: lower-greek !important;}
+.l-s-t-l-l, .lstll{list-style-type: lower-latin !important;}
+.l-s-t-l-r, .lstlr{list-style-type: lower-roman !important;}
+
+.l-s-p-i, .lspi{list-style-position: inside !important;}
+.l-s-p-o, .lspo{list-style-position: outside !important;}
+
+.o-f-f, .off{object-fit: fill !important;}
+.o-f-cn, .l-s-contain, .ofcn, .lscontain{object-fit: contain !important;}
+.o-f-c, .ofc{object-fit: cover !important;}
+.o-f-s-d, .ofsd{object-fit: scale-down !important;}
+.o-f-n, .ofn{object-fit: none !important;}
+
+.o01,{opacity: 0.1 !important;}
+.o02,{opacity: 0.2 !important;}
+.o03,{opacity: 0.3 !important;}
+.o04,{opacity: 0.4 !important;}
+.o05,{opacity: 0.5 !important;}
+.o06,{opacity: 0.6 !important;}
+.o07,{opacity: 0.7 !important;}
+.o08,{opacity: 0.8 !important;}
+.o09,{opacity: 0.9 !important;}
+.o1,{opacity: 1 !important;}
+
+.r-b, .rb{resize: both; }
+.r-h, .rh{resize: horizontal; }
+.r-v, .rv{resize: vertical; }
+.r-n, .rn{resize: none; }
+
+.t-l-a, .tla{table-layout: auto !important;}
+.t-l-f, .tlf{table-layout: fixed !important;}
+
+.t-t-u, .ttu{text-transform: uppercase !important;}
+.t-t-l, .ttl{text-transform: lowercase !important;}
+.t-t-c, .ttc{text-transform: capitalize !important;}
+
+.v-a-b, .vab{vertical-align: baseline !important;}
+.v-a-sb, .v-a-sb, .vasub, .vasub{vertical-align: sub !important;}
+.v-a-sr, .v-a-sr, .vasuper, .vasuper{vertical-align: super !important;}
+.v-a-t, .vat{vertical-align: top !important;}
+.v-a-t-t, .vatt{vertical-align: text-top !important;}
+.v-a-m, .vam{vertical-align: middle !important;}
+.v-a-b, .vab{vertical-align: bottom !important;}
+.v-a-t-b, .vatb{vertical-align: text-bottom !important;}
+
+.w-s-p, .wsp{white-space: pre !important;}
+.w-s-n, .wsn{white-space: nowrap !important;}
+
+.w-w-b-w, .wwbw{word-wrap: break-word !important;}
+
+.w-m-v-l, .wmvl{writing-mode: vertical-lr !important;}
+.w-m-v-r, .wmvr{writing-mode: vertical-rl !important;}
+
+.w-s-h-t, .wsht{writing-space: horizontal-tb !important;}
+.w-s-v-r, .wsvr{writing-space: vertical-rl !important;}
+.w-s-v-l, .wsvl{writing-space: vertical-lr !important;}
+
+.f-v-s-c, .fvsc{font-variant: small-caps !important;}
+.f-v-n, .fvn{font-variant: normal !important;}
+.f-v-il, .f-v-il, .fvinitial, .fvinitial{font-variant: initial !important;}
+.f-v-it, .f-v-it, .fvinherit, .fvinherit{font-variant: inherit !important;}
 
 .center{
   position: absolute;
@@ -268,6 +421,8 @@
   align-items: center;
 }
 .b-n{ border: none; }
+
+.ma{ margin: auto !important; }
 
 .default button{
   background-color: blue;

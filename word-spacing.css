@@ -1,9 +1,370 @@
 /*
 word-spacing code
-.w-s${i}, .ws${i}{ word-spacing: ${i}:px !important; }
-.a_w-s${i}:active, .a_ws${i}:active{ word-spacing: ${i}:px !important; }
-.h_w-s${i}:hover, .h_ws${i}:hover{ word-spacing: ${i}:px !important; }
-.f_w-s${i}:focus, .f_ws${i}:focus{ word-spacing: ${i}:px !important; }
-.l_w-s${i}:link, .l_ws${i}:link{ word-spacing: ${i}:px !important; }
-.v_w-s${i}:visited, .v_ws${i}:visited{ word-spacing: ${i}:px !important; }
+.w-s${i}, .ws${i}{ word-spacing: ${i}px !important; }
+.a_w-s${i}:active, .a_ws${i}:active{ word-spacing: ${i}px !important; }
+.h_w-s${i}:hover, .h_ws${i}:hover{ word-spacing: ${i}px !important; }
+.f_w-s${i}:focus, .f_ws${i}:focus{ word-spacing: ${i}px !important; }
+.l_w-s${i}:link, .l_ws${i}:link{ word-spacing: ${i}px !important; }
+.v_w-s${i}:visited, .v_ws${i}:visited{ word-spacing: ${i}px !important; }
 */
+
+.w-s0, .ws0{ word-spacing: 0px !important; }
+.a_w-s0:active, .a_ws0:active{ word-spacing: 0px !important; }
+.h_w-s0:hover, .h_ws0:hover{ word-spacing: 0px !important; }
+.f_w-s0:focus, .f_ws0:focus{ word-spacing: 0px !important; }
+.l_w-s0:link, .l_ws0:link{ word-spacing: 0px !important; }
+.v_w-s0:visited, .v_ws0:visited{ word-spacing: 0px !important; }
+
+.w-s1, .ws1{ word-spacing: 1px !important; }
+.a_w-s1:active, .a_ws1:active{ word-spacing: 1px !important; }
+.h_w-s1:hover, .h_ws1:hover{ word-spacing: 1px !important; }
+.f_w-s1:focus, .f_ws1:focus{ word-spacing: 1px !important; }
+.l_w-s1:link, .l_ws1:link{ word-spacing: 1px !important; }
+.v_w-s1:visited, .v_ws1:visited{ word-spacing: 1px !important; }
+
+.w-s2, .ws2{ word-spacing: 2px !important; }
+.a_w-s2:active, .a_ws2:active{ word-spacing: 2px !important; }
+.h_w-s2:hover, .h_ws2:hover{ word-spacing: 2px !important; }
+.f_w-s2:focus, .f_ws2:focus{ word-spacing: 2px !important; }
+.l_w-s2:link, .l_ws2:link{ word-spacing: 2px !important; }
+.v_w-s2:visited, .v_ws2:visited{ word-spacing: 2px !important; }
+
+.w-s3, .ws3{ word-spacing: 3px !important; }
+.a_w-s3:active, .a_ws3:active{ word-spacing: 3px !important; }
+.h_w-s3:hover, .h_ws3:hover{ word-spacing: 3px !important; }
+.f_w-s3:focus, .f_ws3:focus{ word-spacing: 3px !important; }
+.l_w-s3:link, .l_ws3:link{ word-spacing: 3px !important; }
+.v_w-s3:visited, .v_ws3:visited{ word-spacing: 3px !important; }
+
+.w-s4, .ws4{ word-spacing: 4px !important; }
+.a_w-s4:active, .a_ws4:active{ word-spacing: 4px !important; }
+.h_w-s4:hover, .h_ws4:hover{ word-spacing: 4px !important; }
+.f_w-s4:focus, .f_ws4:focus{ word-spacing: 4px !important; }
+.l_w-s4:link, .l_ws4:link{ word-spacing: 4px !important; }
+.v_w-s4:visited, .v_ws4:visited{ word-spacing: 4px !important; }
+
+.w-s5, .ws5{ word-spacing: 5px !important; }
+.a_w-s5:active, .a_ws5:active{ word-spacing: 5px !important; }
+.h_w-s5:hover, .h_ws5:hover{ word-spacing: 5px !important; }
+.f_w-s5:focus, .f_ws5:focus{ word-spacing: 5px !important; }
+.l_w-s5:link, .l_ws5:link{ word-spacing: 5px !important; }
+.v_w-s5:visited, .v_ws5:visited{ word-spacing: 5px !important; }
+
+.w-s6, .ws6{ word-spacing: 6px !important; }
+.a_w-s6:active, .a_ws6:active{ word-spacing: 6px !important; }
+.h_w-s6:hover, .h_ws6:hover{ word-spacing: 6px !important; }
+.f_w-s6:focus, .f_ws6:focus{ word-spacing: 6px !important; }
+.l_w-s6:link, .l_ws6:link{ word-spacing: 6px !important; }
+.v_w-s6:visited, .v_ws6:visited{ word-spacing: 6px !important; }
+
+.w-s7, .ws7{ word-spacing: 7px !important; }
+.a_w-s7:active, .a_ws7:active{ word-spacing: 7px !important; }
+.h_w-s7:hover, .h_ws7:hover{ word-spacing: 7px !important; }
+.f_w-s7:focus, .f_ws7:focus{ word-spacing: 7px !important; }
+.l_w-s7:link, .l_ws7:link{ word-spacing: 7px !important; }
+.v_w-s7:visited, .v_ws7:visited{ word-spacing: 7px !important; }
+
+.w-s8, .ws8{ word-spacing: 8px !important; }
+.a_w-s8:active, .a_ws8:active{ word-spacing: 8px !important; }
+.h_w-s8:hover, .h_ws8:hover{ word-spacing: 8px !important; }
+.f_w-s8:focus, .f_ws8:focus{ word-spacing: 8px !important; }
+.l_w-s8:link, .l_ws8:link{ word-spacing: 8px !important; }
+.v_w-s8:visited, .v_ws8:visited{ word-spacing: 8px !important; }
+
+.w-s9, .ws9{ word-spacing: 9px !important; }
+.a_w-s9:active, .a_ws9:active{ word-spacing: 9px !important; }
+.h_w-s9:hover, .h_ws9:hover{ word-spacing: 9px !important; }
+.f_w-s9:focus, .f_ws9:focus{ word-spacing: 9px !important; }
+.l_w-s9:link, .l_ws9:link{ word-spacing: 9px !important; }
+.v_w-s9:visited, .v_ws9:visited{ word-spacing: 9px !important; }
+
+.w-s10, .ws10{ word-spacing: 10px !important; }
+.a_w-s10:active, .a_ws10:active{ word-spacing: 10px !important; }
+.h_w-s10:hover, .h_ws10:hover{ word-spacing: 10px !important; }
+.f_w-s10:focus, .f_ws10:focus{ word-spacing: 10px !important; }
+.l_w-s10:link, .l_ws10:link{ word-spacing: 10px !important; }
+.v_w-s10:visited, .v_ws10:visited{ word-spacing: 10px !important; }
+
+.w-s11, .ws11{ word-spacing: 11px !important; }
+.a_w-s11:active, .a_ws11:active{ word-spacing: 11px !important; }
+.h_w-s11:hover, .h_ws11:hover{ word-spacing: 11px !important; }
+.f_w-s11:focus, .f_ws11:focus{ word-spacing: 11px !important; }
+.l_w-s11:link, .l_ws11:link{ word-spacing: 11px !important; }
+.v_w-s11:visited, .v_ws11:visited{ word-spacing: 11px !important; }
+
+.w-s12, .ws12{ word-spacing: 12px !important; }
+.a_w-s12:active, .a_ws12:active{ word-spacing: 12px !important; }
+.h_w-s12:hover, .h_ws12:hover{ word-spacing: 12px !important; }
+.f_w-s12:focus, .f_ws12:focus{ word-spacing: 12px !important; }
+.l_w-s12:link, .l_ws12:link{ word-spacing: 12px !important; }
+.v_w-s12:visited, .v_ws12:visited{ word-spacing: 12px !important; }
+
+.w-s13, .ws13{ word-spacing: 13px !important; }
+.a_w-s13:active, .a_ws13:active{ word-spacing: 13px !important; }
+.h_w-s13:hover, .h_ws13:hover{ word-spacing: 13px !important; }
+.f_w-s13:focus, .f_ws13:focus{ word-spacing: 13px !important; }
+.l_w-s13:link, .l_ws13:link{ word-spacing: 13px !important; }
+.v_w-s13:visited, .v_ws13:visited{ word-spacing: 13px !important; }
+
+.w-s14, .ws14{ word-spacing: 14px !important; }
+.a_w-s14:active, .a_ws14:active{ word-spacing: 14px !important; }
+.h_w-s14:hover, .h_ws14:hover{ word-spacing: 14px !important; }
+.f_w-s14:focus, .f_ws14:focus{ word-spacing: 14px !important; }
+.l_w-s14:link, .l_ws14:link{ word-spacing: 14px !important; }
+.v_w-s14:visited, .v_ws14:visited{ word-spacing: 14px !important; }
+
+.w-s15, .ws15{ word-spacing: 15px !important; }
+.a_w-s15:active, .a_ws15:active{ word-spacing: 15px !important; }
+.h_w-s15:hover, .h_ws15:hover{ word-spacing: 15px !important; }
+.f_w-s15:focus, .f_ws15:focus{ word-spacing: 15px !important; }
+.l_w-s15:link, .l_ws15:link{ word-spacing: 15px !important; }
+.v_w-s15:visited, .v_ws15:visited{ word-spacing: 15px !important; }
+
+.w-s16, .ws16{ word-spacing: 16px !important; }
+.a_w-s16:active, .a_ws16:active{ word-spacing: 16px !important; }
+.h_w-s16:hover, .h_ws16:hover{ word-spacing: 16px !important; }
+.f_w-s16:focus, .f_ws16:focus{ word-spacing: 16px !important; }
+.l_w-s16:link, .l_ws16:link{ word-spacing: 16px !important; }
+.v_w-s16:visited, .v_ws16:visited{ word-spacing: 16px !important; }
+
+.w-s17, .ws17{ word-spacing: 17px !important; }
+.a_w-s17:active, .a_ws17:active{ word-spacing: 17px !important; }
+.h_w-s17:hover, .h_ws17:hover{ word-spacing: 17px !important; }
+.f_w-s17:focus, .f_ws17:focus{ word-spacing: 17px !important; }
+.l_w-s17:link, .l_ws17:link{ word-spacing: 17px !important; }
+.v_w-s17:visited, .v_ws17:visited{ word-spacing: 17px !important; }
+
+.w-s18, .ws18{ word-spacing: 18px !important; }
+.a_w-s18:active, .a_ws18:active{ word-spacing: 18px !important; }
+.h_w-s18:hover, .h_ws18:hover{ word-spacing: 18px !important; }
+.f_w-s18:focus, .f_ws18:focus{ word-spacing: 18px !important; }
+.l_w-s18:link, .l_ws18:link{ word-spacing: 18px !important; }
+.v_w-s18:visited, .v_ws18:visited{ word-spacing: 18px !important; }
+
+.w-s19, .ws19{ word-spacing: 19px !important; }
+.a_w-s19:active, .a_ws19:active{ word-spacing: 19px !important; }
+.h_w-s19:hover, .h_ws19:hover{ word-spacing: 19px !important; }
+.f_w-s19:focus, .f_ws19:focus{ word-spacing: 19px !important; }
+.l_w-s19:link, .l_ws19:link{ word-spacing: 19px !important; }
+.v_w-s19:visited, .v_ws19:visited{ word-spacing: 19px !important; }
+
+.w-s20, .ws20{ word-spacing: 20px !important; }
+.a_w-s20:active, .a_ws20:active{ word-spacing: 20px !important; }
+.h_w-s20:hover, .h_ws20:hover{ word-spacing: 20px !important; }
+.f_w-s20:focus, .f_ws20:focus{ word-spacing: 20px !important; }
+.l_w-s20:link, .l_ws20:link{ word-spacing: 20px !important; }
+.v_w-s20:visited, .v_ws20:visited{ word-spacing: 20px !important; }
+
+.w-s21, .ws21{ word-spacing: 21px !important; }
+.a_w-s21:active, .a_ws21:active{ word-spacing: 21px !important; }
+.h_w-s21:hover, .h_ws21:hover{ word-spacing: 21px !important; }
+.f_w-s21:focus, .f_ws21:focus{ word-spacing: 21px !important; }
+.l_w-s21:link, .l_ws21:link{ word-spacing: 21px !important; }
+.v_w-s21:visited, .v_ws21:visited{ word-spacing: 21px !important; }
+
+.w-s22, .ws22{ word-spacing: 22px !important; }
+.a_w-s22:active, .a_ws22:active{ word-spacing: 22px !important; }
+.h_w-s22:hover, .h_ws22:hover{ word-spacing: 22px !important; }
+.f_w-s22:focus, .f_ws22:focus{ word-spacing: 22px !important; }
+.l_w-s22:link, .l_ws22:link{ word-spacing: 22px !important; }
+.v_w-s22:visited, .v_ws22:visited{ word-spacing: 22px !important; }
+
+.w-s23, .ws23{ word-spacing: 23px !important; }
+.a_w-s23:active, .a_ws23:active{ word-spacing: 23px !important; }
+.h_w-s23:hover, .h_ws23:hover{ word-spacing: 23px !important; }
+.f_w-s23:focus, .f_ws23:focus{ word-spacing: 23px !important; }
+.l_w-s23:link, .l_ws23:link{ word-spacing: 23px !important; }
+.v_w-s23:visited, .v_ws23:visited{ word-spacing: 23px !important; }
+
+.w-s24, .ws24{ word-spacing: 24px !important; }
+.a_w-s24:active, .a_ws24:active{ word-spacing: 24px !important; }
+.h_w-s24:hover, .h_ws24:hover{ word-spacing: 24px !important; }
+.f_w-s24:focus, .f_ws24:focus{ word-spacing: 24px !important; }
+.l_w-s24:link, .l_ws24:link{ word-spacing: 24px !important; }
+.v_w-s24:visited, .v_ws24:visited{ word-spacing: 24px !important; }
+
+.w-s25, .ws25{ word-spacing: 25px !important; }
+.a_w-s25:active, .a_ws25:active{ word-spacing: 25px !important; }
+.h_w-s25:hover, .h_ws25:hover{ word-spacing: 25px !important; }
+.f_w-s25:focus, .f_ws25:focus{ word-spacing: 25px !important; }
+.l_w-s25:link, .l_ws25:link{ word-spacing: 25px !important; }
+.v_w-s25:visited, .v_ws25:visited{ word-spacing: 25px !important; }
+
+.w-s26, .ws26{ word-spacing: 26px !important; }
+.a_w-s26:active, .a_ws26:active{ word-spacing: 26px !important; }
+.h_w-s26:hover, .h_ws26:hover{ word-spacing: 26px !important; }
+.f_w-s26:focus, .f_ws26:focus{ word-spacing: 26px !important; }
+.l_w-s26:link, .l_ws26:link{ word-spacing: 26px !important; }
+.v_w-s26:visited, .v_ws26:visited{ word-spacing: 26px !important; }
+
+.w-s27, .ws27{ word-spacing: 27px !important; }
+.a_w-s27:active, .a_ws27:active{ word-spacing: 27px !important; }
+.h_w-s27:hover, .h_ws27:hover{ word-spacing: 27px !important; }
+.f_w-s27:focus, .f_ws27:focus{ word-spacing: 27px !important; }
+.l_w-s27:link, .l_ws27:link{ word-spacing: 27px !important; }
+.v_w-s27:visited, .v_ws27:visited{ word-spacing: 27px !important; }
+
+.w-s28, .ws28{ word-spacing: 28px !important; }
+.a_w-s28:active, .a_ws28:active{ word-spacing: 28px !important; }
+.h_w-s28:hover, .h_ws28:hover{ word-spacing: 28px !important; }
+.f_w-s28:focus, .f_ws28:focus{ word-spacing: 28px !important; }
+.l_w-s28:link, .l_ws28:link{ word-spacing: 28px !important; }
+.v_w-s28:visited, .v_ws28:visited{ word-spacing: 28px !important; }
+
+.w-s29, .ws29{ word-spacing: 29px !important; }
+.a_w-s29:active, .a_ws29:active{ word-spacing: 29px !important; }
+.h_w-s29:hover, .h_ws29:hover{ word-spacing: 29px !important; }
+.f_w-s29:focus, .f_ws29:focus{ word-spacing: 29px !important; }
+.l_w-s29:link, .l_ws29:link{ word-spacing: 29px !important; }
+.v_w-s29:visited, .v_ws29:visited{ word-spacing: 29px !important; }
+
+.w-s30, .ws30{ word-spacing: 30px !important; }
+.a_w-s30:active, .a_ws30:active{ word-spacing: 30px !important; }
+.h_w-s30:hover, .h_ws30:hover{ word-spacing: 30px !important; }
+.f_w-s30:focus, .f_ws30:focus{ word-spacing: 30px !important; }
+.l_w-s30:link, .l_ws30:link{ word-spacing: 30px !important; }
+.v_w-s30:visited, .v_ws30:visited{ word-spacing: 30px !important; }
+
+.w-s31, .ws31{ word-spacing: 31px !important; }
+.a_w-s31:active, .a_ws31:active{ word-spacing: 31px !important; }
+.h_w-s31:hover, .h_ws31:hover{ word-spacing: 31px !important; }
+.f_w-s31:focus, .f_ws31:focus{ word-spacing: 31px !important; }
+.l_w-s31:link, .l_ws31:link{ word-spacing: 31px !important; }
+.v_w-s31:visited, .v_ws31:visited{ word-spacing: 31px !important; }
+
+.w-s32, .ws32{ word-spacing: 32px !important; }
+.a_w-s32:active, .a_ws32:active{ word-spacing: 32px !important; }
+.h_w-s32:hover, .h_ws32:hover{ word-spacing: 32px !important; }
+.f_w-s32:focus, .f_ws32:focus{ word-spacing: 32px !important; }
+.l_w-s32:link, .l_ws32:link{ word-spacing: 32px !important; }
+.v_w-s32:visited, .v_ws32:visited{ word-spacing: 32px !important; }
+
+.w-s33, .ws33{ word-spacing: 33px !important; }
+.a_w-s33:active, .a_ws33:active{ word-spacing: 33px !important; }
+.h_w-s33:hover, .h_ws33:hover{ word-spacing: 33px !important; }
+.f_w-s33:focus, .f_ws33:focus{ word-spacing: 33px !important; }
+.l_w-s33:link, .l_ws33:link{ word-spacing: 33px !important; }
+.v_w-s33:visited, .v_ws33:visited{ word-spacing: 33px !important; }
+
+.w-s34, .ws34{ word-spacing: 34px !important; }
+.a_w-s34:active, .a_ws34:active{ word-spacing: 34px !important; }
+.h_w-s34:hover, .h_ws34:hover{ word-spacing: 34px !important; }
+.f_w-s34:focus, .f_ws34:focus{ word-spacing: 34px !important; }
+.l_w-s34:link, .l_ws34:link{ word-spacing: 34px !important; }
+.v_w-s34:visited, .v_ws34:visited{ word-spacing: 34px !important; }
+
+.w-s35, .ws35{ word-spacing: 35px !important; }
+.a_w-s35:active, .a_ws35:active{ word-spacing: 35px !important; }
+.h_w-s35:hover, .h_ws35:hover{ word-spacing: 35px !important; }
+.f_w-s35:focus, .f_ws35:focus{ word-spacing: 35px !important; }
+.l_w-s35:link, .l_ws35:link{ word-spacing: 35px !important; }
+.v_w-s35:visited, .v_ws35:visited{ word-spacing: 35px !important; }
+
+.w-s36, .ws36{ word-spacing: 36px !important; }
+.a_w-s36:active, .a_ws36:active{ word-spacing: 36px !important; }
+.h_w-s36:hover, .h_ws36:hover{ word-spacing: 36px !important; }
+.f_w-s36:focus, .f_ws36:focus{ word-spacing: 36px !important; }
+.l_w-s36:link, .l_ws36:link{ word-spacing: 36px !important; }
+.v_w-s36:visited, .v_ws36:visited{ word-spacing: 36px !important; }
+
+.w-s37, .ws37{ word-spacing: 37px !important; }
+.a_w-s37:active, .a_ws37:active{ word-spacing: 37px !important; }
+.h_w-s37:hover, .h_ws37:hover{ word-spacing: 37px !important; }
+.f_w-s37:focus, .f_ws37:focus{ word-spacing: 37px !important; }
+.l_w-s37:link, .l_ws37:link{ word-spacing: 37px !important; }
+.v_w-s37:visited, .v_ws37:visited{ word-spacing: 37px !important; }
+
+.w-s38, .ws38{ word-spacing: 38px !important; }
+.a_w-s38:active, .a_ws38:active{ word-spacing: 38px !important; }
+.h_w-s38:hover, .h_ws38:hover{ word-spacing: 38px !important; }
+.f_w-s38:focus, .f_ws38:focus{ word-spacing: 38px !important; }
+.l_w-s38:link, .l_ws38:link{ word-spacing: 38px !important; }
+.v_w-s38:visited, .v_ws38:visited{ word-spacing: 38px !important; }
+
+.w-s39, .ws39{ word-spacing: 39px !important; }
+.a_w-s39:active, .a_ws39:active{ word-spacing: 39px !important; }
+.h_w-s39:hover, .h_ws39:hover{ word-spacing: 39px !important; }
+.f_w-s39:focus, .f_ws39:focus{ word-spacing: 39px !important; }
+.l_w-s39:link, .l_ws39:link{ word-spacing: 39px !important; }
+.v_w-s39:visited, .v_ws39:visited{ word-spacing: 39px !important; }
+
+.w-s40, .ws40{ word-spacing: 40px !important; }
+.a_w-s40:active, .a_ws40:active{ word-spacing: 40px !important; }
+.h_w-s40:hover, .h_ws40:hover{ word-spacing: 40px !important; }
+.f_w-s40:focus, .f_ws40:focus{ word-spacing: 40px !important; }
+.l_w-s40:link, .l_ws40:link{ word-spacing: 40px !important; }
+.v_w-s40:visited, .v_ws40:visited{ word-spacing: 40px !important; }
+
+.w-s41, .ws41{ word-spacing: 41px !important; }
+.a_w-s41:active, .a_ws41:active{ word-spacing: 41px !important; }
+.h_w-s41:hover, .h_ws41:hover{ word-spacing: 41px !important; }
+.f_w-s41:focus, .f_ws41:focus{ word-spacing: 41px !important; }
+.l_w-s41:link, .l_ws41:link{ word-spacing: 41px !important; }
+.v_w-s41:visited, .v_ws41:visited{ word-spacing: 41px !important; }
+
+.w-s42, .ws42{ word-spacing: 42px !important; }
+.a_w-s42:active, .a_ws42:active{ word-spacing: 42px !important; }
+.h_w-s42:hover, .h_ws42:hover{ word-spacing: 42px !important; }
+.f_w-s42:focus, .f_ws42:focus{ word-spacing: 42px !important; }
+.l_w-s42:link, .l_ws42:link{ word-spacing: 42px !important; }
+.v_w-s42:visited, .v_ws42:visited{ word-spacing: 42px !important; }
+
+.w-s43, .ws43{ word-spacing: 43px !important; }
+.a_w-s43:active, .a_ws43:active{ word-spacing: 43px !important; }
+.h_w-s43:hover, .h_ws43:hover{ word-spacing: 43px !important; }
+.f_w-s43:focus, .f_ws43:focus{ word-spacing: 43px !important; }
+.l_w-s43:link, .l_ws43:link{ word-spacing: 43px !important; }
+.v_w-s43:visited, .v_ws43:visited{ word-spacing: 43px !important; }
+
+.w-s44, .ws44{ word-spacing: 44px !important; }
+.a_w-s44:active, .a_ws44:active{ word-spacing: 44px !important; }
+.h_w-s44:hover, .h_ws44:hover{ word-spacing: 44px !important; }
+.f_w-s44:focus, .f_ws44:focus{ word-spacing: 44px !important; }
+.l_w-s44:link, .l_ws44:link{ word-spacing: 44px !important; }
+.v_w-s44:visited, .v_ws44:visited{ word-spacing: 44px !important; }
+
+.w-s45, .ws45{ word-spacing: 45px !important; }
+.a_w-s45:active, .a_ws45:active{ word-spacing: 45px !important; }
+.h_w-s45:hover, .h_ws45:hover{ word-spacing: 45px !important; }
+.f_w-s45:focus, .f_ws45:focus{ word-spacing: 45px !important; }
+.l_w-s45:link, .l_ws45:link{ word-spacing: 45px !important; }
+.v_w-s45:visited, .v_ws45:visited{ word-spacing: 45px !important; }
+
+.w-s46, .ws46{ word-spacing: 46px !important; }
+.a_w-s46:active, .a_ws46:active{ word-spacing: 46px !important; }
+.h_w-s46:hover, .h_ws46:hover{ word-spacing: 46px !important; }
+.f_w-s46:focus, .f_ws46:focus{ word-spacing: 46px !important; }
+.l_w-s46:link, .l_ws46:link{ word-spacing: 46px !important; }
+.v_w-s46:visited, .v_ws46:visited{ word-spacing: 46px !important; }
+
+.w-s47, .ws47{ word-spacing: 47px !important; }
+.a_w-s47:active, .a_ws47:active{ word-spacing: 47px !important; }
+.h_w-s47:hover, .h_ws47:hover{ word-spacing: 47px !important; }
+.f_w-s47:focus, .f_ws47:focus{ word-spacing: 47px !important; }
+.l_w-s47:link, .l_ws47:link{ word-spacing: 47px !important; }
+.v_w-s47:visited, .v_ws47:visited{ word-spacing: 47px !important; }
+
+.w-s48, .ws48{ word-spacing: 48px !important; }
+.a_w-s48:active, .a_ws48:active{ word-spacing: 48px !important; }
+.h_w-s48:hover, .h_ws48:hover{ word-spacing: 48px !important; }
+.f_w-s48:focus, .f_ws48:focus{ word-spacing: 48px !important; }
+.l_w-s48:link, .l_ws48:link{ word-spacing: 48px !important; }
+.v_w-s48:visited, .v_ws48:visited{ word-spacing: 48px !important; }
+
+.w-s49, .ws49{ word-spacing: 49px !important; }
+.a_w-s49:active, .a_ws49:active{ word-spacing: 49px !important; }
+.h_w-s49:hover, .h_ws49:hover{ word-spacing: 49px !important; }
+.f_w-s49:focus, .f_ws49:focus{ word-spacing: 49px !important; }
+.l_w-s49:link, .l_ws49:link{ word-spacing: 49px !important; }
+.v_w-s49:visited, .v_ws49:visited{ word-spacing: 49px !important; }
+
+.w-s50, .ws50{ word-spacing: 50px !important; }
+.a_w-s50:active, .a_ws50:active{ word-spacing: 50px !important; }
+.h_w-s50:hover, .h_ws50:hover{ word-spacing: 50px !important; }
+.f_w-s50:focus, .f_ws50:focus{ word-spacing: 50px !important; }
+.l_w-s50:link, .l_ws50:link{ word-spacing: 50px !important; }
+.v_w-s50:visited, .v_ws50:visited{ word-spacing: 50px !important; }
+
+.ws40{
+  word-spacing: 40px !important;
+}
