@@ -15,10 +15,10 @@
   height: 50px;
   outline: none;
   margin-top: 10px;
-  border: 2px solid blue;
+  border: 1px solid blue;
 }
 .form input:focus {
-  border: 2px solid brown;
+  border: 1px solid brown;
 }
 .form input[type=submit], .form input[type=button], .form button{
   display: block;

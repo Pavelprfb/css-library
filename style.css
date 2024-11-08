@@ -23,8 +23,15 @@
 @import url("text-indent.css");
 @import url("border.css");
 @import url("all.css");
+@import url("min-max-width.css");
+@import url("min-max-height.css");
+@import url("transition.css");
+@import url("top-right-bottom-left.css");
+@import url("column.css");
+@import url("outline-offset.css");
 @import url("btn.css");
 @import url("flex-basis.css");
+
 @import url("form.css");
 @import url("input.css");
 @import url("default.css");
@@ -57,4 +64,11 @@ letter-spacing
 line-height
 word-spacing
 text-indent
+min-max-width
+min-max-height
+transition
+top-right-bottom-left
+column
+outline-offset
+btn
 */

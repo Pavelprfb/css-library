@@ -1,389 +1,389 @@
-.input-a{
+.inputa{
   width: 400px;
   height: 35px;
   display: block;
   margin: auto;
   padding-left: 11px;
-  border: 2px solid aqua;
+  border: 1px solid aqua;
   border-radius: 5px;
   height: 40px;
   outline: none;
 }
-.input-a:focus {
-  border: 2px solid aquamarine;
+.inputa:focus {
+  border: 1px solid aquamarine;
 }
 
-.input-b{
+.inputb{
   width: 400px;
   height: 35px;
   display: block;
   margin: auto;
   padding-left: 11px;
-  border: 2px solid blue;
+  border: 1px solid blue;
   border-radius: 5px;
   height: 40px;
   outline: none;
 }
-.input-b:focus {
-  border: 2px solid #0000ff29;
+.inputb:focus {
+  border: 1px solid #0000ff29;
 }
 
-.input-c{
+.inputc{
   width: 400px;
   height: 35px;
   display: block;
   margin: auto;
   padding-left: 11px;
-  border: 2px solid cyan;
+  border: 1px solid cyan;
   border-radius: 5px;
   height: 40px;
   outline: none;
 }
-.input-c:focus {
-  border: 2px solid #5edede7b;
+.inputc:focus {
+  border: 1px solid #5edede7b;
 }
 
-.input-d{
+.inputd{
   width: 400px;
   height: 35px;
   display: block;
   margin: auto;
   padding-left: 11px;
-  border: 2px solid darkblue;
+  border: 1px solid darkblue;
   border-radius: 5px;
   height: 40px;
   outline: none;
 }
-.input-d:focus {
-  border: 2px solid #0e0e7b90;
+.inputd:focus {
+  border: 1px solid #0e0e7b90;
 }
 
-.input-e{
+.inpute{
   width: 400px;
   height: 35px;
   display: block;
   margin: auto;
   padding-left: 11px;
-  border: 2px solid fuchsia;
+  border: 1px solid fuchsia;
   border-radius: 5px;
   height: 40px;
   outline: none;
 }
-.input-e:focus {
-  border: 2px solid #952695a8;
+.inpute:focus {
+  border: 1px solid #952695a8;
 }
 
-.input-f{
+.inputf{
   width: 400px;
   height: 35px;
   display: block;
   margin: auto;
   padding-left: 11px;
-  border: 2px solid firebrick;
+  border: 1px solid firebrick;
   border-radius: 5px;
   height: 40px;
   outline: none;
 }
-.input-f:focus {
-  border: 2px solid #5b1f1f92;
+.inputf:focus {
+  border: 1px solid #5b1f1f92;
 }
 
-.input-g{
+.inputg{
   width: 400px;
   height: 35px;
   display: block;
   margin: auto;
   padding-left: 11px;
-  border: 2px solid gold;
+  border: 1px solid gold;
   border-radius: 5px;
   height: 40px;
   outline: none;
 }
-.input-g:focus {
-  border: 2px solid #70652d;
+.inputg:focus {
+  border: 1px solid #70652d;
 }
 
-.input-h{
+.inputh{
   width: 400px;
   height: 35px;
   display: block;
   margin: auto;
   padding-left: 11px;
-  border: 2px solid hotpink;
+  border: 1px solid hotpink;
   border-radius: 5px;
   height: 40px;
   outline: none;
 }
-.input-h:focus {
-  border: 2px solid #6b3a52;
+.inputh:focus {
+  border: 1px solid #6b3a52;
 }
 
-.input-i{
+.inputi{
   width: 400px;
   height: 35px;
   display: block;
   margin: auto;
   padding-left: 11px;
-  border: 2px solid indigo;
+  border: 1px solid indigo;
   border-radius: 5px;
   height: 40px;
   outline: none;
 }
-.input-i:focus {
-  border: 2px solid #371450;
+.inputi:focus {
+  border: 1px solid #371450;
 }
 
-.input-j{
+.inputj{
   width: 400px;
   height: 35px;
   display: block;
   margin: auto;
   padding-left: 11px;
-  border: 2px solid lightcoral;
+  border: 1px solid lightcoral;
   border-radius: 5px;
   height: 40px;
   outline: none;
 }
-.input-j:focus {
-  border: 2px solid #b65a5a85;
+.inputj:focus {
+  border: 1px solid #b65a5a85;
 }
 
-.input-k{
+.inputk{
   width: 400px;
   height: 35px;
   display: block;
   margin: auto;
   padding-left: 11px;
-  border: 2px solid khaki;
+  border: 1px solid khaki;
   border-radius: 5px;
   height: 40px;
   outline: none;
 }
-.input-k:focus {
-  border: 2px solid #f0e68c59;
+.inputk:focus {
+  border: 1px solid #f0e68c59;
 }
 
-.input-l{
+.inputl{
   width: 400px;
   height: 35px;
   display: block;
   margin: auto;
   padding-left: 11px;
-  border: 2px solid lavender;
+  border: 1px solid lavender;
   border-radius: 5px;
   height: 40px;
   outline: none;
 }
-.input-l:focus {
-  border: 2px solid #e6e6fa4e;
+.inputl:focus {
+  border: 1px solid #e6e6fa4e;
 }
 
-.input-m{
+.inputm{
   width: 400px;
   height: 35px;
   display: block;
   margin: auto;
   padding-left: 11px;
-  border: 2px solid magenta;
+  border: 1px solid magenta;
   border-radius: 5px;
   height: 40px;
   outline: none;
 }
-.input-m:focus {
-  border: 2px solid #ff00ff4a;
+.inputm:focus {
+  border: 1px solid #ff00ff4a;
 }
 
-.input-n{
+.inputn{
   width: 400px;
   height: 35px;
   display: block;
   margin: auto;
   padding-left: 11px;
-  border: 2px solid navy;
+  border: 1px solid navy;
   border-radius: 5px;
   height: 40px;
   outline: none;
 }
-.input-n:focus {
-  border: 2px solid #32326f9c;
+.inputn:focus {
+  border: 1px solid #32326f9c;
 }
 
-.input-o{
+.inputo{
   width: 400px;
   height: 35px;
   display: block;
   margin: auto;
   padding-left: 11px;
-  border: 2px solid oldlace;
+  border: 1px solid oldlace;
   border-radius: 5px;
   height: 40px;
   outline: none;
 }
-.input-o:focus {
-  border: 2px solid #fdf5e65e;
+.inputo:focus {
+  border: 1px solid #fdf5e65e;
 }
 
-.input-p{
+.inputp{
   width: 400px;
   height: 35px;
   display: block;
   margin: auto;
   padding-left: 11px;
-  border: 2px solid palegreen;
+  border: 1px solid palegreen;
   border-radius: 5px;
   height: 40px;
   outline: none;
 }
-.input-p:focus {
-  border: 2px solid #98fb9862;
+.inputp:focus {
+  border: 1px solid #98fb9862;
 }
 
-.input-q{
+.inputq{
   width: 400px;
   height: 35px;
   display: block;
   margin: auto;
   padding-left: 11px;
-  border: 2px solid purple;
+  border: 1px solid purple;
   border-radius: 5px;
   height: 40px;
   outline: none;
 }
-.input-q:focus {
-  border: 2px solid #580c588f;
+.inputq:focus {
+  border: 1px solid #580c588f;
 }
 
-.input-r{
+.inputr{
   width: 400px;
   height: 35px;
   display: block;
   margin: auto;
   padding-left: 11px;
-  border: 2px solid red;
+  border: 1px solid red;
   border-radius: 5px;
   height: 40px;
   outline: none;
 }
-.input-r:focus {
-  border: 2px solid #c3202066;
+.inputr:focus {
+  border: 1px solid #c3202066;
 }
 
-.input-s{
+.inputs{
   width: 400px;
   height: 35px;
   display: block;
   margin: auto;
   padding-left: 11px;
-  border: 2px solid saddlebrown;
+  border: 1px solid saddlebrown;
   border-radius: 5px;
   height: 40px;
   outline: none;
 }
-.input-s:focus {
-  border: 2px solid #8b45135a;
+.inputs:focus {
+  border: 1px solid #8b45135a;
 }
 
-.input-t{
+.inputt{
   width: 400px;
   height: 35px;
   display: block;
   margin: auto;
   padding-left: 11px;
-  border: 2px solid tan;
+  border: 1px solid tan;
   border-radius: 5px;
   height: 40px;
   outline: none;
 }
-.input-t:focus {
-  border: 2px solid #d2b48c58;
+.inputt:focus {
+  border: 1px solid #d2b48c58;
 }
 
-.input-u{
+.inputu{
   width: 400px;
   height: 35px;
   display: block;
   margin: auto;
   padding-left: 11px;
-  border: 2px solid tomato;
+  border: 1px solid tomato;
   border-radius: 5px;
   height: 40px;
   outline: none;
 }
-.input-u:focus {
-  border: 2px solid #ff634747;
+.inputu:focus {
+  border: 1px solid #ff634747;
 }
 
-.input-v{
+.inputv{
   width: 400px;
   height: 35px;
   display: block;
   margin: auto;
   padding-left: 11px;
-  border: 2px solid violet;
+  border: 1px solid violet;
   border-radius: 5px;
   height: 40px;
   outline: none;
 }
-.input-v:focus {
-  border: 2px solid #cc42cc6b;
+.inputv:focus {
+  border: 1px solid #cc42cc6b;
 }
 
-.input-w{
+.inputw{
   width: 400px;
   height: 35px;
   display: block;
   margin: auto;
   padding-left: 11px;
-  border: 2px solid wheat;
+  border: 1px solid wheat;
   border-radius: 5px;
   height: 40px;
   outline: none;
 }
-.input-w:focus {
-  border: 2px solid #f5deb356;
+.inputw:focus {
+  border: 1px solid #f5deb356;
 }
 
-.input-x{
+.inputx{
   width: 400px;
   height: 35px;
   display: block;
   margin: auto;
   padding-left: 11px;
-  border: 2px solid teal;
+  border: 1px solid teal;
   border-radius: 5px;
   height: 40px;
   outline: none;
 }
-.input-x:focus {
-  border: 2px solid #0a52525d;
+.inputx:focus {
+  border: 1px solid #0a52525d;
 }
 
-.input-y{
+.inputy{
   width: 400px;
   height: 35px;
   display: block;
   margin: auto;
   padding-left: 11px;
-  border: 2px solid #c2ff00;
+  border: 1px solid #c2ff00;
   border-radius: 5px;
   height: 40px;
   outline: none;
 }
-.input-y:focus {
-  border: 2px solid #c2ff0047;
+.inputy:focus {
+  border: 1px solid #c2ff0047;
 }
 
-.input-z{
+.inputz{
   width: 400px;
   height: 35px;
   display: block;
   margin: auto;
   padding-left: 11px;
-  border: 2px solid #ff5300;
+  border: 1px solid #ff5300;
   border-radius: 5px;
   height: 40px;
   outline: none;
 }
-.input-z:focus {
-  border: 2px solid #ff530047;
+.inputz:focus {
+  border: 1px solid #ff530047;
 }

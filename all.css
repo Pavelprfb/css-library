@@ -242,8 +242,6 @@
 .w-s-p, .wsp{white-space: pre  !important;}
 .w-s-n, .wsn{white-space: nowrap  !important;}
 
-.w-w-b-w, .wwbw{word-wrap: break-word  !important;}
-
 .w-m-v-l, .wmvl{writing-mode: vertical-lr  !important;}
 .w-m-v-r, .wmvr{writing-mode: vertical-rl  !important;}
 
@@ -270,3 +268,117 @@
 .bn{ border: none  !important; }
 
 .ma{ margin: auto  !important; }
+
+.toc{text-overflow:clip !important;}
+.toe{text-overflow:ellipsis !important;}
+.tos{text-overflow:string !important;}
+.toil, .toinitial{text-overflow:initial !important;}
+.toit, .toinherit{text-overflow:inherit !important;}
+
+.wbn{word-break:normal !important;}
+.wbbw{word-break:break-word !important;}
+.wbil, .wbinitial{word-break:initial !important;}
+.wbit, .wbinherit{word-break:inherit !important;}
+
+.wwn{word-wrap:normal !important;}
+.wwbw{word-wrap:break-word !important;}
+.wwil, .wbinitial{word-wrap:initial !important;}
+.wwit, .wbinherit{word-wrap:inherit !important;}
+
+.tpn{transition-duration-delay-property:none !important;}
+.tpa{transition-duration-delay-property:all !important;}
+.tpp{transition-duration-delay-property:property !important;}
+.tpil,.tpinitial{transition-duration-delay-property:initial !important;}
+.tpit,.tpinherit {transition-duration-delay-property:inherit !important;}
+.tpp,{transition-duration-delay-property:property !important;}
+
+.ttfl{transition-duration-delay-timing-function:linear !important;}
+.ttfe{transition-duration-delay-timing-function:ease !important;}
+.ttfei{transition-duration-delay-timing-function:ease-in !important;}
+.ttfeo{transition-duration-delay-timing-function:ease-out !important;}
+.ttfeio{transition-duration-delay-timing-function:ease-in-out !important;}
+.ttfss{transition-duration-delay-timing-function:step-start !important;}
+.ttfse{transition-duration-delay-timing-function:step-end !important;}
+.ttfil,.ttfinitial{transition-duration-delay-timing-function:initial !important;}
+.ttfit,.ttfinherit{transition-duration-delay-timing-function:inherit !important;}
+
+.t01{transition:0.1s !important;}
+.t02{transition:0.2s !important;}
+.t03{transition:0.3s !important;}
+.t04{transition:0.4s !important;}
+.t05{transition:0.5s !important;}
+.t06{transition:0.6s !important;}
+.t07{transition:0.7s !important;}
+.t08{transition:0.8s !important;}
+.t09{transition:0.9s !important;}
+.t1{transition:1s !important;}
+
+.tdy01,.tdelay01{transition-delay:0.1s !important;}
+.tdy02,.tdelay02{transition-delay:0.2s !important;}
+.tdy03,.tdelay03{transition-delay:0.3s !important;}
+.tdy04,.tdelay04{transition-delay:0.4s !important;}
+.tdy05,.tdelay05{transition-delay:0.5s !important;}
+.tdy06,.tdelay06{transition-delay:0.6s !important;}
+.tdy07,.tdelay07{transition-delay:0.7s !important;}
+.tdy08,.tdelay08{transition-delay:0.8s !important;}
+.tdy09,.tdelay09{transition-delay:0.9s !important;}
+.tdy1,.tdelay1{transition-delay:1s !important;}
+
+.tdn01,.tduration01{transition-duration:0.1s !important;}
+.tdn02,.tduration02{transition-duration:0.2s !important;}
+.tdn03,.tduration03{transition-duration:0.3s !important;}
+.tdn04,.tduration04{transition-duration:0.4s !important;}
+.tdn05,.tduration05{transition-duration:0.5s !important;}
+.tdn06,.tduration06{transition-duration:0.6s !important;}
+.tdn07,.tduration07{transition-duration:0.7s !important;}
+.tdn08,.tduration08{transition-duration:0.8s !important;}
+.tdn09,.tduration09{transition-duration:0.9s !important;}
+.tdn1,.tduration1{transition-duration:1s !important;}
+
+.crsn{column-rule-style:none;}
+.crsh{column-rule-style:hidden;}
+.crsdotted{column-rule-style:dotted;}
+.crsdashed{column-rule-style:dashed;}
+.crss{column-rule-style:solid;}
+.crsde,.crsdouble{column-rule-style:double;}
+.crsg{column-rule-style:groove;}
+.crsr{column-rule-style:ridge;}
+.crsi{column-rule-style:inset;}
+.crso{column-rule-style:outset;}
+.crsil,.crsinitial{column-rule-style:initial;}
+.crsn,.crsinherit{column-rule-style:inherit;}
+
+.csn{column-span:none !important;}
+.csa{column-span:all !important;}
+.csil,.csinitial{column-span:initial !important;}
+.csit,.csinherit{column-span:inherit !important;}
+
+.bss{border-style:solid !important;}
+.bsdashed{border-style:dashed !important;}
+.bsdotted{border-style:dotted !important;}
+.bsdouble{border-style:double !important;}
+.bsg{border-style:groove !important;}
+.bsr{border-style:ridge !important;}
+.bsi{border-style:inset !important;}
+.bso{border-style:outset !important;}
+.bsn{border-style: none !important;}
+.bwn{border-width: 0px !important;}
+.bcn{border-color: none !important;}
+.bct{border-color: transparent !important;}
+.bit, .binherit{border: inherit !important;}
+.bil, .binitial{border: initial !important;}
+
+.oss{outline-style:solid !important;}
+.osdashed{outline-style:dashed !important;}
+.osdotted{outline-style:dotted !important;}
+.osdouble{outline-style:double !important;}
+.osg{outline-style:groove !important;}
+.osr{outline-style:ridge !important;}
+.osi{outline-style:inset !important;}
+.oso{outline-style:outset !important;}
+.osn{outline-style: none !important;}
+.own{outline-width: 0px !important;}
+.ocn{outline-color: none !important;}
+.oct{outline-color: transparent !important;}
+.oit, .oinherit{outline: inherit !important;}
+.oil, .oinitial{outline: initial !important;}

@@ -1,0 +1,209 @@
+/*
+transition
+.t${i}{transition: ${i}s !important;}
+.tdy, .tdelay${i}{transition-delay: ${i}s !important;}
+.tdn, .tduration${i}{transition-duration: ${i}s !important;}
+*/
+.t0{transition: 0s !important;}
+.tdy,.tdelay0{transition-delay: 0s !important;}
+.tdn,.tduration0{transition-duration: 0s !important;}
+
+.t1{transition: 1s !important;}
+.tdy,.tdelay1{transition-delay: 1s !important;}
+.tdn,.tduration1{transition-duration: 1s !important;}
+
+.t2{transition: 2s !important;}
+.tdy,.tdelay2{transition-delay: 2s !important;}
+.tdn,.tduration2{transition-duration: 2s !important;}
+
+.t3{transition: 3s !important;}
+.tdy,.tdelay3{transition-delay: 3s !important;}
+.tdn,.tduration3{transition-duration: 3s !important;}
+
+.t4{transition: 4s !important;}
+.tdy,.tdelay4{transition-delay: 4s !important;}
+.tdn,.tduration4{transition-duration: 4s !important;}
+
+.t5{transition: 5s !important;}
+.tdy,.tdelay5{transition-delay: 5s !important;}
+.tdn,.tduration5{transition-duration: 5s !important;}
+
+.t6{transition: 6s !important;}
+.tdy,.tdelay6{transition-delay: 6s !important;}
+.tdn,.tduration6{transition-duration: 6s !important;}
+
+.t7{transition: 7s !important;}
+.tdy,.tdelay7{transition-delay: 7s !important;}
+.tdn,.tduration7{transition-duration: 7s !important;}
+
+.t8{transition: 8s !important;}
+.tdy,.tdelay8{transition-delay: 8s !important;}
+.tdn,.tduration8{transition-duration: 8s !important;}
+
+.t9{transition: 9s !important;}
+.tdy,.tdelay9{transition-delay: 9s !important;}
+.tdn,.tduration9{transition-duration: 9s !important;}
+
+.t10{transition: 10s !important;}
+.tdy,.tdelay10{transition-delay: 10s !important;}
+.tdn,.tduration10{transition-duration: 10s !important;}
+
+.t11{transition: 11s !important;}
+.tdy,.tdelay11{transition-delay: 11s !important;}
+.tdn,.tduration11{transition-duration: 11s !important;}
+
+.t12{transition: 12s !important;}
+.tdy,.tdelay12{transition-delay: 12s !important;}
+.tdn,.tduration12{transition-duration: 12s !important;}
+
+.t13{transition: 13s !important;}
+.tdy,.tdelay13{transition-delay: 13s !important;}
+.tdn,.tduration13{transition-duration: 13s !important;}
+
+.t14{transition: 14s !important;}
+.tdy,.tdelay14{transition-delay: 14s !important;}
+.tdn,.tduration14{transition-duration: 14s !important;}
+
+.t15{transition: 15s !important;}
+.tdy,.tdelay15{transition-delay: 15s !important;}
+.tdn,.tduration15{transition-duration: 15s !important;}
+
+.t16{transition: 16s !important;}
+.tdy,.tdelay16{transition-delay: 16s !important;}
+.tdn,.tduration16{transition-duration: 16s !important;}
+
+.t17{transition: 17s !important;}
+.tdy,.tdelay17{transition-delay: 17s !important;}
+.tdn,.tduration17{transition-duration: 17s !important;}
+
+.t18{transition: 18s !important;}
+.tdy,.tdelay18{transition-delay: 18s !important;}
+.tdn,.tduration18{transition-duration: 18s !important;}
+
+.t19{transition: 19s !important;}
+.tdy,.tdelay19{transition-delay: 19s !important;}
+.tdn,.tduration19{transition-duration: 19s !important;}
+
+.t20{transition: 20s !important;}
+.tdy,.tdelay20{transition-delay: 20s !important;}
+.tdn,.tduration20{transition-duration: 20s !important;}
+
+.t21{transition: 21s !important;}
+.tdy,.tdelay21{transition-delay: 21s !important;}
+.tdn,.tduration21{transition-duration: 21s !important;}
+
+.t22{transition: 22s !important;}
+.tdy,.tdelay22{transition-delay: 22s !important;}
+.tdn,.tduration22{transition-duration: 22s !important;}
+
+.t23{transition: 23s !important;}
+.tdy,.tdelay23{transition-delay: 23s !important;}
+.tdn,.tduration23{transition-duration: 23s !important;}
+
+.t24{transition: 24s !important;}
+.tdy,.tdelay24{transition-delay: 24s !important;}
+.tdn,.tduration24{transition-duration: 24s !important;}
+
+.t25{transition: 25s !important;}
+.tdy,.tdelay25{transition-delay: 25s !important;}
+.tdn,.tduration25{transition-duration: 25s !important;}
+
+.t26{transition: 26s !important;}
+.tdy,.tdelay26{transition-delay: 26s !important;}
+.tdn,.tduration26{transition-duration: 26s !important;}
+
+.t27{transition: 27s !important;}
+.tdy,.tdelay27{transition-delay: 27s !important;}
+.tdn,.tduration27{transition-duration: 27s !important;}
+
+.t28{transition: 28s !important;}
+.tdy,.tdelay28{transition-delay: 28s !important;}
+.tdn,.tduration28{transition-duration: 28s !important;}
+
+.t29{transition: 29s !important;}
+.tdy,.tdelay29{transition-delay: 29s !important;}
+.tdn,.tduration29{transition-duration: 29s !important;}
+
+.t30{transition: 30s !important;}
+.tdy,.tdelay30{transition-delay: 30s !important;}
+.tdn,.tduration30{transition-duration: 30s !important;}
+
+.t31{transition: 31s !important;}
+.tdy,.tdelay31{transition-delay: 31s !important;}
+.tdn,.tduration31{transition-duration: 31s !important;}
+
+.t32{transition: 32s !important;}
+.tdy,.tdelay32{transition-delay: 32s !important;}
+.tdn,.tduration32{transition-duration: 32s !important;}
+
+.t33{transition: 33s !important;}
+.tdy,.tdelay33{transition-delay: 33s !important;}
+.tdn,.tduration33{transition-duration: 33s !important;}
+
+.t34{transition: 34s !important;}
+.tdy,.tdelay34{transition-delay: 34s !important;}
+.tdn,.tduration34{transition-duration: 34s !important;}
+
+.t35{transition: 35s !important;}
+.tdy,.tdelay35{transition-delay: 35s !important;}
+.tdn,.tduration35{transition-duration: 35s !important;}
+
+.t36{transition: 36s !important;}
+.tdy,.tdelay36{transition-delay: 36s !important;}
+.tdn,.tduration36{transition-duration: 36s !important;}
+
+.t37{transition: 37s !important;}
+.tdy,.tdelay37{transition-delay: 37s !important;}
+.tdn,.tduration37{transition-duration: 37s !important;}
+
+.t38{transition: 38s !important;}
+.tdy,.tdelay38{transition-delay: 38s !important;}
+.tdn,.tduration38{transition-duration: 38s !important;}
+
+.t39{transition: 39s !important;}
+.tdy,.tdelay39{transition-delay: 39s !important;}
+.tdn,.tduration39{transition-duration: 39s !important;}
+
+.t40{transition: 40s !important;}
+.tdy,.tdelay40{transition-delay: 40s !important;}
+.tdn,.tduration40{transition-duration: 40s !important;}
+
+.t41{transition: 41s !important;}
+.tdy,.tdelay41{transition-delay: 41s !important;}
+.tdn,.tduration41{transition-duration: 41s !important;}
+
+.t42{transition: 42s !important;}
+.tdy,.tdelay42{transition-delay: 42s !important;}
+.tdn,.tduration42{transition-duration: 42s !important;}
+
+.t43{transition: 43s !important;}
+.tdy,.tdelay43{transition-delay: 43s !important;}
+.tdn,.tduration43{transition-duration: 43s !important;}
+
+.t44{transition: 44s !important;}
+.tdy,.tdelay44{transition-delay: 44s !important;}
+.tdn,.tduration44{transition-duration: 44s !important;}
+
+.t45{transition: 45s !important;}
+.tdy,.tdelay45{transition-delay: 45s !important;}
+.tdn,.tduration45{transition-duration: 45s !important;}
+
+.t46{transition: 46s !important;}
+.tdy,.tdelay46{transition-delay: 46s !important;}
+.tdn,.tduration46{transition-duration: 46s !important;}
+
+.t47{transition: 47s !important;}
+.tdy,.tdelay47{transition-delay: 47s !important;}
+.tdn,.tduration47{transition-duration: 47s !important;}
+
+.t48{transition: 48s !important;}
+.tdy,.tdelay48{transition-delay: 48s !important;}
+.tdn,.tduration48{transition-duration: 48s !important;}
+
+.t49{transition: 49s !important;}
+.tdy,.tdelay49{transition-delay: 49s !important;}
+.tdn,.tduration49{transition-duration: 49s !important;}
+
+.t50{transition: 50s !important;}
+.tdy,.tdelay50{transition-delay: 50s !important;}
+.tdn,.tduration50{transition-duration: 50s !important;}
