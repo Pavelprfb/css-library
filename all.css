@@ -58,12 +58,12 @@
 .t-a-l-c, .talc{ text-align-last: center  !important; }
 .t-a-l-n, .taln{ text-align-last: none  !important; }
 
-.j-c-f-s, .jcf-s{ justify-content: flex-start  !important; }
-.j-c-f-e, .jcf-e{ justify-content: flex-end  !important; }
+.j-c-f-s, .jcfs{ justify-content: flex-start  !important; }
+.j-c-f-e, .jcfe{ justify-content: flex-end  !important; }
 .j-c-c, .jcc{ justify-content: center  !important; }
-.j-c-s-e, .jcs-e{ justify-content: space-evenly  !important; }
-.j-c-s-a, .jcs-a{ justify-content: space-around  !important; }
-.j-c-s-b, .jcs-b{ justify-content: space-between  !important; }
+.j-c-s-e, .jcse{ justify-content: space-evenly  !important; }
+.j-c-s-a, .jcsa{ justify-content: space-around  !important; }
+.j-c-s-b, .jcsb{ justify-content: space-between  !important; }
 .j-c-n, .jcn{ justify-content: none  !important; }
 
 .t-d-u, .tdu{ text-decoration: underline  !important; }
