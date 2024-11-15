@@ -158,7 +158,7 @@ flex-basis
 
 /*
 all color
-.b${data}{background-color:${data} !important;}
+.c${data}{color:${data} !important;}
 .b${data}{background-color:${data} !important;}
 .bc${data}{border-color:${data} !important;}
 .oc${data}{outline-color:${data} !important;}
