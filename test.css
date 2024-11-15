@@ -215,6 +215,8 @@ text-indent code
 
 /*
 border code
+.b${i}{border:${i}px solid black;}
+
 .b${i}-${data}, .b${i}${data}{ border: ${i}px solid ${data} }
 .b-t${i}-${data}, .bt${i}${data}{ border-top: ${i}px solid ${data} }
 .b-r${i}-${data}, .br${i}${data}{ border-right: ${i}px solid ${data} }
@@ -327,6 +329,7 @@ new border
 
 /*
 new outline
+.o${i}{outline:${i} solid black;}
 .ow${i}{outline-width: ${i}px !important;}
 .oc${data}{outline-color:${data} !important;}
 */

@@ -1,0 +1,227 @@
+/*
+background-color code
+.b${data}{background-color:${data} !important;}
+*/
+
+/*
+color code
+.c${data}{color:${data} !important;}
+*/
+
+/*
+border-radius
+.br${i}{border-radius:${i}px !important;}.btrr${i}{border-top-right-radius:${i}px !important;}.btlr${i}{border-top-left-radius:${i}px !important;}.bbrr${i}{border-bottom-right-radius:${i}px !important;}.bblr${i}{border-bottom-left-radius:${i}px !important;}
+*/
+
+/*
+font-size code
+fs${i}{font-size:${i}px !important;}
+*/
+
+
+/*
+height and width code
+.h${i}{height:${i}px !important;}
+.w${i}{width:${i}px !important;}
+*/
+
+
+/*
+margin code
+.m${i}{margin:${i}px !important;}
+.mt${i}{margin-top:${i}px !important;}
+.mr${i}{margin-right:${i}px !important;}
+.mb${i}{margin-bottom:${i}px !important;}
+.ml${i}{margin-left:${i}px !important;}
+*/
+
+/*
+padding code
+.p${i}{padding:${i}px !important;}
+.pt${i}{padding-top:${i}px !important;}
+.pr${i}{padding-right:${i}px !important;}
+.pb${i}{padding-bottom:${i}px !important;}
+.pl${i}{padding-left:${i}px !important;}
+*/
+
+/*
+z-index code
+.zi${i}{z-index:${i} !important;}
+*/
+
+/*
+letter-spacing code
+.ls${i}{letter-spacing:${i}px !important;}
+*/
+
+/*
+line-height code
+.lh${i}{line-height:${i}px !important;}
+*/
+
+/*
+word-spacing code
+.ws${i}{word-spacing:${i}px !important;}
+*/
+
+/*
+text-indent code
+.ti${i}{text-indent:${i}px !important;}
+*/
+
+/*
+border code
+.bt${i}{border-top:${i}px solid black;}
+.br${i}{border-right:${i}px solid black;}
+.bt${i}{border-top:${i}px solid black;}
+.bb${i}{border-bottom:${i}px solid black;}
+.bl${i}{border-left:${i}px solid black;}
+
+.b${i}{border:${i}px solid black;}
+.bw${i}{border-width:${i}px !important;}
+.bc${data}{border-color:${data} !important;}
+*/
+
+/*
+outline code
+.o${i}{outline:${i}px solid black;}
+.ot${i}{outline-top:${i}px solid black;}
+.ot$r${i}{outline-right:${i}px solid black;}
+.ot${i}{outline-top:${i}px solid black;}
+.ob${i}{outline-bottom:${i}px solid black;}
+.ol${i}{outline-left:${i}px solid black;}
+
+.o${i}{outline:${i} solid black;}
+.ow${i}{outline-width: ${i}px !important;}
+.oc${data}{outline-color:${data} !important;}
+*/
+
+
+/*
+min-width
+.minw${i}{min-width:${i}px !important;}
+
+max-width
+.maxw${i}{max-width:${i}px !important;}
+*/
+
+/*
+min-height
+.minh${i}{min-height:${i}px !important;}
+
+max-height
+.maxh${i}{max-height:${i}px !important;}
+*/
+
+/*
+transition
+.t${i}{transition: ${i}s !important;}
+.tdy, .tdelay${i}{transition-delay:${i}s !important;}
+.tdn, .tduration${i}{transition-duration:${i}s !important;}
+*/
+
+/*
+top-right-bottom-left
+.t${i}{top:${i}px !important;}
+.r${i}{right:${i}px !important;}
+.b${i}{bottom:${i}px !important;}
+.l${i}{left:${i}px !important;}
+*/
+
+/*
+column
+.crc${data}{column-rule-color:${data} !important;}
+
+.cc${i}{column-count:${i} !important;}
+.crw${i}{column-rule-width:${i}px !important;}
+.cg${i}{column-gap:${i}px !important;}
+.cw${i}{column-width:${i}px !important;}
+*/
+
+/*
+outline-offset
+.of${i}{outline-offset:${i}px !important;}
+*/
+
+/*
+btn
+.btn${data}{background:${data};padding:0;margin:0;list-style:none;display:flex;justify-content:center;align-items:center;width:100%;height:35px;border:none;outline:none;text-decoration:none; }
+*/
+
+/*
+flex-basis
+.fb${i}{flex-basis:${i}px !important;}
+*/
+
+
+
+
+/*
+all color
+.b${data}{background-color:${data} !important;}
+.b${data}{background-color:${data} !important;}
+.bc${data}{border-color:${data} !important;}
+.oc${data}{outline-color:${data} !important;}
+.crc${data}{column-rule-color:${data} !important;}
+.btn${data}{background:${data};padding:0;margin:0;list-style:none;display:flex;justify-content:center;align-items:center;width:100%;height:35px;border:none;outline:none;text-decoration:none;}
+*/
+
+/*
+50px code
+.br${i}{border-radius:${i}px !important;}.btrr${i}{border-top-right-radius:${i}px !important;}.btlr${i}{border-top-left-radius:${i}px !important;}.bbrr${i}{border-bottom-right-radius:${i}px !important;}.bblr${i}{border-bottom-left-radius:${i}px !important;}
+.fs${i}{font-size:${i}px !important;}
+.h${i}{height:${i}px !important;}
+.w${i}{width:${i}px !important;}
+.zi${i}{z-index:${i} !important;}
+.ls${i}{letter-spacing:${i}px !important;}
+.lh${i}{line-height:${i}px !important;}
+.ws${i}{word-spacing:${i}px !important;}
+.ti${i}{text-indent:${i}px !important;}
+.bt${i}{border-top:${i}px solid black;}
+.br${i}{border-right:${i}px solid black;}
+.bt${i}{border-top:${i}px solid black;}
+.bb${i}{border-bottom:${i}px solid black;}
+.bl${i}{border-left:${i}px solid black;}
+.b${i}{border:${i}px solid black;}
+.bw${i}{border-width:${i}px !important;}
+.o${i}{outline:${i}px solid black;}
+.ot${i}{outline-top:${i}px solid black;}
+.ot$r${i}{outline-right:${i}px solid black;}
+.ot${i}{outline-top:${i}px solid black;}
+.ob${i}{outline-bottom:${i}px solid black;}
+.ol${i}{outline-left:${i}px solid black;}
+.o${i}{outline:${i} solid black;}
+.ow${i}{outline-width: ${i}px !important;}
+.t${i}{transition: ${i}s !important;}
+.tdy, .tdelay${i}{transition-delay:${i}s !important;}
+.tdn, .tduration${i}{transition-duration:${i}s !important;}
+.cc${i}{column-count:${i} !important;}
+*/
+
+/*
+500px code
+.m${i}{margin:${i}px !important;}
+.mt${i}{margin-top:${i}px !important;}
+.mr${i}{margin-right:${i}px !important;}
+.mb${i}{margin-bottom:${i}px !important;}
+.ml${i}{margin-left:${i}px !important;}
+.p${i}{padding:${i}px !important;}
+.pt${i}{padding-top:${i}px !important;}
+.pr${i}{padding-right:${i}px !important;}
+.pb${i}{padding-bottom:${i}px !important;}
+.pl${i}{padding-left:${i}px !important;}
+.minw${i}{min-width:${i}px !important;}
+.maxw${i}{max-width:${i}px !important;}
+.minh${i}{min-height:${i}px !important;}
+.maxh${i}{max-height:${i}px !important;}
+.t${i}{top:${i}px !important;}
+.r${i}{right:${i}px !important;}
+.b${i}{bottom:${i}px !important;}
+.l${i}{left:${i}px !important;}
+.crw${i}{column-rule-width:${i}px !important;}
+.cg${i}{column-gap:${i}px !important;}
+.cw${i}{column-width:${i}px !important;}
+.of${i}{outline-offset:${i}px !important;}
+.fb${i}{flex-basis:${i}px !important;}
+
+*/
