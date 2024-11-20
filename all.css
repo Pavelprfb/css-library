@@ -111,6 +111,7 @@
 .f-d-r-r, .fdrr{ flex-direction: row-reverse  !important; }
 .f-d-c, .fdc{ flex-direction: column  !important; }
 .f-d-c-r, .fdcr{ flex-direction: column-reverse  !important; }
+.f-d-n, .fdn{ flex-direction: none  !important; }
 
 .c-as, .ca{cursor: alias  !important;}
 .c-a-s, .cas{cursor: all-scroll  !important;}
@@ -165,23 +166,29 @@
 
 .b-c-c, .bcc{ border-collapse: collapse  !important; }
 .b-c-s, .bcs{ border-collapse: separate  !important; }
+.b-c-n, .bcn{ border-collapse: none  !important; }
 
 .e-c-s, .ecs{empty-cells: show  !important;}
 .e-c-h, .ech{empty-cells: hide  !important;}
+.e-c-n, .ecn{empty-cells: none  !important;}
 
 .f-f-r, .ffr{flex-flow: row  !important;}
 .f-f-r-r, .ffrr{flex-flow: row-reverse  !important;}
+.f-f-n, .ffn{flex-flow: none  !important;}
 
 .f-w-w, .fww{flex-wrap: wrap  !important;}
 .f-w-w-r, .fwwr{flex-wrap: wrap-reverse  !important;}
-.f-w-n, .fwn{flex-wrap: nowrap  !important;}
+.f-w-np, .fwnowrap{flex-wrap: nowrap  !important;}
+.f-w-n, .fwn, .fwne, .fwnone{flex-wrap: none  !important;}
 
 .f-l, .fl{float: left  !important;}
 .f-r, .fr{float: right  !important;}
+.f-n, .fn{float: none  !important;}
 
 .f-s-n, .fsn{font-style: normal  !important;}
 .f-s-i, .fsi{font-style: italic  !important;}
 .f-s-o, .fso{font-style: oblique  !important;}
+.f-s-n, .fsn{font-style: none  !important;}
 
 .l-s-n, .lsn{list-style: none  !important;}
 .l-s-t-n, .lstn{list-style-type: none  !important;}
@@ -197,9 +204,11 @@
 .l-s-t-l-g, .lstlg{list-style-type: lower-greek  !important;}
 .l-s-t-l-l, .lstll{list-style-type: lower-latin  !important;}
 .l-s-t-l-r, .lstlr{list-style-type: lower-roman  !important;}
+.l-s-t-n, .lstn{list-style-type: none  !important;}
 
 .l-s-p-i, .lspi{list-style-position: inside  !important;}
 .l-s-p-o, .lspo{list-style-position: outside  !important;}
+.l-s-p-n, .lspn{list-style-position: none  !important;}
 
 .o-f-f, .off{object-fit: fill  !important;}
 .o-f-cn, .l-s-contain, .ofcn, .lscontain{object-fit: contain  !important;}
@@ -207,6 +216,8 @@
 .o-f-s-d, .ofsd{object-fit: scale-down  !important;}
 .o-f-n, .ofn{object-fit: none  !important;}
 
+.o0,{opacity: 0  !important;}
+.o00,{opacity: 0.0  !important;}
 .o01,{opacity: 0.1  !important;}
 .o02,{opacity: 0.2  !important;}
 .o03,{opacity: 0.3  !important;}
@@ -225,10 +236,12 @@
 
 .t-l-a, .tla{table-layout: auto  !important;}
 .t-l-f, .tlf{table-layout: fixed  !important;}
+.t-l-n, .tln{table-layout: none  !important;}
 
 .t-t-u, .ttu{text-transform: uppercase  !important;}
 .t-t-l, .ttl{text-transform: lowercase  !important;}
 .t-t-c, .ttc{text-transform: capitalize  !important;}
+.t-t-n, .ttn{text-transform: none  !important;}
 
 .v-a-b, .vab{vertical-align: baseline  !important;}
 .v-a-sb, .v-a-sb, .vasub, .vasub{vertical-align: sub  !important;}
@@ -238,21 +251,26 @@
 .v-a-m, .vam{vertical-align: middle  !important;}
 .v-a-b, .vab{vertical-align: bottom  !important;}
 .v-a-t-b, .vatb{vertical-align: text-bottom  !important;}
+.v-a-t-n, .vatn{vertical-align: none  !important;}
 
 .w-s-p, .wsp{white-space: pre  !important;}
-.w-s-n, .wsn{white-space: nowrap  !important;}
+.w-s-np, .wsnowrap{white-space: nowrap  !important;}
+.w-s-n, .wsn, .wsne, .wsnone{white-space: none  !important;}
 
-.w-m-v-l, .wmvl{writing-mode: vertical-lr  !important;}
-.w-m-v-r, .wmvr{writing-mode: vertical-rl  !important;}
+.w-m-v-l, .wmvl{writing-mode: vertical-lr !important;}
+.w-m-v-r, .wmvr{writing-mode: vertical-rl !important;}
+.w-m-n, .wmn{writing-mode: none !important;}
 
-.w-s-h-t, .wsht{writing-space: horizontal-tb  !important;}
-.w-s-v-r, .wsvr{writing-space: vertical-rl  !important;}
-.w-s-v-l, .wsvl{writing-space: vertical-lr  !important;}
+.w-s-h-t, .wsht{writing-space: horizontal-tb !important;}
+.w-s-v-r, .wsvr{writing-space: vertical-rl !important;}
+.w-s-v-l, .wsvl{writing-space: vertical-lr !important;}
+.w-s-n, .wsn{writing-space: none !important;}
 
 .f-v-s-c, .fvsc{font-variant: small-caps  !important;}
 .f-v-n, .fvn{font-variant: normal  !important;}
-.f-v-il, .f-v-il, .fvinitial, .fvinitial{font-variant: initial  !important;}
-.f-v-it, .f-v-it, .fvinherit, .fvinherit{font-variant: inherit  !important;}
+.f-v-il, .fvinitial{font-variant: initial  !important;}
+.f-v-it, .fvinherit{font-variant: inherit  !important;}
+.f-v-n, .fvn,{font-variant: none  !important;}
 
 .center{
   position: absolute  !important;
@@ -274,34 +292,40 @@
 .tos{text-overflow:string !important;}
 .toil, .toinitial{text-overflow:initial !important;}
 .toit, .toinherit{text-overflow:inherit !important;}
+.ton, .ton{text-overflow:none !important;}
 
 .wbn{word-break:normal !important;}
 .wbbw{word-break:break-word !important;}
 .wbil, .wbinitial{word-break:initial !important;}
 .wbit, .wbinherit{word-break:inherit !important;}
+.wbn{word-break:none !important;}
 
 .wwn{word-wrap:normal !important;}
 .wwbw{word-wrap:break-word !important;}
 .wwil, .wbinitial{word-wrap:initial !important;}
 .wwit, .wbinherit{word-wrap:inherit !important;}
+.wbn{word-wrap:none !important;}
 
-.tpn{transition-duration-delay-property:none !important;}
-.tpa{transition-duration-delay-property:all !important;}
-.tpp{transition-duration-delay-property:property !important;}
-.tpil,.tpinitial{transition-duration-delay-property:initial !important;}
-.tpit,.tpinherit {transition-duration-delay-property:inherit !important;}
-.tpp,{transition-duration-delay-property:property !important;}
+.tpn{transition-duration-delay:none !important;}
+.tpa{transition-duration-delay-mm:all !important;}
+.tpp{transition-duration-delay:property !important;}
+.tpil,.tpinitial{transition-duration-delay:initial !important;}
+.tpit,.tpinherit {transition-duration-delay:inherit !important;}
+.tpp,{transition-duration-delay:property !important;}
 
-.ttfl{transition-duration-delay-timing-function:linear !important;}
-.ttfe{transition-duration-delay-timing-function:ease !important;}
-.ttfei{transition-duration-delay-timing-function:ease-in !important;}
-.ttfeo{transition-duration-delay-timing-function:ease-out !important;}
-.ttfeio{transition-duration-delay-timing-function:ease-in-out !important;}
-.ttfss{transition-duration-delay-timing-function:step-start !important;}
-.ttfse{transition-duration-delay-timing-function:step-end !important;}
-.ttfil,.ttfinitial{transition-duration-delay-timing-function:initial !important;}
-.ttfit,.ttfinherit{transition-duration-delay-timing-function:inherit !important;}
+.ttfl{transition-timing-function:linear !important;}
+.ttfe{transition-timing-function:ease !important;}
+.ttfei{transition-timing-function:ease-in !important;}
+.ttfeo{transition-timing-function:ease-out !important;}
+.ttfeio{transition-timing-function:ease-in-out !important;}
+.ttfss{transition-timing-function:step-start !important;}
+.ttfse{transition-timing-function:step-end !important;}
+.ttfil,.ttfinitial{transition-timing-function:initial !important;}
+.ttfit,.ttfinherit{transition-timing-function:inherit !important;}
+.ttfn{transition-timing-function:inherit !important;}
 
+.t0{transition:0s !important;}
+.t00{transition:0.0s !important;}
 .t01{transition:0.1s !important;}
 .t02{transition:0.2s !important;}
 .t03{transition:0.3s !important;}
@@ -323,6 +347,8 @@
 .tdy08,.tdelay08{transition-delay:0.8s !important;}
 .tdy09,.tdelay09{transition-delay:0.9s !important;}
 .tdy1,.tdelay1{transition-delay:1s !important;}
+.tdy0,.tdelay0{transition-delay:0s !important;}
+.tdyn,.tdelayn{transition-delay:none !important;}
 
 .tdn01,.tduration01{transition-duration:0.1s !important;}
 .tdn02,.tduration02{transition-duration:0.2s !important;}
@@ -334,6 +360,8 @@
 .tdn08,.tduration08{transition-duration:0.8s !important;}
 .tdn09,.tduration09{transition-duration:0.9s !important;}
 .tdn1,.tduration1{transition-duration:1s !important;}
+.tdn0,.tduration0{transition-duration:0s !important;}
+.tdnn,.tdurationn{transition-duration:none !important;}
 
 .crsn{column-rule-style:none;}
 .crsh{column-rule-style:hidden;}
@@ -347,11 +375,13 @@
 .crso{column-rule-style:outset;}
 .crsil,.crsinitial{column-rule-style:initial;}
 .crsn,.crsinherit{column-rule-style:inherit;}
+.crsn,{column-rule-style:none;}
 
 .csn{column-span:none !important;}
 .csa{column-span:all !important;}
 .csil,.csinitial{column-span:initial !important;}
 .csit,.csinherit{column-span:inherit !important;}
+.csn{column-span:none !important;}
 
 .bss{border-style:solid !important;}
 .bsdashed{border-style:dashed !important;}
@@ -382,3 +412,4 @@
 .oct{outline-color: transparent !important;}
 .oit, .oinherit{outline: inherit !important;}
 .oil, .oinitial{outline: initial !important;}
+.on{outline: none !important;}
