@@ -285,7 +285,7 @@
 }
 .bn{ border: none  !important; }
 
-.ma{ margin: auto  !important; }
+.ma{ margin-right: auto  !important; margin-left: auto !important; }
 
 .toc{text-overflow:clip !important;}
 .toe{text-overflow:ellipsis !important;}
