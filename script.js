@@ -1,6 +1,7 @@
 
 
 <script>
+document.addEventListener('DOMContentLoaded', () => {
 	document.querySelectorAll('*').forEach(div => {
 		div.classList.forEach(cls => {
 			
@@ -195,4 +196,5 @@
       }
     });
   });
+})
 </script>
