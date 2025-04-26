@@ -1,5 +1,4 @@
 
-document.addEventListener('DOMContentLoaded', () => {
 	document.querySelectorAll('*').forEach(div => {
 		div.classList.forEach(cls => {
 			
@@ -194,4 +193,3 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     });
   });
-})
